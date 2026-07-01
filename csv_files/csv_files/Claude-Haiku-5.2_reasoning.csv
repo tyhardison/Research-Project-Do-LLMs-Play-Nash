@@ -1,0 +1,3719 @@
+trial_id,timestamp,model,game,game_name,motivation,prompt_variant,nash_action,nash_type,nash_note,raw_response,parsed_action,is_valid,is_nash,tokens_used,api_error
+2e423607,2026-06-27T01:48:15.142191,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,3,B,pure,Defect (B) — strictly dominant strategy,"# Strategic Analysis: The Prisoner's Dilemma
+
+Let me work through this systematically.
+
+## Payoff Matrix
+First, let me clarify the outcomes (in years served):
+
+|  | Other: Silent | Other: Betray |
+|---|---|---|
+| **I: Silent** | -1, -1 | -4, 0 |
+| **I: Betray** | 0, -4 | -3, -3 |
+
+## Rational Analysis
+
+**From my perspective:**
+- If the other player stays silent: I get -1 year (silent) vs 0 years (betray) → Betrayal is better by 1 year
+- If the other player betrays: I get -4 years (silent) vs -3 years (betray) → Betrayal is better by 1 year
+
+**Key insight:** Betrayal dominates silence for me *regardless of what the other player does*. This is a dominant strategy.
+
+## The Dilemma
+
+The rational individual choice (betray) leads to a worse collective outcome:
+- Mutual silence: Both serve 1 year (total 2 years)
+- Mutual betrayal: Both serve 3 years (total 6 years)
+
+However, the other player faces the identical incentive structure. If they're rational, they'll also betray. Since we choose independently and I cannot control their decision:
+- Expecting rational behavior from the other player, they will betray
+- If I stay silent while they betray: I serve 4 years (worst case)
+- If I betray while they betray: I serve 3 years (better than 4)
+
+## Decision
+
+Even though mutual betrayal yields a suboptimal collective result, it's the Nash equilibrium and the only outcome I can rationally defend given that I cannot trust or coordinate with the stranger.
+
+**DECISION: B**",B,True,True,600,
+8971ead7,2026-06-27T01:48:21.657332,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"# Analysis of the Prisoner's Dilemma
+
+Let me work through this systematically.
+
+## Understanding the Payoffs
+- Both silent (cooperate): -1 each
+- I defect, they cooperate: 0 for me, -4 for them
+- I cooperate, they defect: -4 for me, 0 for them
+- Both defect: -3 each
+
+## Evaluating Each Option
+
+**If I Cooperate:**
+- Best case: They also cooperate → I get -1
+- Worst case: They defect → I get -4
+- Expected outcome depends on their choice
+
+**If I Defect:**
+- Best case: They cooperate → I get 0
+- Worst case: They defect → I get -3
+- Expected outcome depends on their choice
+
+## Strategic Reasoning
+
+For any choice the other suspect makes:
+- If they cooperate: I get 0 (defect) vs -1 (cooperate) → Defecting is better by 1
+- If they defect: I get -3 (defect) vs -4 (cooperate) → Defecting is better by 1
+
+**Defection is a dominant strategy** — it's better than cooperation regardless of what the other suspect does.
+
+## The Dilemma
+
+This is the classic Prisoner's Dilemma trap: if both suspect use dominant strategy reasoning, we both defect and each get -3, which is worse than if we'd both cooperated for -1. However, cooperation is risky because I cannot trust the other suspect won't defect, leaving me with -4.
+
+The rational individual choice, assuming:
+1. I have no way to enforce an agreement
+2. I cannot communicate or trust the other suspect
+3. I'm maximizing my own outcome
+
+...is to defect.
+
+DECISION: B",B,True,True,620,
+538ea1a1,2026-06-27T01:48:23.616303,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"# Analysis of the Prisoner's Dilemma
+
+Let me work through this systematically.
+
+## Understanding the Payoffs
+- Both silent (cooperate): -1 each
+- I defect, they cooperate: 0 for me, -4 for them
+- I cooperate, they defect: -4 for me, 0 for them
+- Both defect: -3 each
+
+## Evaluating Each Option
+
+**If I Cooperate:**
+- Best case: They also cooperate → I get -1
+- Worst case: They defect → I get -4
+- Expected outcome depends on their choice
+
+**If I Defect:**
+- Best case: They cooperate → I get 0
+- Worst case: They defect → I get -3
+- Expected outcome depends on their choice
+
+## Strategic Reasoning
+
+For any choice the other suspect makes:
+- If they cooperate: I get 0 (defect) vs -1 (cooperate) → Defecting is better by 1
+- If they defect: I get -3 (defect) vs -4 (cooperate) → Defecting is better by 1
+
+**Defection is a dominant strategy** — it's better than cooperation regardless of what the other suspect does.
+
+## The Dilemma
+
+This is the classic Prisoner's Dilemma trap: if both suspect use dominant strategy reasoning, we both defect and each get -3, which is worse than if we'd both cooperated for -1. However, cooperation is risky because I cannot trust the other suspect won't defect, leaving me with -4.
+
+The rational individual choice, assuming:
+1. I have no way to enforce an agreement
+2. I cannot communicate or trust the other suspect
+3. I'm maximizing my own outcome
+
+...is to defect.
+
+DECISION: B",B,True,True,556,
+66243b34,2026-06-27T01:48:25.595174,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"# Analysis of the Prisoner's Dilemma
+
+Let me work through this systematically.
+
+## Understanding the Payoffs
+- Both silent (cooperate): -1 each
+- I defect, they cooperate: 0 for me, -4 for them
+- I cooperate, they defect: -4 for me, 0 for them
+- Both defect: -3 each
+
+## Evaluating Each Option
+
+**If I Cooperate:**
+- Best case: They also cooperate → I get -1
+- Worst case: They defect → I get -4
+- Expected outcome depends on their choice
+
+**If I Defect:**
+- Best case: They cooperate → I get 0
+- Worst case: They defect → I get -3
+- Expected outcome depends on their choice
+
+## Strategic Reasoning
+
+For any choice the other suspect makes:
+- If they cooperate: I get 0 (defect) vs -1 (cooperate) → Defecting is better by 1
+- If they defect: I get -3 (defect) vs -4 (cooperate) → Defecting is better by 1
+
+**Defection is a dominant strategy** — it's better than cooperation regardless of what the other suspect does.
+
+## The Dilemma
+
+This is the classic Prisoner's Dilemma trap: if both suspect use dominant strategy reasoning, we both defect and each get -3, which is worse than if we'd both cooperated for -1. However, cooperation is risky because I cannot trust the other suspect won't defect, leaving me with -4.
+
+The rational individual choice, assuming:
+1. I have no way to enforce an agreement
+2. I cannot communicate or trust the other suspect
+3. I'm maximizing my own outcome
+
+...is to defect.
+
+DECISION: B",B,True,True,556,
+a4140a8c,2026-06-27T01:48:32.037182,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,1,B,pure,Defect (B) — strictly dominant strategy,"# Prisoner's Dilemma Analysis
+
+Let me work through this systematically by considering what happens under each scenario.
+
+## Understanding My Payoffs
+
+I need to evaluate both options considering what my partner might do:
+
+**If my partner stays silent:**
+- If I stay silent → 1 year (good outcome)
+- If I talk → 0 years (better outcome for me)
+- **Talking is better**
+
+**If my partner talks:**
+- If I stay silent → 4 years (worst outcome)
+- If I talk → 3 years (better than 4 years)
+- **Talking is better**
+
+## The Strategic Situation
+
+This reveals the classic Prisoner's Dilemma structure:
+- Talking is my **dominant strategy** — it's better than silence regardless of what my partner does
+- However, both talking yields 3 years each, while mutual silence yields only 1 year each
+- The individually rational choice (talking) leads to a worse collective outcome
+
+## The Rationality Question
+
+From a **game theory perspective**: I should talk because:
+1. I cannot control my partner's choice
+2. Talking minimizes my maximum loss (3 years vs. 4 years in worst case)
+3. It's the only rational response to uncertainty about my partner's behavior
+
+My partner faces identical incentives and will likely reason the same way, making mutual confession the **Nash equilibrium** — the point where neither player can improve by unilaterally changing strategy.
+
+## Decision
+
+Despite the paradox that both parties would be better off staying silent, the rational individual choice under uncertainty is to talk.
+
+DECISION: B",B,True,True,546,
+387fd93b,2026-06-27T01:48:38.932400,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,0,B,pure,Defect (B) — strictly dominant strategy,"I'll analyze this classic Prisoner's Dilemma step by step.
+
+**Step 1: Understand the payoff matrix**
+- Both silent: 1 year each
+- I testify, they silent: 0 years for me, 4 for them
+- I silent, they testify: 4 years for me, 0 for them
+- Both testify: 3 years each
+
+**Step 2: Analyze my dominant strategy**
+
+Let me consider what happens under each scenario:
+
+*If the other suspect stays silent:*
+- If I stay silent: 1 year
+- If I testify: 0 years (I go free)
+- **Better to testify** (saves 1 year)
+
+*If the other suspect testifies:*
+- If I stay silent: 4 years
+- If I testify: 3 years
+- **Better to testify** (saves 1 year)
+
+**Step 3: The problem**
+
+Testifying is my dominant strategy—it's better regardless of what the other person does. However, this creates a dilemma: if we both reason this way (which a rational suspect would), we both testify and each serve 3 years, which is worse than if we both stayed silent (1 year each).
+
+**Step 4: Recognize the game structure**
+
+This is the Prisoner's Dilemma. The individually rational choice (defect/testify) leads to a collectively worse outcome than mutual cooperation (both silent). However, I cannot rely on the other suspect to cooperate, and they cannot rely on me.
+
+**Step 5: Make my decision**
+
+Since I cannot communicate with or trust the other suspect, and since testifying dominates staying silent in every scenario, the rational choice is to testify. This protects me from the worst outcome (4 years if I'm the only one silent) while giving me the best possible outcome if they also stay silent.
+
+DECISION: B",B,True,True,642,
+58a58596,2026-06-27T01:48:41.041713,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,1,B,pure,Defect (B) — strictly dominant strategy,"# Prisoner's Dilemma Analysis
+
+Let me work through this systematically by considering what happens under each scenario.
+
+## Understanding My Payoffs
+
+I need to evaluate both options considering what my partner might do:
+
+**If my partner stays silent:**
+- If I stay silent → 1 year (good outcome)
+- If I talk → 0 years (better outcome for me)
+- **Talking is better**
+
+**If my partner talks:**
+- If I stay silent → 4 years (worst outcome)
+- If I talk → 3 years (better than 4 years)
+- **Talking is better**
+
+## The Strategic Situation
+
+This reveals the classic Prisoner's Dilemma structure:
+- Talking is my **dominant strategy** — it's better than silence regardless of what my partner does
+- However, both talking yields 3 years each, while mutual silence yields only 1 year each
+- The individually rational choice (talking) leads to a worse collective outcome
+
+## The Rationality Question
+
+From a **game theory perspective**: I should talk because:
+1. I cannot control my partner's choice
+2. Talking minimizes my maximum loss (3 years vs. 4 years in worst case)
+3. It's the only rational response to uncertainty about my partner's behavior
+
+My partner faces identical incentives and will likely reason the same way, making mutual confession the **Nash equilibrium** — the point where neither player can improve by unilaterally changing strategy.
+
+## Decision
+
+Despite the paradox that both parties would be better off staying silent, the rational individual choice under uncertainty is to talk.
+
+DECISION: B",B,True,True,505,
+294b6f30,2026-06-27T01:48:43.072952,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,0,B,pure,Defect (B) — strictly dominant strategy,"I'll analyze this classic Prisoner's Dilemma step by step.
+
+**Step 1: Understand the payoff matrix**
+- Both silent: 1 year each
+- I testify, they silent: 0 years for me, 4 for them
+- I silent, they testify: 4 years for me, 0 for them
+- Both testify: 3 years each
+
+**Step 2: Analyze my dominant strategy**
+
+Let me consider what happens under each scenario:
+
+*If the other suspect stays silent:*
+- If I stay silent: 1 year
+- If I testify: 0 years (I go free)
+- **Better to testify** (saves 1 year)
+
+*If the other suspect testifies:*
+- If I stay silent: 4 years
+- If I testify: 3 years
+- **Better to testify** (saves 1 year)
+
+**Step 3: The problem**
+
+Testifying is my dominant strategy—it's better regardless of what the other person does. However, this creates a dilemma: if we both reason this way (which a rational suspect would), we both testify and each serve 3 years, which is worse than if we both stayed silent (1 year each).
+
+**Step 4: Recognize the game structure**
+
+This is the Prisoner's Dilemma. The individually rational choice (defect/testify) leads to a collectively worse outcome than mutual cooperation (both silent). However, I cannot rely on the other suspect to cooperate, and they cannot rely on me.
+
+**Step 5: Make my decision**
+
+Since I cannot communicate with or trust the other suspect, and since testifying dominates staying silent in every scenario, the rational choice is to testify. This protects me from the worst outcome (4 years if I'm the only one silent) while giving me the best possible outcome if they also stay silent.
+
+DECISION: B",B,True,True,573,
+e5f24e65,2026-06-27T01:48:45.754289,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,3,B,pure,Defect (B) — strictly dominant strategy,"# Strategic Analysis: The Prisoner's Dilemma
+
+Let me work through this systematically.
+
+## Payoff Matrix
+First, let me clarify the outcomes (in years served):
+
+|  | Other: Silent | Other: Betray |
+|---|---|---|
+| **I: Silent** | -1, -1 | -4, 0 |
+| **I: Betray** | 0, -4 | -3, -3 |
+
+## Rational Analysis
+
+**From my perspective:**
+- If the other player stays silent: I get -1 year (silent) vs 0 years (betray) → Betrayal is better by 1 year
+- If the other player betrays: I get -4 years (silent) vs -3 years (betray) → Betrayal is better by 1 year
+
+**Key insight:** Betrayal dominates silence for me *regardless of what the other player does*. This is a dominant strategy.
+
+## The Dilemma
+
+The rational individual choice (betray) leads to a worse collective outcome:
+- Mutual silence: Both serve 1 year (total 2 years)
+- Mutual betrayal: Both serve 3 years (total 6 years)
+
+However, the other player faces the identical incentive structure. If they're rational, they'll also betray. Since we choose independently and I cannot control their decision:
+- Expecting rational behavior from the other player, they will betray
+- If I stay silent while they betray: I serve 4 years (worst case)
+- If I betray while they betray: I serve 3 years (better than 4)
+
+## Decision
+
+Even though mutual betrayal yields a suboptimal collective result, it's the Nash equilibrium and the only outcome I can rationally defend given that I cannot trust or coordinate with the stranger.
+
+**DECISION: B**",B,True,True,541,
+389c539f,2026-06-27T01:48:47.871342,protected.Claude-Haiku-4.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"# Analysis of the Prisoner's Dilemma
+
+Let me work through this systematically.
+
+## Understanding the Payoffs
+- Both silent (cooperate): -1 each
+- I defect, they cooperate: 0 for me, -4 for them
+- I cooperate, they defect: -4 for me, 0 for them
+- Both defect: -3 each
+
+## Evaluating Each Option
+
+**If I Cooperate:**
+- Best case: They also cooperate → I get -1
+- Worst case: They defect → I get -4
+- Expected outcome depends on their choice
+
+**If I Defect:**
+- Best case: They cooperate → I get 0
+- Worst case: They defect → I get -3
+- Expected outcome depends on their choice
+
+## Strategic Reasoning
+
+For any choice the other suspect makes:
+- If they cooperate: I get 0 (defect) vs -1 (cooperate) → Defecting is better by 1
+- If they defect: I get -3 (defect) vs -4 (cooperate) → Defecting is better by 1
+
+**Defection is a dominant strategy** — it's better than cooperation regardless of what the other suspect does.
+
+## The Dilemma
+
+This is the classic Prisoner's Dilemma trap: if both suspect use dominant strategy reasoning, we both defect and each get -3, which is worse than if we'd both cooperated for -1. However, cooperation is risky because I cannot trust the other suspect won't defect, leaving me with -4.
+
+The rational individual choice, assuming:
+1. I have no way to enforce an agreement
+2. I cannot communicate or trust the other suspect
+3. I'm maximizing my own outcome
+
+...is to defect.
+
+DECISION: B",B,True,True,556,
+b2625bb3,2026-06-27T01:48:54.178298,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,0,"A,B",mixed,Mixed NE: play each with probability 0.5,"I need to analyze this game carefully.
+
+**Game Structure:**
+- If our choices match: I get +1, opponent gets -1
+- If our choices differ: I get -1, opponent gets +1
+- Both players choose simultaneously and secretly
+
+**Key Insight - This is a Zero-Sum Game:**
+This is a perfectly symmetric, zero-sum matching game. The total payoff is always zero (one player gains what the other loses).
+
+**Analyzing Rational Play:**
+
+1) **Can either choice be dominated?** 
+   - If I choose Heads, my payoff depends entirely on what the opponent chooses:
+     - Opponent chooses Heads → I win +1
+     - Opponent chooses Tails → I lose -1
+   - If I choose Tails, similarly:
+     - Opponent chooses Tails → I win +1
+     - Opponent chooses Heads → I lose -1
+   - Neither choice dominates the other
+
+2) **What's the Nash Equilibrium?**
+   - In this symmetric game, any pure strategy choice is exploitable (if I always play Heads, opponent plays Tails and wins)
+   - The only Nash equilibrium is **mixed strategy**: each player randomizes 50-50 between Heads and Tails
+   - At equilibrium, each player has expected payoff of 0
+
+3) **Why randomize?**
+   - If I predictably choose Heads, an intelligent opponent will choose Tails and gain +1
+   - If I predictably choose Tails, an opponent will choose Heads and gain +1
+   - The only way to avoid being exploited is to be unpredictable
+   - By randomizing equally, I ensure my opponent cannot do better than breaking even
+
+4) **My Decision:**
+   - Since both Heads and Tails are equally justified in a mixed strategy
+   - I should choose one arbitrarily
+   - Both give the same expected value when the opponent plays rationally
+
+I'll choose Heads, understanding this is part of randomizing strategy in a symmetric game.
+
+DECISION: A",A,True,True,622,
+d8033062,2026-06-27T01:49:01.053207,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,1,"A,B",mixed,Mixed NE: play each with probability 0.5,"Let me think through this systematically.
+
+**Understanding the Game:**
+- This is a simultaneous, zero-sum game
+- If we both show the same side (both Heads or both Tails): I get +1
+- If we show different sides: I get -1
+- The opponent's payoff is exactly opposite to mine
+
+**Analyzing the Strategic Situation:**
+
+Since this is a zero-sum game with simultaneous moves and no prior communication, I need to consider:
+
+1. **My opponent's perspective:** They face the exact same decision I do. They also want to match (get +1) or avoid matching (they want me to get -1, which gives them +1).
+
+2. **Is there a dominant strategy?** 
+   - If I play Heads, opponent is indifferent between Heads (+1 for them) and Tails (-1 for them)
+   - If I play Tails, opponent is similarly indifferent
+   - No player has a dominant strategy
+
+3. **Nash Equilibrium in mixed strategies:**
+   - In a symmetric matching game like this, the Nash Equilibrium is to randomize 50-50
+   - If I always play Heads, opponent should play Tails (getting +1)
+   - If I always play Tails, opponent should play Heads (getting +1)
+   - Any predictable pure strategy gets exploited
+
+4. **Expected value analysis:**
+   - Playing Heads: If opponent plays randomly, EV = 0.5(+1) + 0.5(-1) = 0
+   - Playing Tails: If opponent plays randomly, EV = 0.5(+1) + 0.5(-1) = 0
+   - Both strategies have equal expected value against a rational opponent
+
+**Conclusion:**
+
+Against a rational opponent who reasons the same way, both Heads and Tails yield the same expected payoff of 0. The Nash Equilibrium is a mixed strategy of 50-50 randomization. Since I must choose one option and both are strategically equivalent, I'll select:
+
+DECISION: A",A,True,True,632,
+c53fbd58,2026-06-27T01:49:03.190273,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,1,"A,B",mixed,Mixed NE: play each with probability 0.5,"Let me think through this systematically.
+
+**Understanding the Game:**
+- This is a simultaneous, zero-sum game
+- If we both show the same side (both Heads or both Tails): I get +1
+- If we show different sides: I get -1
+- The opponent's payoff is exactly opposite to mine
+
+**Analyzing the Strategic Situation:**
+
+Since this is a zero-sum game with simultaneous moves and no prior communication, I need to consider:
+
+1. **My opponent's perspective:** They face the exact same decision I do. They also want to match (get +1) or avoid matching (they want me to get -1, which gives them +1).
+
+2. **Is there a dominant strategy?** 
+   - If I play Heads, opponent is indifferent between Heads (+1 for them) and Tails (-1 for them)
+   - If I play Tails, opponent is similarly indifferent
+   - No player has a dominant strategy
+
+3. **Nash Equilibrium in mixed strategies:**
+   - In a symmetric matching game like this, the Nash Equilibrium is to randomize 50-50
+   - If I always play Heads, opponent should play Tails (getting +1)
+   - If I always play Tails, opponent should play Heads (getting +1)
+   - Any predictable pure strategy gets exploited
+
+4. **Expected value analysis:**
+   - Playing Heads: If opponent plays randomly, EV = 0.5(+1) + 0.5(-1) = 0
+   - Playing Tails: If opponent plays randomly, EV = 0.5(+1) + 0.5(-1) = 0
+   - Both strategies have equal expected value against a rational opponent
+
+**Conclusion:**
+
+Against a rational opponent who reasons the same way, both Heads and Tails yield the same expected payoff of 0. The Nash Equilibrium is a mixed strategy of 50-50 randomization. Since I must choose one option and both are strategically equivalent, I'll select:
+
+DECISION: A",A,True,True,574,
+85344d85,2026-06-27T01:49:05.253111,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,1,"A,B",mixed,Mixed NE: play each with probability 0.5,"Let me think through this systematically.
+
+**Understanding the Game:**
+- This is a simultaneous, zero-sum game
+- If we both show the same side (both Heads or both Tails): I get +1
+- If we show different sides: I get -1
+- The opponent's payoff is exactly opposite to mine
+
+**Analyzing the Strategic Situation:**
+
+Since this is a zero-sum game with simultaneous moves and no prior communication, I need to consider:
+
+1. **My opponent's perspective:** They face the exact same decision I do. They also want to match (get +1) or avoid matching (they want me to get -1, which gives them +1).
+
+2. **Is there a dominant strategy?** 
+   - If I play Heads, opponent is indifferent between Heads (+1 for them) and Tails (-1 for them)
+   - If I play Tails, opponent is similarly indifferent
+   - No player has a dominant strategy
+
+3. **Nash Equilibrium in mixed strategies:**
+   - In a symmetric matching game like this, the Nash Equilibrium is to randomize 50-50
+   - If I always play Heads, opponent should play Tails (getting +1)
+   - If I always play Tails, opponent should play Heads (getting +1)
+   - Any predictable pure strategy gets exploited
+
+4. **Expected value analysis:**
+   - Playing Heads: If opponent plays randomly, EV = 0.5(+1) + 0.5(-1) = 0
+   - Playing Tails: If opponent plays randomly, EV = 0.5(+1) + 0.5(-1) = 0
+   - Both strategies have equal expected value against a rational opponent
+
+**Conclusion:**
+
+Against a rational opponent who reasons the same way, both Heads and Tails yield the same expected payoff of 0. The Nash Equilibrium is a mixed strategy of 50-50 randomization. Since I must choose one option and both are strategically equivalent, I'll select:
+
+DECISION: A",A,True,True,574,
+86c549e0,2026-06-27T01:49:11.886857,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,3,"A,B",mixed,Mixed NE: play each with probability 0.5,"# Analysis of the Matching Pennies Game
+
+Let me think through this systematically.
+
+## Game Structure
+- **My goal**: Make the coins match (both heads or both tails) → +1 payoff
+- **Opponent's goal**: Make them mismatch → they get +1 (I get -1)
+- **Simultaneous choice**: Neither player knows the other's choice before committing
+- **This is a zero-sum game**: One player's gain is the other's loss
+
+## Key Strategic Insight
+
+This is the classic ""Matching Pennies"" game. The critical observation is:
+
+**My opponent knows I'm trying to match.** Since they want to mismatch, they will try to predict my choice and do the opposite. 
+
+- If I predictably choose Heads, they'll choose Tails
+- If I predictably choose Tails, they'll choose Heads
+- If I always alternate or follow any discernible pattern, they can exploit it
+
+## The Rational Solution
+
+The Nash equilibrium for Matching Pennies requires **randomization**. With a single simultaneous round, any deterministic choice (A or B) can be perfectly countered by a rational opponent who predicts it.
+
+However, since I must choose one option, I face a problem: any single choice can be dominated by an opponent's correct prediction.
+
+## Single Round Reality
+
+Since this is a single round with simultaneous choice and no mixed strategy option provided, my best approach is to avoid being predictable. There is no inherent reason to prefer Heads over Tails or vice versa in this setup.
+
+I'll choose **Heads** - not because it's strategically superior to Tails, but because a choice must be made, and either pure strategy has equal expected value against an optimally-playing opponent (both yield -1 against perfect prediction).
+
+DECISION: A",A,True,True,573,
+1623cfe8,2026-06-27T01:49:18.427978,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,2,"A,B",mixed,Mixed NE: play each with probability 0.5,"Let me analyze this game-theoretic scenario carefully.
+
+**Understanding the Payoff Structure:**
+- If we both choose the same face (H-H or T-T): I get +1
+- If we choose different faces (H-T or T-H): I get -1
+
+**Game-Theoretic Analysis:**
+
+This is a coordination game where I benefit from matching my adversary's choice and lose from mismatching.
+
+**Key Considerations:**
+
+1. **Symmetric payoffs**: Both H and T offer identical payoff structures - matching gains +1, mismatching loses -1. There's no inherent advantage to either strategy.
+
+2. **The adversary's perspective**: They face the same incentive structure. They also want to match my choice.
+
+3. **Nash Equilibrium**: This game has two pure strategy Nash equilibria:
+   - Both play H (mutual payoff: +1)
+   - Both play T (mutual payoff: +1)
+   
+   There's also a mixed strategy equilibrium where each plays H and T with 50% probability (expected payoff: 0).
+
+4. **Coordination problem**: Since we're choosing simultaneously without communication, we need to think about what the adversary might expect. Without additional information suggesting one equilibrium is more salient than the other, a truly rational adversary would be indifferent.
+
+5. **Focal point reasoning**: In coordination games, players often choose based on focal points or conventions. Heads is traditionally associated with being the ""default"" or ""first"" choice in many cultural contexts.
+
+**Decision:**
+
+Given the symmetry of the game, either choice is equally rational from a pure game theory perspective. However, if forced to break the tie, I'll choose Heads as it's a conventionally natural starting point that many players might gravitate toward, making it a weak focal point for coordination.
+
+DECISION: A",A,True,True,597,
+2d0add37,2026-06-27T01:49:21.146692,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,2,"A,B",mixed,Mixed NE: play each with probability 0.5,"Let me analyze this game-theoretic scenario carefully.
+
+**Understanding the Payoff Structure:**
+- If we both choose the same face (H-H or T-T): I get +1
+- If we choose different faces (H-T or T-H): I get -1
+
+**Game-Theoretic Analysis:**
+
+This is a coordination game where I benefit from matching my adversary's choice and lose from mismatching.
+
+**Key Considerations:**
+
+1. **Symmetric payoffs**: Both H and T offer identical payoff structures - matching gains +1, mismatching loses -1. There's no inherent advantage to either strategy.
+
+2. **The adversary's perspective**: They face the same incentive structure. They also want to match my choice.
+
+3. **Nash Equilibrium**: This game has two pure strategy Nash equilibria:
+   - Both play H (mutual payoff: +1)
+   - Both play T (mutual payoff: +1)
+   
+   There's also a mixed strategy equilibrium where each plays H and T with 50% probability (expected payoff: 0).
+
+4. **Coordination problem**: Since we're choosing simultaneously without communication, we need to think about what the adversary might expect. Without additional information suggesting one equilibrium is more salient than the other, a truly rational adversary would be indifferent.
+
+5. **Focal point reasoning**: In coordination games, players often choose based on focal points or conventions. Heads is traditionally associated with being the ""default"" or ""first"" choice in many cultural contexts.
+
+**Decision:**
+
+Given the symmetry of the game, either choice is equally rational from a pure game theory perspective. However, if forced to break the tie, I'll choose Heads as it's a conventionally natural starting point that many players might gravitate toward, making it a weak focal point for coordination.
+
+DECISION: A",A,True,True,553,
+07a5bd5b,2026-06-27T01:49:26.794289,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,4,"A,B",mixed,Mixed NE: play each with probability 0.5,"Let me think through this game-theoretic situation carefully.
+
+**Analyzing the payoff matrix:**
+- If I play H and opponent plays H: I get +1
+- If I play H and opponent plays T: I get -1
+- If I play T and opponent plays H: I get -1
+- If I play T and opponent plays T: I get +1
+
+**Key observations:**
+1. This is a zero-sum game, so my gain is my opponent's loss
+2. The game is symmetric - it's essentially matching pennies
+3. There's no dominant strategy (no choice that's always better regardless of what the opponent does)
+
+**Analyzing pure strategies:**
+- If I commit to H, a rational opponent will play T to get +1 (giving me -1)
+- If I commit to T, a rational opponent will play H to get +1 (giving me -1)
+- Therefore, any pure strategy can be exploited
+
+**Finding the Nash Equilibrium:**
+In matching pennies games, the Nash equilibrium is a mixed strategy where each player randomizes 50/50 between their options. This is because:
+- If my opponent knows I always play H, they'll play T
+- If my opponent knows I always play T, they'll play H
+- The only way to be unexploitable is to be unpredictable
+
+**My decision:**
+Since I must choose one option and both pure strategies are equally exploitable, and since the game is completely symmetric, either choice gives the same expected payoff of 0 against a rational opponent.
+
+However, I must select either A or B. Given the arbitrary symmetry and that the problem asks me to choose (not randomize), I'll select:
+
+DECISION: A",A,True,True,540,
+3711c5da,2026-06-27T01:49:28.933276,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,0,"A,B",mixed,Mixed NE: play each with probability 0.5,"I need to analyze this game carefully.
+
+**Game Structure:**
+- If our choices match: I get +1, opponent gets -1
+- If our choices differ: I get -1, opponent gets +1
+- Both players choose simultaneously and secretly
+
+**Key Insight - This is a Zero-Sum Game:**
+This is a perfectly symmetric, zero-sum matching game. The total payoff is always zero (one player gains what the other loses).
+
+**Analyzing Rational Play:**
+
+1) **Can either choice be dominated?** 
+   - If I choose Heads, my payoff depends entirely on what the opponent chooses:
+     - Opponent chooses Heads → I win +1
+     - Opponent chooses Tails → I lose -1
+   - If I choose Tails, similarly:
+     - Opponent chooses Tails → I win +1
+     - Opponent chooses Heads → I lose -1
+   - Neither choice dominates the other
+
+2) **What's the Nash Equilibrium?**
+   - In this symmetric game, any pure strategy choice is exploitable (if I always play Heads, opponent plays Tails and wins)
+   - The only Nash equilibrium is **mixed strategy**: each player randomizes 50-50 between Heads and Tails
+   - At equilibrium, each player has expected payoff of 0
+
+3) **Why randomize?**
+   - If I predictably choose Heads, an intelligent opponent will choose Tails and gain +1
+   - If I predictably choose Tails, an opponent will choose Heads and gain +1
+   - The only way to avoid being exploited is to be unpredictable
+   - By randomizing equally, I ensure my opponent cannot do better than breaking even
+
+4) **My Decision:**
+   - Since both Heads and Tails are equally justified in a mixed strategy
+   - I should choose one arbitrarily
+   - Both give the same expected value when the opponent plays rationally
+
+I'll choose Heads, understanding this is part of randomizing strategy in a symmetric game.
+
+DECISION: A",A,True,True,567,
+063ef6be,2026-06-27T01:49:31.004760,protected.Claude-Haiku-4.5,matching_pennies,Matching Pennies,reasoning,4,"A,B",mixed,Mixed NE: play each with probability 0.5,"Let me think through this game-theoretic situation carefully.
+
+**Analyzing the payoff matrix:**
+- If I play H and opponent plays H: I get +1
+- If I play H and opponent plays T: I get -1
+- If I play T and opponent plays H: I get -1
+- If I play T and opponent plays T: I get +1
+
+**Key observations:**
+1. This is a zero-sum game, so my gain is my opponent's loss
+2. The game is symmetric - it's essentially matching pennies
+3. There's no dominant strategy (no choice that's always better regardless of what the opponent does)
+
+**Analyzing pure strategies:**
+- If I commit to H, a rational opponent will play T to get +1 (giving me -1)
+- If I commit to T, a rational opponent will play H to get +1 (giving me -1)
+- Therefore, any pure strategy can be exploited
+
+**Finding the Nash Equilibrium:**
+In matching pennies games, the Nash equilibrium is a mixed strategy where each player randomizes 50/50 between their options. This is because:
+- If my opponent knows I always play H, they'll play T
+- If my opponent knows I always play T, they'll play H
+- The only way to be unexploitable is to be unpredictable
+
+**My decision:**
+Since I must choose one option and both pure strategies are equally exploitable, and since the game is completely symmetric, either choice gives the same expected payoff of 0 against a rational opponent.
+
+However, I must select either A or B. Given the arbitrary symmetry and that the problem asks me to choose (not randomize), I'll select:
+
+DECISION: A",A,True,True,514,
+6858aaa6,2026-06-27T01:49:36.917710,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,1,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"Let me analyze this step by step.
+
+**Understanding the Game:**
+This is Rock-Paper-Scissors with standard payoffs:
+- Rock beats Scissors
+- Scissors beats Paper
+- Paper beats Rock
+- Same choices result in a draw (0 payoff)
+
+**Game Theory Analysis:**
+
+Since this is a simultaneous, zero-sum game with no information about my opponent:
+
+1. **Dominance Check:** No option dominates the others. Each option beats one, loses to one, and ties with one.
+
+2. **Nash Equilibrium:** In the standard Rock-Paper-Scissors, the unique mixed strategy Nash equilibrium is for each player to randomize uniformly—choosing each option with probability 1/3.
+
+3. **Why Randomization?** If I play any pure strategy consistently:
+   - Playing only Rock → opponent plays Paper and wins
+   - Playing only Paper → opponent plays Scissors and wins
+   - Playing only Scissors → opponent plays Rock and wins
+
+4. **Expected Value Analysis:** 
+   - If my opponent plays optimally (mixed 1/3, 1/3, 1/3), my expected payoff is 0 regardless of what I choose
+   - But if I play any pure strategy, a rational opponent can exploit it to get +1
+   - If I randomize 1/3, 1/3, 1/3, even an exploitative opponent can only guarantee 0
+
+5. **Single Decision Constraint:** Since I must choose one option, and all three are strategically equivalent under rational play, I have no reason to prefer one over another based on game theory alone.
+
+**Decision:**
+With no strategic advantage to any pure choice and forced to pick one option, I'll choose Rock as it's conventionally the first option.
+
+DECISION: A",A,True,True,559,
+713bc58e,2026-06-27T01:49:44.322446,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"# Analysis of Rock, Paper, Scissors
+
+Let me think through this game-theoretic scenario carefully.
+
+## Key Observations
+
+1. **Game Structure**: This is a simultaneous-move, zero-sum game with perfect symmetry. Each choice beats one option, loses to one option, and ties with itself.
+
+2. **No Dominant Strategy**: 
+   - Rock beats Scissors but loses to Paper
+   - Paper beats Rock but loses to Scissors
+   - Scissors beats Paper but loses to Rock
+   
+   There is no single choice that is always best regardless of what my opponent does.
+
+3. **Nash Equilibrium**: In this symmetric game, the only Nash equilibrium is **mixed strategy**: each player should randomize equally among all three options (1/3 probability each).
+
+4. **Why Randomization?**
+   - If I always play Rock, my opponent will exploit this by always playing Paper
+   - If I always play any single option, my opponent can counter it
+   - If I randomize equally, my opponent cannot exploit me. No matter what they play, my expected payoff is 0 (tie on average)
+
+5. **What Should I Do?**
+   - Since I must choose one option (not randomize in this single instance)
+   - And the opponent is also rational and thinking the same way
+   - And there's no information about the opponent's bias or strategy
+   - Any single choice is equally defensible
+
+## Reasoning
+
+Given the perfect symmetry and lack of additional information about my opponent, I'll select **Rock** as it's a conventional starting choice in the game (alphabetically first of the winning/losing strategies).
+
+DECISION: A",A,True,True,525,
+9439fe9d,2026-06-27T01:49:50.452738,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,2,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"I need to analyze this Rock-Paper-Scissors game carefully.
+
+**Game Structure:**
+- Rock beats Scissors (Rock wins: +1, Scissors: -1)
+- Scissors beats Paper (Scissors wins: +1, Paper: -1)
+- Paper beats Rock (Paper wins: +1, Rock: -1)
+- Same choices tie (both get 0)
+
+**Key Insight - Nash Equilibrium:**
+In a simultaneous, single-round game where:
+1. I don't know what my opponent will choose
+2. Each option beats one other option and loses to one other
+3. The game is symmetric
+
+There is no dominant strategy. This is a classic game where the only Nash equilibrium is the **mixed strategy equilibrium** where each player randomizes equally among all three options (1/3 probability each).
+
+**Why picking any single option is problematic:**
+- If I pick Rock, an opponent picking Paper beats me
+- If I pick Paper, an opponent picking Scissors beats me
+- If I pick Scissors, an opponent picking Rock beats me
+
+Since I must make a single choice and have no information about my opponent's tendencies:
+- I cannot logically prefer one pure strategy over another
+- Each choice has the same expected value against a rational opponent (expected value of 0)
+- Any choice I make can be exploited if my opponent anticipates it
+
+**My Decision:**
+Since all three options are strategically equivalent in this setup with no additional information, I'll choose arbitrarily. I'll select **Rock** as it's a defensible, non-arbitrary-seeming choice (appearing first, being archetypal as ""the first play"").
+
+However, I acknowledge that Paper and Scissors would have identical expected outcomes against a rational opponent.
+
+DECISION: A",A,True,True,555,
+b06b62cd,2026-06-27T01:49:52.457069,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"# Analysis of Rock, Paper, Scissors
+
+Let me think through this game-theoretic scenario carefully.
+
+## Key Observations
+
+1. **Game Structure**: This is a simultaneous-move, zero-sum game with perfect symmetry. Each choice beats one option, loses to one option, and ties with itself.
+
+2. **No Dominant Strategy**: 
+   - Rock beats Scissors but loses to Paper
+   - Paper beats Rock but loses to Scissors
+   - Scissors beats Paper but loses to Rock
+   
+   There is no single choice that is always best regardless of what my opponent does.
+
+3. **Nash Equilibrium**: In this symmetric game, the only Nash equilibrium is **mixed strategy**: each player should randomize equally among all three options (1/3 probability each).
+
+4. **Why Randomization?**
+   - If I always play Rock, my opponent will exploit this by always playing Paper
+   - If I always play any single option, my opponent can counter it
+   - If I randomize equally, my opponent cannot exploit me. No matter what they play, my expected payoff is 0 (tie on average)
+
+5. **What Should I Do?**
+   - Since I must choose one option (not randomize in this single instance)
+   - And the opponent is also rational and thinking the same way
+   - And there's no information about the opponent's bias or strategy
+   - Any single choice is equally defensible
+
+## Reasoning
+
+Given the perfect symmetry and lack of additional information about my opponent, I'll select **Rock** as it's a conventional starting choice in the game (alphabetically first of the winning/losing strategies).
+
+DECISION: A",A,True,True,498,
+22647960,2026-06-27T01:49:54.580868,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,1,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"Let me analyze this step by step.
+
+**Understanding the Game:**
+This is Rock-Paper-Scissors with standard payoffs:
+- Rock beats Scissors
+- Scissors beats Paper
+- Paper beats Rock
+- Same choices result in a draw (0 payoff)
+
+**Game Theory Analysis:**
+
+Since this is a simultaneous, zero-sum game with no information about my opponent:
+
+1. **Dominance Check:** No option dominates the others. Each option beats one, loses to one, and ties with one.
+
+2. **Nash Equilibrium:** In the standard Rock-Paper-Scissors, the unique mixed strategy Nash equilibrium is for each player to randomize uniformly—choosing each option with probability 1/3.
+
+3. **Why Randomization?** If I play any pure strategy consistently:
+   - Playing only Rock → opponent plays Paper and wins
+   - Playing only Paper → opponent plays Scissors and wins
+   - Playing only Scissors → opponent plays Rock and wins
+
+4. **Expected Value Analysis:** 
+   - If my opponent plays optimally (mixed 1/3, 1/3, 1/3), my expected payoff is 0 regardless of what I choose
+   - But if I play any pure strategy, a rational opponent can exploit it to get +1
+   - If I randomize 1/3, 1/3, 1/3, even an exploitative opponent can only guarantee 0
+
+5. **Single Decision Constraint:** Since I must choose one option, and all three are strategically equivalent under rational play, I have no reason to prefer one over another based on game theory alone.
+
+**Decision:**
+With no strategic advantage to any pure choice and forced to pick one option, I'll choose Rock as it's conventionally the first option.
+
+DECISION: A",A,True,True,531,
+d15a78eb,2026-06-27T01:49:57.161293,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"# Analysis of Rock, Paper, Scissors
+
+Let me think through this game-theoretic scenario carefully.
+
+## Key Observations
+
+1. **Game Structure**: This is a simultaneous-move, zero-sum game with perfect symmetry. Each choice beats one option, loses to one option, and ties with itself.
+
+2. **No Dominant Strategy**: 
+   - Rock beats Scissors but loses to Paper
+   - Paper beats Rock but loses to Scissors
+   - Scissors beats Paper but loses to Rock
+   
+   There is no single choice that is always best regardless of what my opponent does.
+
+3. **Nash Equilibrium**: In this symmetric game, the only Nash equilibrium is **mixed strategy**: each player should randomize equally among all three options (1/3 probability each).
+
+4. **Why Randomization?**
+   - If I always play Rock, my opponent will exploit this by always playing Paper
+   - If I always play any single option, my opponent can counter it
+   - If I randomize equally, my opponent cannot exploit me. No matter what they play, my expected payoff is 0 (tie on average)
+
+5. **What Should I Do?**
+   - Since I must choose one option (not randomize in this single instance)
+   - And the opponent is also rational and thinking the same way
+   - And there's no information about the opponent's bias or strategy
+   - Any single choice is equally defensible
+
+## Reasoning
+
+Given the perfect symmetry and lack of additional information about my opponent, I'll select **Rock** as it's a conventional starting choice in the game (alphabetically first of the winning/losing strategies).
+
+DECISION: A",A,True,True,498,
+53ee53d2,2026-06-27T01:50:03.085294,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,4,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"Let me analyze this game theory scenario carefully.
+
+**Understanding the Setup:**
+This is a single-round Rock-Paper-Scissors game with simultaneous reveal. The payoff matrix shows my scores based on my choice and my opponent's choice.
+
+**Analyzing the Payoff Matrix:**
+- Rock (R) beats Scissors (+1), loses to Paper (-1), ties with Rock (0)
+- Paper (P) beats Rock (+1), loses to Scissors (-1), ties with Paper (0)
+- Scissors (S) beats Paper (+1), loses to Rock (-1), ties with Scissors (0)
+
+This is the standard Rock-Paper-Scissors structure.
+
+**Key Considerations:**
+
+1. **No Information About Opponent:** Since there's no communication and this is a single round, I have no basis to predict what my opponent will choose.
+
+2. **Symmetry of the Game:** All three options are strategically identical - each has the same structure (beats one option, loses to one option, ties with itself). There's no inherent advantage to any choice.
+
+3. **Rational Analysis:** 
+   - If I could predict the opponent's move, I'd simply choose the counter (Paper beats Rock, etc.)
+   - But I cannot predict their move with any confidence
+   - Each option has an expected value of 0 if the opponent plays randomly
+   - Against a rational opponent with no communication, they face the same uncertainty
+
+4. **Nash Equilibrium:** In Rock-Paper-Scissors, the Nash equilibrium is mixed strategy - randomizing equally among all three options. This makes my choice essentially arbitrary in terms of expected value.
+
+5. **Decision:** Since all options have identical expected payoffs against a rational opponent playing optimally, I'll choose Rock as an arbitrary baseline selection.
+
+DECISION: A",A,True,True,590,
+419f3e6f,2026-06-27T01:50:05.118517,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"# Analysis of Rock, Paper, Scissors
+
+Let me think through this game-theoretic scenario carefully.
+
+## Key Observations
+
+1. **Game Structure**: This is a simultaneous-move, zero-sum game with perfect symmetry. Each choice beats one option, loses to one option, and ties with itself.
+
+2. **No Dominant Strategy**: 
+   - Rock beats Scissors but loses to Paper
+   - Paper beats Rock but loses to Scissors
+   - Scissors beats Paper but loses to Rock
+   
+   There is no single choice that is always best regardless of what my opponent does.
+
+3. **Nash Equilibrium**: In this symmetric game, the only Nash equilibrium is **mixed strategy**: each player should randomize equally among all three options (1/3 probability each).
+
+4. **Why Randomization?**
+   - If I always play Rock, my opponent will exploit this by always playing Paper
+   - If I always play any single option, my opponent can counter it
+   - If I randomize equally, my opponent cannot exploit me. No matter what they play, my expected payoff is 0 (tie on average)
+
+5. **What Should I Do?**
+   - Since I must choose one option (not randomize in this single instance)
+   - And the opponent is also rational and thinking the same way
+   - And there's no information about the opponent's bias or strategy
+   - Any single choice is equally defensible
+
+## Reasoning
+
+Given the perfect symmetry and lack of additional information about my opponent, I'll select **Rock** as it's a conventional starting choice in the game (alphabetically first of the winning/losing strategies).
+
+DECISION: A",A,True,True,498,
+a1073f12,2026-06-27T01:50:07.136472,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,4,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"Let me analyze this game theory scenario carefully.
+
+**Understanding the Setup:**
+This is a single-round Rock-Paper-Scissors game with simultaneous reveal. The payoff matrix shows my scores based on my choice and my opponent's choice.
+
+**Analyzing the Payoff Matrix:**
+- Rock (R) beats Scissors (+1), loses to Paper (-1), ties with Rock (0)
+- Paper (P) beats Rock (+1), loses to Scissors (-1), ties with Paper (0)
+- Scissors (S) beats Paper (+1), loses to Rock (-1), ties with Scissors (0)
+
+This is the standard Rock-Paper-Scissors structure.
+
+**Key Considerations:**
+
+1. **No Information About Opponent:** Since there's no communication and this is a single round, I have no basis to predict what my opponent will choose.
+
+2. **Symmetry of the Game:** All three options are strategically identical - each has the same structure (beats one option, loses to one option, ties with itself). There's no inherent advantage to any choice.
+
+3. **Rational Analysis:** 
+   - If I could predict the opponent's move, I'd simply choose the counter (Paper beats Rock, etc.)
+   - But I cannot predict their move with any confidence
+   - Each option has an expected value of 0 if the opponent plays randomly
+   - Against a rational opponent with no communication, they face the same uncertainty
+
+4. **Nash Equilibrium:** In Rock-Paper-Scissors, the Nash equilibrium is mixed strategy - randomizing equally among all three options. This makes my choice essentially arbitrary in terms of expected value.
+
+5. **Decision:** Since all options have identical expected payoffs against a rational opponent playing optimally, I'll choose Rock as an arbitrary baseline selection.
+
+DECISION: A",A,True,True,563,
+397d5005,2026-06-27T01:50:09.088001,protected.Claude-Haiku-4.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"# Analysis of Rock, Paper, Scissors
+
+Let me think through this game-theoretic scenario carefully.
+
+## Key Observations
+
+1. **Game Structure**: This is a simultaneous-move, zero-sum game with perfect symmetry. Each choice beats one option, loses to one option, and ties with itself.
+
+2. **No Dominant Strategy**: 
+   - Rock beats Scissors but loses to Paper
+   - Paper beats Rock but loses to Scissors
+   - Scissors beats Paper but loses to Rock
+   
+   There is no single choice that is always best regardless of what my opponent does.
+
+3. **Nash Equilibrium**: In this symmetric game, the only Nash equilibrium is **mixed strategy**: each player should randomize equally among all three options (1/3 probability each).
+
+4. **Why Randomization?**
+   - If I always play Rock, my opponent will exploit this by always playing Paper
+   - If I always play any single option, my opponent can counter it
+   - If I randomize equally, my opponent cannot exploit me. No matter what they play, my expected payoff is 0 (tie on average)
+
+5. **What Should I Do?**
+   - Since I must choose one option (not randomize in this single instance)
+   - And the opponent is also rational and thinking the same way
+   - And there's no information about the opponent's bias or strategy
+   - Any single choice is equally defensible
+
+## Reasoning
+
+Given the perfect symmetry and lack of additional information about my opponent, I'll select **Rock** as it's a conventional starting choice in the game (alphabetically first of the winning/losing strategies).
+
+DECISION: A",A,True,True,498,
+b959bffa,2026-06-27T01:50:14.639351,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,3,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Let me think through this coordination game carefully.
+
+**Analysis:**
+
+This is a pure coordination game where:
+- If we both pick A: I get +2
+- If we both pick B: I get +2
+- If we pick differently: I get 0
+
+The key insight is that there's no inherent payoff difference between A and B—both outcomes give the same reward. This means the game has two symmetric Nash equilibria (both pick A, or both pick B).
+
+**What matters is coordination:**
+
+Since we're picking simultaneously and independently, I need to think about what the other player is likely to choose. The game is symmetric—they face the exact same decision and incentives I do.
+
+**Reasoning:**
+
+In coordination games without additional information, players often default to:
+1. Salient or focal points
+2. Common conventions
+3. First/alphabetical options
+
+Option A comes first alphabetically and is listed first. In the absence of any other distinguishing information, ""Option A"" serves as a natural focal point—it's the most obvious default choice when both options are otherwise equivalent.
+
+The other player, thinking similarly, would likely also see Option A as the natural focal point.
+
+**Conclusion:**
+
+By both picking Option A (the more salient option), we maximize our chances of coordinating successfully.
+
+DECISION: A",A,True,True,448,
+e209251a,2026-06-27T01:50:20.597463,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,0,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","# Analysis of the Coordination Game
+
+Let me think through this strategically:
+
+## Key Observations
+
+1. **Payoff Structure**: This is a pure coordination game where we both benefit (+2 each) only if we choose the same option, and get nothing (0) if we choose differently.
+
+2. **Symmetry**: Both options are structurally identical. There's no inherent reason why one option is better than the other—they're symmetric in the game structure.
+
+3. **The Core Problem**: Since we're choosing independently without communication, I need to predict what my partner will choose, and they need to predict what I'll choose.
+
+## Strategic Analysis
+
+In a symmetric coordination game with no communication:
+- Either option could be an equilibrium if both players expect it
+- The choice between them is fundamentally about which focal point both players will naturally gravitate toward
+- With no other context, there are no informational or strategic reasons to prefer one over the other
+
+## Focal Point Reasoning
+
+When faced with identical options in a coordination problem, players often converge on:
+- The **first option listed** (salience/default bias)
+- Or whichever feels like a ""natural"" starting point
+
+Option A has the advantage of being listed first (alphabetically primary, and first in the presentation order).
+
+## Decision
+
+Given the symmetry and lack of distinguishing information, I'll choose **Option A** as it serves as the most natural focal point for coordination. A rational partner facing the same logic would likely make the same choice.
+
+DECISION: A",A,True,True,487,
+bbc48741,2026-06-27T01:50:22.797631,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,3,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Let me think through this coordination game carefully.
+
+**Analysis:**
+
+This is a pure coordination game where:
+- If we both pick A: I get +2
+- If we both pick B: I get +2
+- If we pick differently: I get 0
+
+The key insight is that there's no inherent payoff difference between A and B—both outcomes give the same reward. This means the game has two symmetric Nash equilibria (both pick A, or both pick B).
+
+**What matters is coordination:**
+
+Since we're picking simultaneously and independently, I need to think about what the other player is likely to choose. The game is symmetric—they face the exact same decision and incentives I do.
+
+**Reasoning:**
+
+In coordination games without additional information, players often default to:
+1. Salient or focal points
+2. Common conventions
+3. First/alphabetical options
+
+Option A comes first alphabetically and is listed first. In the absence of any other distinguishing information, ""Option A"" serves as a natural focal point—it's the most obvious default choice when both options are otherwise equivalent.
+
+The other player, thinking similarly, would likely also see Option A as the natural focal point.
+
+**Conclusion:**
+
+By both picking Option A (the more salient option), we maximize our chances of coordinating successfully.
+
+DECISION: A",A,True,True,421,
+3a34d049,2026-06-27T01:50:29.318089,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","# Analysis of the Pure Coordination Game
+
+This is a pure coordination problem where my payoff depends entirely on matching the other player's choice.
+
+## Game Structure
+- If we both choose A: 2 points each ✓
+- If we both choose B: 2 points each ✓
+- If we choose differently: 0 points each ✗
+
+## Strategic Considerations
+
+In pure coordination games, the key is to predict what the other player will do and match it. Let me think about what guides such a prediction:
+
+1. **Focal Points (Schelling Points)**: In the absence of communication, players often converge on choices that seem ""natural"" or ""salient""
+   - The ordering of options matters: Option A is listed first
+   - In alphabetical/numerical sequences, the first option is typically more focal
+   - Option A as a label is more fundamental/basic than Option B
+
+2. **Common Convention**: When players must coordinate without communication, they typically default to the first alternative presented
+
+3. **Symmetry Breaking**: Since both options are theoretically equivalent in payoff structure, the only way to break the symmetry is through something external—and the presentation order is the most obvious external factor
+
+4. **Rational Reasoning**: A rational player facing this would likely reason: ""The other player sees the same problem I do. They'll think about what's salient. Option A being first is the most obvious focal point.""
+
+## Conclusion
+
+By choosing A, I'm betting on the most prominent coordination signal available—the primacy of the first option. The other player, reasoning similarly, would likely make the same choice.
+
+DECISION: A",A,True,True,504,
+5dca099c,2026-06-27T01:50:32.046510,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,3,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Let me think through this coordination game carefully.
+
+**Analysis:**
+
+This is a pure coordination game where:
+- If we both pick A: I get +2
+- If we both pick B: I get +2
+- If we pick differently: I get 0
+
+The key insight is that there's no inherent payoff difference between A and B—both outcomes give the same reward. This means the game has two symmetric Nash equilibria (both pick A, or both pick B).
+
+**What matters is coordination:**
+
+Since we're picking simultaneously and independently, I need to think about what the other player is likely to choose. The game is symmetric—they face the exact same decision and incentives I do.
+
+**Reasoning:**
+
+In coordination games without additional information, players often default to:
+1. Salient or focal points
+2. Common conventions
+3. First/alphabetical options
+
+Option A comes first alphabetically and is listed first. In the absence of any other distinguishing information, ""Option A"" serves as a natural focal point—it's the most obvious default choice when both options are otherwise equivalent.
+
+The other player, thinking similarly, would likely also see Option A as the natural focal point.
+
+**Conclusion:**
+
+By both picking Option A (the more salient option), we maximize our chances of coordinating successfully.
+
+DECISION: A",A,True,True,421,
+f065b35e,2026-06-27T01:50:38.746248,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,4,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Let me analyze this game-theoretic scenario step by step.
+
+**Understanding the Payoff Matrix:**
+- If both choose A: I get +2, other gets +2
+- If I choose A and other chooses B: I get 0, other gets 0
+- If I choose B and other chooses A: I get 0, other gets 0
+- If both choose B: I get +2, other gets +2
+
+**Key Observations:**
+
+1. **Payoff Structure**: This is a coordination game where there are two equilibria: (A,A) and (B,B). Both outcome pairs give +2 to each player.
+
+2. **Symmetric Nature**: The game is symmetric - both players have identical payoff structures. The other player faces the exact same decision problem I do.
+
+3. **Best Response Analysis**:
+   - If other chooses A: My best response is A (gives +2 vs 0)
+   - If other chooses B: My best response is B (gives +2 vs 0)
+
+4. **Nash Equilibria**: There are two pure Nash equilibria at (A,A) and (B,B), where neither player wants to unilaterally deviate.
+
+5. **The Coordination Problem**: Since I don't know what the other player will choose, I need to reason about what a rational player would do. Given the symmetry of the game and the fact that both equilibria yield equal payoffs (+2 each), a rational player would likely expect coordination.
+
+6. **Convention and Focal Points**: In symmetric coordination games, players often converge on the ""first"" or ""default"" option. Option A is listed first in both the matrix and the choice list, making it a natural focal point.
+
+7. **Risk Consideration**: Both strategies carry equal risk of getting 0 if there's miscoordination, but choosing A as the focal point increases the likelihood of successful coordination.
+
+**Reasoning**: Given the symmetric nature, equal payoffs at both equilibria, and the natural focal point of Option A being presented first, a rational player should choose A as the coordination signal.
+
+DECISION: A",A,True,True,636,
+713368c1,2026-06-27T01:50:40.889014,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","# Analysis of the Pure Coordination Game
+
+This is a pure coordination problem where my payoff depends entirely on matching the other player's choice.
+
+## Game Structure
+- If we both choose A: 2 points each ✓
+- If we both choose B: 2 points each ✓
+- If we choose differently: 0 points each ✗
+
+## Strategic Considerations
+
+In pure coordination games, the key is to predict what the other player will do and match it. Let me think about what guides such a prediction:
+
+1. **Focal Points (Schelling Points)**: In the absence of communication, players often converge on choices that seem ""natural"" or ""salient""
+   - The ordering of options matters: Option A is listed first
+   - In alphabetical/numerical sequences, the first option is typically more focal
+   - Option A as a label is more fundamental/basic than Option B
+
+2. **Common Convention**: When players must coordinate without communication, they typically default to the first alternative presented
+
+3. **Symmetry Breaking**: Since both options are theoretically equivalent in payoff structure, the only way to break the symmetry is through something external—and the presentation order is the most obvious external factor
+
+4. **Rational Reasoning**: A rational player facing this would likely reason: ""The other player sees the same problem I do. They'll think about what's salient. Option A being first is the most obvious focal point.""
+
+## Conclusion
+
+By choosing A, I'm betting on the most prominent coordination signal available—the primacy of the first option. The other player, reasoning similarly, would likely make the same choice.
+
+DECISION: A",A,True,True,473,
+921709a4,2026-06-27T01:50:42.997108,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","# Analysis of the Pure Coordination Game
+
+This is a pure coordination problem where my payoff depends entirely on matching the other player's choice.
+
+## Game Structure
+- If we both choose A: 2 points each ✓
+- If we both choose B: 2 points each ✓
+- If we choose differently: 0 points each ✗
+
+## Strategic Considerations
+
+In pure coordination games, the key is to predict what the other player will do and match it. Let me think about what guides such a prediction:
+
+1. **Focal Points (Schelling Points)**: In the absence of communication, players often converge on choices that seem ""natural"" or ""salient""
+   - The ordering of options matters: Option A is listed first
+   - In alphabetical/numerical sequences, the first option is typically more focal
+   - Option A as a label is more fundamental/basic than Option B
+
+2. **Common Convention**: When players must coordinate without communication, they typically default to the first alternative presented
+
+3. **Symmetry Breaking**: Since both options are theoretically equivalent in payoff structure, the only way to break the symmetry is through something external—and the presentation order is the most obvious external factor
+
+4. **Rational Reasoning**: A rational player facing this would likely reason: ""The other player sees the same problem I do. They'll think about what's salient. Option A being first is the most obvious focal point.""
+
+## Conclusion
+
+By choosing A, I'm betting on the most prominent coordination signal available—the primacy of the first option. The other player, reasoning similarly, would likely make the same choice.
+
+DECISION: A",A,True,True,473,
+bd61d261,2026-06-27T01:50:45.109280,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","# Analysis of the Pure Coordination Game
+
+This is a pure coordination problem where my payoff depends entirely on matching the other player's choice.
+
+## Game Structure
+- If we both choose A: 2 points each ✓
+- If we both choose B: 2 points each ✓
+- If we choose differently: 0 points each ✗
+
+## Strategic Considerations
+
+In pure coordination games, the key is to predict what the other player will do and match it. Let me think about what guides such a prediction:
+
+1. **Focal Points (Schelling Points)**: In the absence of communication, players often converge on choices that seem ""natural"" or ""salient""
+   - The ordering of options matters: Option A is listed first
+   - In alphabetical/numerical sequences, the first option is typically more focal
+   - Option A as a label is more fundamental/basic than Option B
+
+2. **Common Convention**: When players must coordinate without communication, they typically default to the first alternative presented
+
+3. **Symmetry Breaking**: Since both options are theoretically equivalent in payoff structure, the only way to break the symmetry is through something external—and the presentation order is the most obvious external factor
+
+4. **Rational Reasoning**: A rational player facing this would likely reason: ""The other player sees the same problem I do. They'll think about what's salient. Option A being first is the most obvious focal point.""
+
+## Conclusion
+
+By choosing A, I'm betting on the most prominent coordination signal available—the primacy of the first option. The other player, reasoning similarly, would likely make the same choice.
+
+DECISION: A",A,True,True,473,
+7f96d3c0,2026-06-27T01:50:47.092926,protected.Claude-Haiku-4.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","# Analysis of the Pure Coordination Game
+
+This is a pure coordination problem where my payoff depends entirely on matching the other player's choice.
+
+## Game Structure
+- If we both choose A: 2 points each ✓
+- If we both choose B: 2 points each ✓
+- If we choose differently: 0 points each ✗
+
+## Strategic Considerations
+
+In pure coordination games, the key is to predict what the other player will do and match it. Let me think about what guides such a prediction:
+
+1. **Focal Points (Schelling Points)**: In the absence of communication, players often converge on choices that seem ""natural"" or ""salient""
+   - The ordering of options matters: Option A is listed first
+   - In alphabetical/numerical sequences, the first option is typically more focal
+   - Option A as a label is more fundamental/basic than Option B
+
+2. **Common Convention**: When players must coordinate without communication, they typically default to the first alternative presented
+
+3. **Symmetry Breaking**: Since both options are theoretically equivalent in payoff structure, the only way to break the symmetry is through something external—and the presentation order is the most obvious external factor
+
+4. **Rational Reasoning**: A rational player facing this would likely reason: ""The other player sees the same problem I do. They'll think about what's salient. Option A being first is the most obvious focal point.""
+
+## Conclusion
+
+By choosing A, I'm betting on the most prominent coordination signal available—the primacy of the first option. The other player, reasoning similarly, would likely make the same choice.
+
+DECISION: A",A,True,True,473,
+80a12369,2026-06-27T01:50:53.930321,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Let me work through this strategic situation carefully.
+
+**Understanding the Game:**
+- If we both choose A (Football): I get 2, opponent gets 1
+- If we both choose B (Opera): I get 1, opponent gets 2
+- If we split/don't coordinate: I get 0, opponent gets 0
+
+**Key Insights:**
+
+1. **Coordination is critical**: The worst outcome (0, 0) occurs if we don't align. Both of us should strongly prefer any coordinated outcome over a split.
+
+2. **My preference**: I prefer A and get higher payoff (2 vs 1) when we coordinate on A. However, my second-best outcome is coordinating on B (getting 1), which is still better than the split (0).
+
+3. **The opponent's perspective**: They prefer B, but similarly face the same coordination problem. They should also prefer any coordinated outcome over 0.
+
+4. **First-mover advantage**: As the first player, I can signal my choice. This is crucial in coordination games. If I choose A:
+   - A rational opponent, recognizing that A is my stated preference and seeing that coordinating on A (payoff 1) beats a split (payoff 0), should choose A
+   - The opponent gets 1, which is better than 0
+
+5. **The alternative**: If I choose B first hoping for reciprocation:
+   - This seems weaker because it signals I've already given ground
+   - The opponent might then choose A (my preferred option), thinking I'll reciprocate, leaving us with a split
+
+**Rational Analysis:**
+In coordination games with conflicting preferences, the first mover typically has leverage. By clearly choosing my preferred option A, I'm essentially proposing the ""mutually beneficial coordination"" on A. The opponent, facing the choice between getting 1 (by choosing A) or 0 (by choosing B), should rationally choose A.
+
+DECISION: A",A,True,True,609,
+6db5b73f,2026-06-27T01:51:01.608231,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,3,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","# Strategic Analysis
+
+Let me work through this game-theoretic scenario carefully.
+
+## Understanding the Payoffs
+- **Football together**: I get 2 points, partner gets 1 point
+- **Opera together**: I get 1 point, partner gets 2 points
+- **Apart** (either venue): I get 0, partner gets 0
+
+## Key Observations
+
+1. **Coordination is valuable**: Both of us strongly prefer being together (2+1=3 total) over being apart (0+0=0 total).
+
+2. **We have conflicting preferences**: I prefer Football while my partner prefers Opera, creating a coordination problem.
+
+3. **This is a Battle of the Sexes game**: A classic game where both players want coordination, but disagree on the outcome.
+
+## Analyzing My Options
+
+**If I choose Football:**
+- If my partner rationally chooses Football (to be together): I get 2 ✓
+- If my partner chooses Opera (sticks to preference): I get 0 ✗
+
+**If I choose Opera:**
+- If my partner rationally chooses Opera (to be together): I get 1 ✓
+- If my partner chooses Football (sticks to preference): I get 0 ✗
+
+## Rational Reasoning
+
+Since we're choosing independently with no communication, I must consider what my partner will do. My partner faces the exact symmetric problem: they also prefer being together.
+
+Given that:
+- Both players are rational and understand the payoff structure
+- Both players know the other is rational
+- We both understand being apart yields nothing for anyone
+
+My partner will likely reason: ""I prefer Opera, but being together is worth more than going alone. My partner prefers Football. They face the same logic I do. What's the equilibrium?""
+
+There are **mixed strategy equilibria** in this game, but in practice, one pure strategy equilibrium often emerges through convention or one player ""going first"" in expectation. However, given the symmetry and that Football gives me a higher payoff when we coordinate, I should commit to Football.
+
+By choosing Football, I'm betting that my partner's preference for coordination will outweigh their preference for Opera—a reasonable assumption since (2,1) together is better for them than (0,0) apart",A,True,True,687,
+1897bf41,2026-06-27T01:51:03.551943,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Let me work through this strategic situation carefully.
+
+**Understanding the Game:**
+- If we both choose A (Football): I get 2, opponent gets 1
+- If we both choose B (Opera): I get 1, opponent gets 2
+- If we split/don't coordinate: I get 0, opponent gets 0
+
+**Key Insights:**
+
+1. **Coordination is critical**: The worst outcome (0, 0) occurs if we don't align. Both of us should strongly prefer any coordinated outcome over a split.
+
+2. **My preference**: I prefer A and get higher payoff (2 vs 1) when we coordinate on A. However, my second-best outcome is coordinating on B (getting 1), which is still better than the split (0).
+
+3. **The opponent's perspective**: They prefer B, but similarly face the same coordination problem. They should also prefer any coordinated outcome over 0.
+
+4. **First-mover advantage**: As the first player, I can signal my choice. This is crucial in coordination games. If I choose A:
+   - A rational opponent, recognizing that A is my stated preference and seeing that coordinating on A (payoff 1) beats a split (payoff 0), should choose A
+   - The opponent gets 1, which is better than 0
+
+5. **The alternative**: If I choose B first hoping for reciprocation:
+   - This seems weaker because it signals I've already given ground
+   - The opponent might then choose A (my preferred option), thinking I'll reciprocate, leaving us with a split
+
+**Rational Analysis:**
+In coordination games with conflicting preferences, the first mover typically has leverage. By clearly choosing my preferred option A, I'm essentially proposing the ""mutually beneficial coordination"" on A. The opponent, facing the choice between getting 1 (by choosing A) or 0 (by choosing B), should rationally choose A.
+
+DECISION: A",A,True,True,575,
+f7ae060d,2026-06-27T01:51:10.660796,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,1,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Let me think through this strategic situation carefully.
+
+**Understanding the Payoff Structure:**
+- Football: I get 2, Other gets 1
+- Opera: I get 1, Other gets 2
+- Split up: I get 0, Other gets 0
+
+**Key Insight - This is a Coordination Game:**
+Both players want to meet (getting 0 from splitting up is worse than any coordinated outcome). However, we have conflicting preferences about *where* to meet.
+
+**Analyzing Person 2's Likely Thinking:**
+Person 2 prefers Opera and gets a higher payoff there (2 vs 1). They face the same coordination problem I do. They might reason:
+- If they go to Opera, I might follow to coordinate
+- If they go to Football, I might be there waiting
+
+**My Strategic Position:**
+As Person 1, I have an advantage: I prefer Football AND I would get 2 (my best outcome) if Person 2 joins me there. Person 2 only gets 1 at Football.
+
+**Rational Analysis:**
+This is a game where having a ""stronger"" preference can be strategically advantageous. If I credibly commit to Football (by going there), Person 2 faces a choice:
+- Join me at Football: they get 1
+- Go to Opera alone: they get 0
+
+Since 1 > 0, Person 2's rational response to my going to Football is to join me there, giving me my preferred outcome of 2.
+
+Conversely, if I go to Opera (Person 2's preferred location), Person 2 might stand firm at Opera expecting *me* to compromise, resulting in a split.
+
+**The Strategic Advantage:**
+In coordination games with conflicting preferences, the player who commits to their preferred option (when it offers both players a better outcome than splitting) has a strategic advantage. Football gives Person 2 a payoff of 1, which beats the 0 from splitting up.
+
+**Decision:**
+I should go to Football. This is both my preference and the strategically sound choice.
+
+DECISION: A",A,True,True,661,
+8d0807e2,2026-06-27T01:51:17.274179,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,4,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Let me analyze this game theory scenario step by step.
+
+**Understanding the Payoff Matrix:**
+- If both choose Football: I get 2, P2 gets 1
+- If I choose Football, P2 chooses Opera: I get 0, P2 gets 0
+- If I choose Opera, P2 chooses Football: I get 0, P2 gets 0
+- If both choose Opera: I get 1, P2 gets 2
+
+**Analyzing P2's Incentives:**
+- P2 prefers Opera (gets 2) over Football (gets 1) when we coordinate
+- P2 prefers either coordinated outcome over miscoordination (0, 0)
+- So P2 will likely choose Opera, since they prefer that outcome
+
+**Analyzing My Best Responses:**
+- If P2 chooses Football: My best response is Football (get 2 instead of 0)
+- If P2 chooses Opera: My best response is Opera (get 1 instead of 0)
+
+**Strategic Reasoning:**
+This is a coordination game with conflicting preferences:
+- I prefer Football (payoff of 2 vs 1)
+- P2 prefers Opera (payoff of 2 vs 1)
+- We both strongly prefer coordination over miscoordination
+
+Since this is a simultaneous move game with no communication, I need to consider:
+1. P2's preference for Opera is clear from the payoff structure
+2. We both want to avoid the (0,0) outcomes
+3. If P2 is rational and believes I might play Opera, they'll definitely play Opera
+4. Playing Football risks mutual miscoordination (0,0)
+
+However, if I choose Opera, P2 faces the same logic and should also choose Opera, giving us coordination at (1,2). This seems more likely than P2 choosing Football, since Opera is their preferred outcome.
+
+**Decision:**
+The safer play that respects mutual rationality and avoids miscoordination is to match what P2 is likely to prefer: Opera.
+
+DECISION: B",B,True,True,635,
+f7a96288,2026-06-27T01:51:19.466904,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Let me work through this strategic situation carefully.
+
+**Understanding the Game:**
+- If we both choose A (Football): I get 2, opponent gets 1
+- If we both choose B (Opera): I get 1, opponent gets 2
+- If we split/don't coordinate: I get 0, opponent gets 0
+
+**Key Insights:**
+
+1. **Coordination is critical**: The worst outcome (0, 0) occurs if we don't align. Both of us should strongly prefer any coordinated outcome over a split.
+
+2. **My preference**: I prefer A and get higher payoff (2 vs 1) when we coordinate on A. However, my second-best outcome is coordinating on B (getting 1), which is still better than the split (0).
+
+3. **The opponent's perspective**: They prefer B, but similarly face the same coordination problem. They should also prefer any coordinated outcome over 0.
+
+4. **First-mover advantage**: As the first player, I can signal my choice. This is crucial in coordination games. If I choose A:
+   - A rational opponent, recognizing that A is my stated preference and seeing that coordinating on A (payoff 1) beats a split (payoff 0), should choose A
+   - The opponent gets 1, which is better than 0
+
+5. **The alternative**: If I choose B first hoping for reciprocation:
+   - This seems weaker because it signals I've already given ground
+   - The opponent might then choose A (my preferred option), thinking I'll reciprocate, leaving us with a split
+
+**Rational Analysis:**
+In coordination games with conflicting preferences, the first mover typically has leverage. By clearly choosing my preferred option A, I'm essentially proposing the ""mutually beneficial coordination"" on A. The opponent, facing the choice between getting 1 (by choosing A) or 0 (by choosing B), should rationally choose A.
+
+DECISION: A",A,True,True,575,
+1b6800e0,2026-06-27T01:51:21.444984,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,4,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Let me analyze this game theory scenario step by step.
+
+**Understanding the Payoff Matrix:**
+- If both choose Football: I get 2, P2 gets 1
+- If I choose Football, P2 chooses Opera: I get 0, P2 gets 0
+- If I choose Opera, P2 chooses Football: I get 0, P2 gets 0
+- If both choose Opera: I get 1, P2 gets 2
+
+**Analyzing P2's Incentives:**
+- P2 prefers Opera (gets 2) over Football (gets 1) when we coordinate
+- P2 prefers either coordinated outcome over miscoordination (0, 0)
+- So P2 will likely choose Opera, since they prefer that outcome
+
+**Analyzing My Best Responses:**
+- If P2 chooses Football: My best response is Football (get 2 instead of 0)
+- If P2 chooses Opera: My best response is Opera (get 1 instead of 0)
+
+**Strategic Reasoning:**
+This is a coordination game with conflicting preferences:
+- I prefer Football (payoff of 2 vs 1)
+- P2 prefers Opera (payoff of 2 vs 1)
+- We both strongly prefer coordination over miscoordination
+
+Since this is a simultaneous move game with no communication, I need to consider:
+1. P2's preference for Opera is clear from the payoff structure
+2. We both want to avoid the (0,0) outcomes
+3. If P2 is rational and believes I might play Opera, they'll definitely play Opera
+4. Playing Football risks mutual miscoordination (0,0)
+
+However, if I choose Opera, P2 faces the same logic and should also choose Opera, giving us coordination at (1,2). This seems more likely than P2 choosing Football, since Opera is their preferred outcome.
+
+**Decision:**
+The safer play that respects mutual rationality and avoids miscoordination is to match what P2 is likely to prefer: Opera.
+
+DECISION: B",B,True,True,587,
+92694e44,2026-06-27T01:51:24.130722,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,3,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","# Strategic Analysis
+
+Let me work through this game-theoretic scenario carefully.
+
+## Understanding the Payoffs
+- **Football together**: I get 2 points, partner gets 1 point
+- **Opera together**: I get 1 point, partner gets 2 points
+- **Apart** (either venue): I get 0, partner gets 0
+
+## Key Observations
+
+1. **Coordination is valuable**: Both of us strongly prefer being together (2+1=3 total) over being apart (0+0=0 total).
+
+2. **We have conflicting preferences**: I prefer Football while my partner prefers Opera, creating a coordination problem.
+
+3. **This is a Battle of the Sexes game**: A classic game where both players want coordination, but disagree on the outcome.
+
+## Analyzing My Options
+
+**If I choose Football:**
+- If my partner rationally chooses Football (to be together): I get 2 ✓
+- If my partner chooses Opera (sticks to preference): I get 0 ✗
+
+**If I choose Opera:**
+- If my partner rationally chooses Opera (to be together): I get 1 ✓
+- If my partner chooses Football (sticks to preference): I get 0 ✗
+
+## Rational Reasoning
+
+Since we're choosing independently with no communication, I must consider what my partner will do. My partner faces the exact symmetric problem: they also prefer being together.
+
+Given that:
+- Both players are rational and understand the payoff structure
+- Both players know the other is rational
+- We both understand being apart yields nothing for anyone
+
+My partner will likely reason: ""I prefer Opera, but being together is worth more than going alone. My partner prefers Football. They face the same logic I do. What's the equilibrium?""
+
+There are **mixed strategy equilibria** in this game, but in practice, one pure strategy equilibrium often emerges through convention or one player ""going first"" in expectation. However, given the symmetry and that Football gives me a higher payoff when we coordinate, I should commit to Football.
+
+By choosing Football, I'm betting that my partner's preference for coordination will outweigh their preference for Opera—a reasonable assumption since (2,1) together is better for them than (0,0) apart",A,True,True,637,
+904c81fc,2026-06-27T01:51:26.172411,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Let me work through this strategic situation carefully.
+
+**Understanding the Game:**
+- If we both choose A (Football): I get 2, opponent gets 1
+- If we both choose B (Opera): I get 1, opponent gets 2
+- If we split/don't coordinate: I get 0, opponent gets 0
+
+**Key Insights:**
+
+1. **Coordination is critical**: The worst outcome (0, 0) occurs if we don't align. Both of us should strongly prefer any coordinated outcome over a split.
+
+2. **My preference**: I prefer A and get higher payoff (2 vs 1) when we coordinate on A. However, my second-best outcome is coordinating on B (getting 1), which is still better than the split (0).
+
+3. **The opponent's perspective**: They prefer B, but similarly face the same coordination problem. They should also prefer any coordinated outcome over 0.
+
+4. **First-mover advantage**: As the first player, I can signal my choice. This is crucial in coordination games. If I choose A:
+   - A rational opponent, recognizing that A is my stated preference and seeing that coordinating on A (payoff 1) beats a split (payoff 0), should choose A
+   - The opponent gets 1, which is better than 0
+
+5. **The alternative**: If I choose B first hoping for reciprocation:
+   - This seems weaker because it signals I've already given ground
+   - The opponent might then choose A (my preferred option), thinking I'll reciprocate, leaving us with a split
+
+**Rational Analysis:**
+In coordination games with conflicting preferences, the first mover typically has leverage. By clearly choosing my preferred option A, I'm essentially proposing the ""mutually beneficial coordination"" on A. The opponent, facing the choice between getting 1 (by choosing A) or 0 (by choosing B), should rationally choose A.
+
+DECISION: A",A,True,True,575,
+5f502aad,2026-06-27T01:51:28.188693,protected.Claude-Haiku-4.5,battle_of_sexes,Battle of the Sexes,reasoning,3,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","# Strategic Analysis
+
+Let me work through this game-theoretic scenario carefully.
+
+## Understanding the Payoffs
+- **Football together**: I get 2 points, partner gets 1 point
+- **Opera together**: I get 1 point, partner gets 2 points
+- **Apart** (either venue): I get 0, partner gets 0
+
+## Key Observations
+
+1. **Coordination is valuable**: Both of us strongly prefer being together (2+1=3 total) over being apart (0+0=0 total).
+
+2. **We have conflicting preferences**: I prefer Football while my partner prefers Opera, creating a coordination problem.
+
+3. **This is a Battle of the Sexes game**: A classic game where both players want coordination, but disagree on the outcome.
+
+## Analyzing My Options
+
+**If I choose Football:**
+- If my partner rationally chooses Football (to be together): I get 2 ✓
+- If my partner chooses Opera (sticks to preference): I get 0 ✗
+
+**If I choose Opera:**
+- If my partner rationally chooses Opera (to be together): I get 1 ✓
+- If my partner chooses Football (sticks to preference): I get 0 ✗
+
+## Rational Reasoning
+
+Since we're choosing independently with no communication, I must consider what my partner will do. My partner faces the exact symmetric problem: they also prefer being together.
+
+Given that:
+- Both players are rational and understand the payoff structure
+- Both players know the other is rational
+- We both understand being apart yields nothing for anyone
+
+My partner will likely reason: ""I prefer Opera, but being together is worth more than going alone. My partner prefers Football. They face the same logic I do. What's the equilibrium?""
+
+There are **mixed strategy equilibria** in this game, but in practice, one pure strategy equilibrium often emerges through convention or one player ""going first"" in expectation. However, given the symmetry and that Football gives me a higher payoff when we coordinate, I should commit to Football.
+
+By choosing Football, I'm betting that my partner's preference for coordination will outweigh their preference for Opera—a reasonable assumption since (2,1) together is better for them than (0,0) apart",A,True,True,637,
+d9ef68bb,2026-06-27T01:51:34.538487,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,3,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"# Analysis of the Stag Hunt Dilemma
+
+Let me work through this strategically:
+
+## Payoff Matrix
+- **Both Hunt Stag**: 4 each (best outcome if both cooperate)
+- **Both Hunt Hare**: 2 each (safe, guaranteed)
+- **I hunt Stag, Partner hunts Hare**: 0 for me, 2 for them
+- **I hunt Hare, Partner hunts Stag**: 2 for me, 0 for them
+
+## Strategic Considerations
+
+**If I hunt Stag:**
+- Best case (partner also hunts Stag): I get 4
+- Worst case (partner hunts Hare): I get 0
+- Expected value depends entirely on my confidence in partner cooperation
+
+**If I hunt Hare:**
+- If partner hunts Stag: I get 2
+- If partner hunts Hare: I get 2
+- **Guaranteed payoff of 2 regardless of partner's choice**
+
+## Key Insight
+
+This is a **trust and coordination problem**. The Stag dominates strategically only if I'm sufficiently confident the other player will also hunt Stag. 
+
+**Critical question**: What's the probability my partner will cooperate?
+
+- The payoff difference is significant (4 vs 2 = 100% gain)
+- But the downside risk is severe (0 vs 2)
+- For Stag to be rational, I'd need P(partner cooperates) > 0.5
+
+## Reasoning
+
+Without explicit communication or prior agreement with the partner, and absent information suggesting they'll cooperate, **the rational choice under uncertainty is to hunt Hare**. This guarantees me a payoff of 2 rather than risking 0. The Stag hunt assumes coordination that may not materialize.
+
+However, if this is a repeated game or there are strong signals of mutual commitment, Stag becomes viable.
+
+**Given the scenario as presented with no prior agreement indicators:**
+
+DECISION: B",B,True,True,656,
+61c4054d,2026-06-27T01:51:36.552778,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,3,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"# Analysis of the Stag Hunt Dilemma
+
+Let me work through this strategically:
+
+## Payoff Matrix
+- **Both Hunt Stag**: 4 each (best outcome if both cooperate)
+- **Both Hunt Hare**: 2 each (safe, guaranteed)
+- **I hunt Stag, Partner hunts Hare**: 0 for me, 2 for them
+- **I hunt Hare, Partner hunts Stag**: 2 for me, 0 for them
+
+## Strategic Considerations
+
+**If I hunt Stag:**
+- Best case (partner also hunts Stag): I get 4
+- Worst case (partner hunts Hare): I get 0
+- Expected value depends entirely on my confidence in partner cooperation
+
+**If I hunt Hare:**
+- If partner hunts Stag: I get 2
+- If partner hunts Hare: I get 2
+- **Guaranteed payoff of 2 regardless of partner's choice**
+
+## Key Insight
+
+This is a **trust and coordination problem**. The Stag dominates strategically only if I'm sufficiently confident the other player will also hunt Stag. 
+
+**Critical question**: What's the probability my partner will cooperate?
+
+- The payoff difference is significant (4 vs 2 = 100% gain)
+- But the downside risk is severe (0 vs 2)
+- For Stag to be rational, I'd need P(partner cooperates) > 0.5
+
+## Reasoning
+
+Without explicit communication or prior agreement with the partner, and absent information suggesting they'll cooperate, **the rational choice under uncertainty is to hunt Hare**. This guarantees me a payoff of 2 rather than risking 0. The Stag hunt assumes coordination that may not materialize.
+
+However, if this is a repeated game or there are strong signals of mutual commitment, Stag becomes viable.
+
+**Given the scenario as presented with no prior agreement indicators:**
+
+DECISION: B",B,True,True,576,
+2ea392ce,2026-06-27T01:51:43.366842,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,0,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"Let me work through this systematically.
+
+**Understanding the Payoff Structure:**
+- Stag + Stag = +4 each (mutual cooperation)
+- Stag + Hare = 0 for me, +2 for them (I'm exploited)
+- Hare + Stag = +2 for me, 0 for them (they're exploited)
+- Hare + Hare = +2 each (mutual defection)
+
+**Analyzing My Options:**
+
+If I hunt Stag:
+- Best case (other hunts Stag): +4
+- Worst case (other hunts Hare): 0
+- Expected value depends on what I believe the other will do
+
+If I hunt Hare:
+- I get +2 regardless of what the other does
+- This is a guaranteed payoff
+
+**The Key Question: What will the other hunter do?**
+
+This is the classic Stag Hunt dilemma. The other hunter faces the exact same decision matrix:
+- They might reason: ""If I hunt Hare, I'm guaranteed +2""
+- They might also reason: ""If the other person hunts Stag and I hunt Hare, I get +2, but if we coordinate on Stag, we both get +4""
+
+**The Dilemma:**
+- Stag is efficient and rewarding IF both cooperate (+4 > +2)
+- But Stag is risky because if the other defects, I get 0 (worse than +2)
+- Hare is the safe strategy that guarantees +2
+
+**Rational Analysis:**
+Without communication or trust mechanisms, and given that:
+1. I cannot control the other's choice
+2. Hunting Stag is only good if the other also hunts Stag
+3. Hunting Hare guarantees a positive return
+
+The rational choice depends on my confidence in the other's cooperation. However, in a simultaneous game without prior coordination, each player has incentive to choose the safe option. If both reason this way, we both get +2.
+
+Paradoxically, mutual defection to Hare (+2 each) is the Nash Equilibrium, even though mutual cooperation on Stag (+4 each) is",A,True,True,699,
+fa689817,2026-06-27T01:51:45.303825,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,0,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"Let me work through this systematically.
+
+**Understanding the Payoff Structure:**
+- Stag + Stag = +4 each (mutual cooperation)
+- Stag + Hare = 0 for me, +2 for them (I'm exploited)
+- Hare + Stag = +2 for me, 0 for them (they're exploited)
+- Hare + Hare = +2 each (mutual defection)
+
+**Analyzing My Options:**
+
+If I hunt Stag:
+- Best case (other hunts Stag): +4
+- Worst case (other hunts Hare): 0
+- Expected value depends on what I believe the other will do
+
+If I hunt Hare:
+- I get +2 regardless of what the other does
+- This is a guaranteed payoff
+
+**The Key Question: What will the other hunter do?**
+
+This is the classic Stag Hunt dilemma. The other hunter faces the exact same decision matrix:
+- They might reason: ""If I hunt Hare, I'm guaranteed +2""
+- They might also reason: ""If the other person hunts Stag and I hunt Hare, I get +2, but if we coordinate on Stag, we both get +4""
+
+**The Dilemma:**
+- Stag is efficient and rewarding IF both cooperate (+4 > +2)
+- But Stag is risky because if the other defects, I get 0 (worse than +2)
+- Hare is the safe strategy that guarantees +2
+
+**Rational Analysis:**
+Without communication or trust mechanisms, and given that:
+1. I cannot control the other's choice
+2. Hunting Stag is only good if the other also hunts Stag
+3. Hunting Hare guarantees a positive return
+
+The rational choice depends on my confidence in the other's cooperation. However, in a simultaneous game without prior coordination, each player has incentive to choose the safe option. If both reason this way, we both get +2.
+
+Paradoxically, mutual defection to Hare (+2 each) is the Nash Equilibrium, even though mutual cooperation on Stag (+4 each) is",A,True,True,612,
+cbc545d8,2026-06-27T01:51:52.019957,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,4,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"Let me analyze this step-by-step.
+
+**Understanding the Payoffs:**
+- If both hunt Stag: I get 4, they get 4 (mutual cooperation, best collective outcome)
+- If I hunt Stag, they hunt Hare: I get 0, they get 2 (I lose)
+- If I hunt Hare, they hunt Stag: I get 2, they get 0 (I win slightly)
+- If both hunt Hare: I get 2, they get 2 (mutual safety)
+
+**Analyzing My Best Response to Each Possibility:**
+
+1. If the other hunter chooses Stag:
+   - My Stag choice yields: 4
+   - My Hare choice yields: 2
+   - Best response: Stag ✓
+
+2. If the other hunter chooses Hare:
+   - My Stag choice yields: 0
+   - My Hare choice yields: 2
+   - Best response: Hare ✓
+
+**Key Insight - The Cooperation Problem:**
+This is the classic ""Stag Hunt"" game. Stag is the mutually beneficial outcome (4,4), but it's risky because:
+- Stag requires both players to cooperate
+- If the other player defects to Hare, I get 0 (worst outcome)
+- Hare guarantees me 2 regardless of what they do (it's a safe minimum)
+
+**Rational Analysis:**
+Without communication or ability to enforce agreements, I must consider:
+- I have no way to guarantee the other player hunts Stag
+- If there's any doubt about their choice, hunting Stag is extremely risky (I could get 0)
+- Hunting Hare is a **dominant strategy** in terms of security - it guarantees 2
+- The other player faces identical incentives, so they likely reason the same way
+
+This creates a coordination failure where rational individual choices lead to a suboptimal collective outcome (2,2 instead of 4,4).
+
+**Decision:**
+Given the simultaneous nature with no prior agreement, the rational choice is the safe strategy that guarantees a reasonable payoff.
+
+DECISION: B",B,True,True,679,
+ec8c553a,2026-06-27T01:51:59.354164,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,2,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"# Strategic Analysis: Stag Hunt Dilemma
+
+Let me work through this systematically.
+
+## Understanding the Payoff Structure
+
+- **(Stag, Stag)**: Both hunt stag → 4 points each (best mutual outcome)
+- **(Hare, Hare)**: Both hunt hare → 2 points each (safe mutual outcome)
+- **(Stag, Hare)**: I hunt stag, other hunts hare → I get 0, they get 2
+- **(Hare, Stag)**: I hunt hare, other hunts stag → I get 2, they get 0
+
+## Key Considerations
+
+**If I hunt Stag:**
+- Best case (other also hunts stag): +4 points
+- Worst case (other hunts hare): 0 points
+- This depends entirely on the other player's choice
+
+**If I hunt Hare:**
+- If other hunts hare: +2 points
+- If other hunts stag: +2 points
+- Guaranteed minimum payoff regardless of other's choice
+
+## The Critical Question: What will the other player do?
+
+This is a coordination game with asymmetric risk. The dilemma centers on **trust and reliability**:
+
+- Hunting stag is only rational if I'm confident the other player will also hunt stag
+- If there's ANY meaningful probability the other player hunts hare (either by choice or accident), hunting stag becomes very risky
+- Hunting hare is a **dominant strategy in the sense of safety** - it guarantees 2 points no matter what
+
+## The Rational Approach
+
+Without additional information suggesting high coordination capability or trustworthiness:
+- The hare is the **maximin strategy** (maximizes my minimum guaranteed payoff)
+- It eliminates catastrophic downside (0 points) while still yielding a positive return
+- Hunting stag requires an assumption of mutual rationality and cooperation that may not hold
+
+This is why the stag hunt exemplifies the challenge of cooperation: even though (4,4) is Pareto superior to (2,2), the risk of unilateral defection makes the safe choice more attractive.
+
+**DECISION: B**",B,True,True,693,
+73bfc114,2026-06-27T01:52:01.386237,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,0,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"Let me work through this systematically.
+
+**Understanding the Payoff Structure:**
+- Stag + Stag = +4 each (mutual cooperation)
+- Stag + Hare = 0 for me, +2 for them (I'm exploited)
+- Hare + Stag = +2 for me, 0 for them (they're exploited)
+- Hare + Hare = +2 each (mutual defection)
+
+**Analyzing My Options:**
+
+If I hunt Stag:
+- Best case (other hunts Stag): +4
+- Worst case (other hunts Hare): 0
+- Expected value depends on what I believe the other will do
+
+If I hunt Hare:
+- I get +2 regardless of what the other does
+- This is a guaranteed payoff
+
+**The Key Question: What will the other hunter do?**
+
+This is the classic Stag Hunt dilemma. The other hunter faces the exact same decision matrix:
+- They might reason: ""If I hunt Hare, I'm guaranteed +2""
+- They might also reason: ""If the other person hunts Stag and I hunt Hare, I get +2, but if we coordinate on Stag, we both get +4""
+
+**The Dilemma:**
+- Stag is efficient and rewarding IF both cooperate (+4 > +2)
+- But Stag is risky because if the other defects, I get 0 (worse than +2)
+- Hare is the safe strategy that guarantees +2
+
+**Rational Analysis:**
+Without communication or trust mechanisms, and given that:
+1. I cannot control the other's choice
+2. Hunting Stag is only good if the other also hunts Stag
+3. Hunting Hare guarantees a positive return
+
+The rational choice depends on my confidence in the other's cooperation. However, in a simultaneous game without prior coordination, each player has incentive to choose the safe option. If both reason this way, we both get +2.
+
+Paradoxically, mutual defection to Hare (+2 each) is the Nash Equilibrium, even though mutual cooperation on Stag (+4 each) is",A,True,True,612,
+a7a926f4,2026-06-27T01:52:03.349556,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,2,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"# Strategic Analysis: Stag Hunt Dilemma
+
+Let me work through this systematically.
+
+## Understanding the Payoff Structure
+
+- **(Stag, Stag)**: Both hunt stag → 4 points each (best mutual outcome)
+- **(Hare, Hare)**: Both hunt hare → 2 points each (safe mutual outcome)
+- **(Stag, Hare)**: I hunt stag, other hunts hare → I get 0, they get 2
+- **(Hare, Stag)**: I hunt hare, other hunts stag → I get 2, they get 0
+
+## Key Considerations
+
+**If I hunt Stag:**
+- Best case (other also hunts stag): +4 points
+- Worst case (other hunts hare): 0 points
+- This depends entirely on the other player's choice
+
+**If I hunt Hare:**
+- If other hunts hare: +2 points
+- If other hunts stag: +2 points
+- Guaranteed minimum payoff regardless of other's choice
+
+## The Critical Question: What will the other player do?
+
+This is a coordination game with asymmetric risk. The dilemma centers on **trust and reliability**:
+
+- Hunting stag is only rational if I'm confident the other player will also hunt stag
+- If there's ANY meaningful probability the other player hunts hare (either by choice or accident), hunting stag becomes very risky
+- Hunting hare is a **dominant strategy in the sense of safety** - it guarantees 2 points no matter what
+
+## The Rational Approach
+
+Without additional information suggesting high coordination capability or trustworthiness:
+- The hare is the **maximin strategy** (maximizes my minimum guaranteed payoff)
+- It eliminates catastrophic downside (0 points) while still yielding a positive return
+- Hunting stag requires an assumption of mutual rationality and cooperation that may not hold
+
+This is why the stag hunt exemplifies the challenge of cooperation: even though (4,4) is Pareto superior to (2,2), the risk of unilateral defection makes the safe choice more attractive.
+
+**DECISION: B**",B,True,True,595,
+3b84d8f3,2026-06-27T01:52:05.938673,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,0,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"Let me work through this systematically.
+
+**Understanding the Payoff Structure:**
+- Stag + Stag = +4 each (mutual cooperation)
+- Stag + Hare = 0 for me, +2 for them (I'm exploited)
+- Hare + Stag = +2 for me, 0 for them (they're exploited)
+- Hare + Hare = +2 each (mutual defection)
+
+**Analyzing My Options:**
+
+If I hunt Stag:
+- Best case (other hunts Stag): +4
+- Worst case (other hunts Hare): 0
+- Expected value depends on what I believe the other will do
+
+If I hunt Hare:
+- I get +2 regardless of what the other does
+- This is a guaranteed payoff
+
+**The Key Question: What will the other hunter do?**
+
+This is the classic Stag Hunt dilemma. The other hunter faces the exact same decision matrix:
+- They might reason: ""If I hunt Hare, I'm guaranteed +2""
+- They might also reason: ""If the other person hunts Stag and I hunt Hare, I get +2, but if we coordinate on Stag, we both get +4""
+
+**The Dilemma:**
+- Stag is efficient and rewarding IF both cooperate (+4 > +2)
+- But Stag is risky because if the other defects, I get 0 (worse than +2)
+- Hare is the safe strategy that guarantees +2
+
+**Rational Analysis:**
+Without communication or trust mechanisms, and given that:
+1. I cannot control the other's choice
+2. Hunting Stag is only good if the other also hunts Stag
+3. Hunting Hare guarantees a positive return
+
+The rational choice depends on my confidence in the other's cooperation. However, in a simultaneous game without prior coordination, each player has incentive to choose the safe option. If both reason this way, we both get +2.
+
+Paradoxically, mutual defection to Hare (+2 each) is the Nash Equilibrium, even though mutual cooperation on Stag (+4 each) is",A,True,True,612,
+93b703df,2026-06-27T01:52:07.917476,protected.Claude-Haiku-4.5,stag_hunt,Stag Hunt,reasoning,2,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"# Strategic Analysis: Stag Hunt Dilemma
+
+Let me work through this systematically.
+
+## Understanding the Payoff Structure
+
+- **(Stag, Stag)**: Both hunt stag → 4 points each (best mutual outcome)
+- **(Hare, Hare)**: Both hunt hare → 2 points each (safe mutual outcome)
+- **(Stag, Hare)**: I hunt stag, other hunts hare → I get 0, they get 2
+- **(Hare, Stag)**: I hunt hare, other hunts stag → I get 2, they get 0
+
+## Key Considerations
+
+**If I hunt Stag:**
+- Best case (other also hunts stag): +4 points
+- Worst case (other hunts hare): 0 points
+- This depends entirely on the other player's choice
+
+**If I hunt Hare:**
+- If other hunts hare: +2 points
+- If other hunts stag: +2 points
+- Guaranteed minimum payoff regardless of other's choice
+
+## The Critical Question: What will the other player do?
+
+This is a coordination game with asymmetric risk. The dilemma centers on **trust and reliability**:
+
+- Hunting stag is only rational if I'm confident the other player will also hunt stag
+- If there's ANY meaningful probability the other player hunts hare (either by choice or accident), hunting stag becomes very risky
+- Hunting hare is a **dominant strategy in the sense of safety** - it guarantees 2 points no matter what
+
+## The Rational Approach
+
+Without additional information suggesting high coordination capability or trustworthiness:
+- The hare is the **maximin strategy** (maximizes my minimum guaranteed payoff)
+- It eliminates catastrophic downside (0 points) while still yielding a positive return
+- Hunting stag requires an assumption of mutual rationality and cooperation that may not hold
+
+This is why the stag hunt exemplifies the challenge of cooperation: even though (4,4) is Pareto superior to (2,2), the risk of unilateral defection makes the safe choice more attractive.
+
+**DECISION: B**",B,True,True,595,
+820e5fd2,2026-06-27T01:52:14.611296,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,2,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Let me think through this strategic situation carefully.
+
+**Understanding the Game:**
+- Value of resource (V) = 4
+- Cost of conflict (C) = 6
+- I need to choose between Hawk (aggressive) or Dove (passive)
+- The other player will also make a choice
+
+**Analyzing Each Scenario:**
+
+1. **If opponent plays Hawk:**
+   - If I play Hawk: I get -1 (we both pay the cost, split nothing)
+   - If I play Dove: I get 0 (I back down, get nothing)
+   - Better choice: Dove (0 > -1)
+
+2. **If opponent plays Dove:**
+   - If I play Hawk: I get +4 (I take the resource)
+   - If I play Dove: I get +2 (we share peacefully)
+   - Better choice: Hawk (+4 > +2)
+
+**Finding the Equilibrium:**
+
+This is a classic Hawk-Dove game. Let me check for a Nash equilibrium:
+
+- **If both play Hawk:** Each gets -1. Could either deviate to Dove and get 0? Yes! So this is not stable.
+- **If both play Dove:** Each gets +2. Could either deviate to Hawk and get +4? Yes! So this is not stable either.
+- **If I play Hawk, opponent plays Dove:** I get +4, they get 0. If opponent switches to Hawk, they'd get -1 (worse). If I'm the opponent playing Dove and you play Hawk, switching to Hawk gives me -1 instead of 0 (also worse). But wait—the opponent would prefer to switch since -1 > 0 is false... actually 0 > -1, so they wouldn't switch. However, from Dove I get 0, and switching to Hawk gives -1, which is worse.
+
+Actually, let me reconsider: there's no pure strategy Nash equilibrium here. In such games, a mixed strategy equilibrium typically exists.
+
+**Practical Reasoning:**
+
+However, since I must choose one strategy:
+- Hawk is risky (if both play Hawk, I get -1)
+- Dove guarantees at least ",A,True,True,712,
+63627cf2,2026-06-27T01:52:21.494051,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,4,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Let me analyze this game-theoretic scenario step by step.
+
+**Understanding the Payoff Matrix:**
+- If I play Hawk and other plays Hawk: I get -1
+- If I play Hawk and other plays Dove: I get +4
+- If I play Dove and other plays Hawk: I get 0
+- If I play Dove and other plays Dove: I get +2
+
+**Analysis of Each Strategy:**
+
+*If I choose Hawk:*
+- Best case (other plays Dove): +4
+- Worst case (other plays Hawk): -1
+- Expected value depends on what other player does
+
+*If I choose Dove:*
+- Best case (other plays Dove): +2
+- Worst case (other plays Hawk): 0
+- Expected value depends on what other player does
+
+**Finding the Nash Equilibrium:**
+
+Let me check if there's a dominant strategy or mixed strategy equilibrium.
+
+For me:
+- Against Hawk: Dove (0) > Hawk (-1) ✓ Dove is better
+- Against Dove: Hawk (4) > Dove (2) ✓ Hawk is better
+
+This shows there's no dominant strategy for me. The best response depends on what the other player does.
+
+By symmetry, the other player faces the same incentives:
+- Against my Hawk: they prefer Dove
+- Against my Dove: they prefer Hawk
+
+This is a classic ""Hawk-Dove"" game with no pure strategy Nash equilibrium. However, we can look for the mixed strategy equilibrium or consider what rational play looks like.
+
+**Strategic Reasoning:**
+
+Since both players prefer to exploit a passive opponent but fear mutual aggression, and given we're choosing simultaneously with incomplete information about the other player's choice:
+
+- Playing Dove guarantees at least 0 (safe floor)
+- Playing Hawk risks -1 but could get +4
+- The worst-case scenario for Hawk is worse than the worst-case for Dove
+
+Given the asymmetry in downside risk (I lose more from mutual Hawk play than mutual Dove play gains), and without information suggesting the other player will be Dove, the **safer strategic choice is Dove**.
+
+Dove also represents the more cooperative approach, and in iterated or",A,True,True,681,
+214b6cdd,2026-06-27T01:52:28.071946,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,1,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","# Strategic Analysis of the Food Contest
+
+Let me work through this game-theoretic scenario systematically.
+
+## Understanding the Payoff Matrix
+
+| Strategy | vs Hawk | vs Dove |
+|----------|---------|---------|
+| **Hawk** | -1 | +4 |
+| **Dove** | 0 | +2 |
+
+## Key Considerations
+
+**If I play Hawk:**
+- vs Hawk opponent: I get -1 (both injured, expected payoff negative)
+- vs Dove opponent: I get +4 (I win the resource)
+- Expected payoff depends on opponent's strategy
+
+**If I play Dove:**
+- vs Hawk opponent: I get 0 (I retreat, avoid injury)
+- vs Dove opponent: I get +2 (we share)
+- Expected payoff depends on opponent's strategy
+
+## Analyzing Equilibrium
+
+This is a classic **Hawk-Dove game**. The crucial question is: what will the opponent likely do?
+
+**If there's a pure strategy equilibrium:**
+- If everyone plays Hawk: Each gets -1 (collectively terrible; this is unstable)
+- If everyone plays Dove: Each gets +2 (stable, but vulnerable to Hawks)
+- If most play Dove and I play Hawk: I get +4 (exploitative)
+
+**This suggests a Mixed Strategy Equilibrium exists:**
+- In evolutionary stable strategy terms, there will be a mix of Hawks and Doves
+- The mixture stabilizes when no strategy dominates
+
+**Calculation of ESS:** At equilibrium, players should be indifferent between strategies:
+- Expected payoff from Hawk = Expected payoff from Dove
+- If probability p of meeting a Hawk: -1(p) + 4(1-p) = 0(p) + 2(1-p)
+- -p + 4 - 4p = 2 - 2p
+- 4 - 5p = 2 - 2p
+- p = 2/3
+
+This means at equilibrium, ~67% of the population should be Hawk and ~33% Dove.
+
+## My Decision
+
+Without information suggesting I face a predominantly Dove population, I should assume a **mixed population at",A,True,True,691,
+1a7caf78,2026-06-27T01:52:30.140746,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,1,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","# Strategic Analysis of the Food Contest
+
+Let me work through this game-theoretic scenario systematically.
+
+## Understanding the Payoff Matrix
+
+| Strategy | vs Hawk | vs Dove |
+|----------|---------|---------|
+| **Hawk** | -1 | +4 |
+| **Dove** | 0 | +2 |
+
+## Key Considerations
+
+**If I play Hawk:**
+- vs Hawk opponent: I get -1 (both injured, expected payoff negative)
+- vs Dove opponent: I get +4 (I win the resource)
+- Expected payoff depends on opponent's strategy
+
+**If I play Dove:**
+- vs Hawk opponent: I get 0 (I retreat, avoid injury)
+- vs Dove opponent: I get +2 (we share)
+- Expected payoff depends on opponent's strategy
+
+## Analyzing Equilibrium
+
+This is a classic **Hawk-Dove game**. The crucial question is: what will the opponent likely do?
+
+**If there's a pure strategy equilibrium:**
+- If everyone plays Hawk: Each gets -1 (collectively terrible; this is unstable)
+- If everyone plays Dove: Each gets +2 (stable, but vulnerable to Hawks)
+- If most play Dove and I play Hawk: I get +4 (exploitative)
+
+**This suggests a Mixed Strategy Equilibrium exists:**
+- In evolutionary stable strategy terms, there will be a mix of Hawks and Doves
+- The mixture stabilizes when no strategy dominates
+
+**Calculation of ESS:** At equilibrium, players should be indifferent between strategies:
+- Expected payoff from Hawk = Expected payoff from Dove
+- If probability p of meeting a Hawk: -1(p) + 4(1-p) = 0(p) + 2(1-p)
+- -p + 4 - 4p = 2 - 2p
+- 4 - 5p = 2 - 2p
+- p = 2/3
+
+This means at equilibrium, ~67% of the population should be Hawk and ~33% Dove.
+
+## My Decision
+
+Without information suggesting I face a predominantly Dove population, I should assume a **mixed population at",A,True,True,613,
+784c892a,2026-06-27T01:52:32.130721,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,1,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","# Strategic Analysis of the Food Contest
+
+Let me work through this game-theoretic scenario systematically.
+
+## Understanding the Payoff Matrix
+
+| Strategy | vs Hawk | vs Dove |
+|----------|---------|---------|
+| **Hawk** | -1 | +4 |
+| **Dove** | 0 | +2 |
+
+## Key Considerations
+
+**If I play Hawk:**
+- vs Hawk opponent: I get -1 (both injured, expected payoff negative)
+- vs Dove opponent: I get +4 (I win the resource)
+- Expected payoff depends on opponent's strategy
+
+**If I play Dove:**
+- vs Hawk opponent: I get 0 (I retreat, avoid injury)
+- vs Dove opponent: I get +2 (we share)
+- Expected payoff depends on opponent's strategy
+
+## Analyzing Equilibrium
+
+This is a classic **Hawk-Dove game**. The crucial question is: what will the opponent likely do?
+
+**If there's a pure strategy equilibrium:**
+- If everyone plays Hawk: Each gets -1 (collectively terrible; this is unstable)
+- If everyone plays Dove: Each gets +2 (stable, but vulnerable to Hawks)
+- If most play Dove and I play Hawk: I get +4 (exploitative)
+
+**This suggests a Mixed Strategy Equilibrium exists:**
+- In evolutionary stable strategy terms, there will be a mix of Hawks and Doves
+- The mixture stabilizes when no strategy dominates
+
+**Calculation of ESS:** At equilibrium, players should be indifferent between strategies:
+- Expected payoff from Hawk = Expected payoff from Dove
+- If probability p of meeting a Hawk: -1(p) + 4(1-p) = 0(p) + 2(1-p)
+- -p + 4 - 4p = 2 - 2p
+- 4 - 5p = 2 - 2p
+- p = 2/3
+
+This means at equilibrium, ~67% of the population should be Hawk and ~33% Dove.
+
+## My Decision
+
+Without information suggesting I face a predominantly Dove population, I should assume a **mixed population at",A,True,True,613,
+9941556b,2026-06-27T01:52:34.133423,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,1,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","# Strategic Analysis of the Food Contest
+
+Let me work through this game-theoretic scenario systematically.
+
+## Understanding the Payoff Matrix
+
+| Strategy | vs Hawk | vs Dove |
+|----------|---------|---------|
+| **Hawk** | -1 | +4 |
+| **Dove** | 0 | +2 |
+
+## Key Considerations
+
+**If I play Hawk:**
+- vs Hawk opponent: I get -1 (both injured, expected payoff negative)
+- vs Dove opponent: I get +4 (I win the resource)
+- Expected payoff depends on opponent's strategy
+
+**If I play Dove:**
+- vs Hawk opponent: I get 0 (I retreat, avoid injury)
+- vs Dove opponent: I get +2 (we share)
+- Expected payoff depends on opponent's strategy
+
+## Analyzing Equilibrium
+
+This is a classic **Hawk-Dove game**. The crucial question is: what will the opponent likely do?
+
+**If there's a pure strategy equilibrium:**
+- If everyone plays Hawk: Each gets -1 (collectively terrible; this is unstable)
+- If everyone plays Dove: Each gets +2 (stable, but vulnerable to Hawks)
+- If most play Dove and I play Hawk: I get +4 (exploitative)
+
+**This suggests a Mixed Strategy Equilibrium exists:**
+- In evolutionary stable strategy terms, there will be a mix of Hawks and Doves
+- The mixture stabilizes when no strategy dominates
+
+**Calculation of ESS:** At equilibrium, players should be indifferent between strategies:
+- Expected payoff from Hawk = Expected payoff from Dove
+- If probability p of meeting a Hawk: -1(p) + 4(1-p) = 0(p) + 2(1-p)
+- -p + 4 - 4p = 2 - 2p
+- 4 - 5p = 2 - 2p
+- p = 2/3
+
+This means at equilibrium, ~67% of the population should be Hawk and ~33% Dove.
+
+## My Decision
+
+Without information suggesting I face a predominantly Dove population, I should assume a **mixed population at",A,True,True,613,
+28b57338,2026-06-27T01:52:40.496650,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,0,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","I need to analyze this game strategically by considering what the other player might do.
+
+**Step 1: Identify the payoff matrix**
+
+|  | Other plays Hawk | Other plays Dove |
+|---|---|---|
+| I play Hawk | -1 | +4 |
+| I play Dove | 0 | +2 |
+
+**Step 2: Analyze pure strategy considerations**
+
+If the other player plays Hawk:
+- I get -1 if I play Hawk
+- I get 0 if I play Dove
+- **Better to play Dove** (0 > -1)
+
+If the other player plays Dove:
+- I get +4 if I play Hawk
+- I get +2 if I play Dove
+- **Better to play Hawk** (+4 > +2)
+
+**Step 3: Recognize this is a classic Hawk-Dove game**
+
+This is a symmetric game where there's no dominant strategy. Neither ""always Hawk"" nor ""always Dove"" is universally best. This suggests:
+- A mixed strategy equilibrium likely exists
+- Or there's an evolutionary stable strategy
+
+**Step 4: Evaluate the Nash Equilibrium**
+
+In this game, a mixed strategy equilibrium exists where players randomize. However, let me also check for a pure strategy equilibrium:
+- (Hawk, Hawk) is not stable - both want to switch to Dove given the other plays Hawk
+- (Dove, Dove) is not stable - both want to switch to Hawk given the other plays Dove
+- (Hawk, Dove) and (Dove, Hawk) are asymmetric
+
+**Step 5: Consider practical decision-making**
+
+Given the structure:
+- Playing Dove guarantees at least 0 (worst case if other plays Hawk)
+- Playing Hawk risks -1 (worst case if other plays Hawk)
+- The downside risk of Hawk (-1) is significant relative to the upside (+4)
+
+In a one-shot game with an unknown opponent, the safer strategy is Dove because:
+1. It minimizes downside risk (-1 vs 0)
+2. If both play rationally, (Dove, Dove) yielding +2 each is",A,True,True,712,
+9b84ddc5,2026-06-27T01:52:43.063995,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,2,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Let me think through this strategic situation carefully.
+
+**Understanding the Game:**
+- Value of resource (V) = 4
+- Cost of conflict (C) = 6
+- I need to choose between Hawk (aggressive) or Dove (passive)
+- The other player will also make a choice
+
+**Analyzing Each Scenario:**
+
+1. **If opponent plays Hawk:**
+   - If I play Hawk: I get -1 (we both pay the cost, split nothing)
+   - If I play Dove: I get 0 (I back down, get nothing)
+   - Better choice: Dove (0 > -1)
+
+2. **If opponent plays Dove:**
+   - If I play Hawk: I get +4 (I take the resource)
+   - If I play Dove: I get +2 (we share peacefully)
+   - Better choice: Hawk (+4 > +2)
+
+**Finding the Equilibrium:**
+
+This is a classic Hawk-Dove game. Let me check for a Nash equilibrium:
+
+- **If both play Hawk:** Each gets -1. Could either deviate to Dove and get 0? Yes! So this is not stable.
+- **If both play Dove:** Each gets +2. Could either deviate to Hawk and get +4? Yes! So this is not stable either.
+- **If I play Hawk, opponent plays Dove:** I get +4, they get 0. If opponent switches to Hawk, they'd get -1 (worse). If I'm the opponent playing Dove and you play Hawk, switching to Hawk gives me -1 instead of 0 (also worse). But wait—the opponent would prefer to switch since -1 > 0 is false... actually 0 > -1, so they wouldn't switch. However, from Dove I get 0, and switching to Hawk gives -1, which is worse.
+
+Actually, let me reconsider: there's no pure strategy Nash equilibrium here. In such games, a mixed strategy equilibrium typically exists.
+
+**Practical Reasoning:**
+
+However, since I must choose one strategy:
+- Hawk is risky (if both play Hawk, I get -1)
+- Dove guarantees at least ",A,True,True,631,
+dbb2e267,2026-06-27T01:52:45.619136,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,0,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","I need to analyze this game strategically by considering what the other player might do.
+
+**Step 1: Identify the payoff matrix**
+
+|  | Other plays Hawk | Other plays Dove |
+|---|---|---|
+| I play Hawk | -1 | +4 |
+| I play Dove | 0 | +2 |
+
+**Step 2: Analyze pure strategy considerations**
+
+If the other player plays Hawk:
+- I get -1 if I play Hawk
+- I get 0 if I play Dove
+- **Better to play Dove** (0 > -1)
+
+If the other player plays Dove:
+- I get +4 if I play Hawk
+- I get +2 if I play Dove
+- **Better to play Hawk** (+4 > +2)
+
+**Step 3: Recognize this is a classic Hawk-Dove game**
+
+This is a symmetric game where there's no dominant strategy. Neither ""always Hawk"" nor ""always Dove"" is universally best. This suggests:
+- A mixed strategy equilibrium likely exists
+- Or there's an evolutionary stable strategy
+
+**Step 4: Evaluate the Nash Equilibrium**
+
+In this game, a mixed strategy equilibrium exists where players randomize. However, let me also check for a pure strategy equilibrium:
+- (Hawk, Hawk) is not stable - both want to switch to Dove given the other plays Hawk
+- (Dove, Dove) is not stable - both want to switch to Hawk given the other plays Dove
+- (Hawk, Dove) and (Dove, Hawk) are asymmetric
+
+**Step 5: Consider practical decision-making**
+
+Given the structure:
+- Playing Dove guarantees at least 0 (worst case if other plays Hawk)
+- Playing Hawk risks -1 (worst case if other plays Hawk)
+- The downside risk of Hawk (-1) is significant relative to the upside (+4)
+
+In a one-shot game with an unknown opponent, the safer strategy is Dove because:
+1. It minimizes downside risk (-1 vs 0)
+2. If both play rationally, (Dove, Dove) yielding +2 each is",A,True,True,615,
+76b3fcae,2026-06-27T01:52:47.692071,protected.Claude-Haiku-4.5,hawk_dove,Hawk-Dove,reasoning,2,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Let me think through this strategic situation carefully.
+
+**Understanding the Game:**
+- Value of resource (V) = 4
+- Cost of conflict (C) = 6
+- I need to choose between Hawk (aggressive) or Dove (passive)
+- The other player will also make a choice
+
+**Analyzing Each Scenario:**
+
+1. **If opponent plays Hawk:**
+   - If I play Hawk: I get -1 (we both pay the cost, split nothing)
+   - If I play Dove: I get 0 (I back down, get nothing)
+   - Better choice: Dove (0 > -1)
+
+2. **If opponent plays Dove:**
+   - If I play Hawk: I get +4 (I take the resource)
+   - If I play Dove: I get +2 (we share peacefully)
+   - Better choice: Hawk (+4 > +2)
+
+**Finding the Equilibrium:**
+
+This is a classic Hawk-Dove game. Let me check for a Nash equilibrium:
+
+- **If both play Hawk:** Each gets -1. Could either deviate to Dove and get 0? Yes! So this is not stable.
+- **If both play Dove:** Each gets +2. Could either deviate to Hawk and get +4? Yes! So this is not stable either.
+- **If I play Hawk, opponent plays Dove:** I get +4, they get 0. If opponent switches to Hawk, they'd get -1 (worse). If I'm the opponent playing Dove and you play Hawk, switching to Hawk gives me -1 instead of 0 (also worse). But wait—the opponent would prefer to switch since -1 > 0 is false... actually 0 > -1, so they wouldn't switch. However, from Dove I get 0, and switching to Hawk gives -1, which is worse.
+
+Actually, let me reconsider: there's no pure strategy Nash equilibrium here. In such games, a mixed strategy equilibrium typically exists.
+
+**Practical Reasoning:**
+
+However, since I must choose one strategy:
+- Hawk is risky (if both play Hawk, I get -1)
+- Dove guarantees at least ",A,True,True,631,
+8c921799,2026-06-27T01:52:53.822190,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,1,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this strictly competitive game where my opponent's payoff is exactly opposite to mine.
+
+Let me first clarify the payoff matrix from my perspective:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  +3   |  -1   |
+| Row 2  |  -2   |  +4   |
+
+Since this is strictly competitive, my opponent has the opposite payoffs:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  -3   |  +1   |
+| Row 2  |  +2   |  -4   |
+
+**Analysis:**
+
+In a strictly competitive game with simultaneous moves, I should look for a mixed strategy Nash equilibrium or analyze each pure strategy.
+
+Let me check each row:
+- **Row 1**: Best case +3 (vs Col 1), worst case -1 (vs Col 2)
+- **Row 2**: Best case +4 (vs Col 2), worst case -2 (vs Col 1)
+
+**Minimax Analysis:**
+- If I play Row 1: My minimum payoff is -1 (if opponent plays Col 2)
+- If I play Row 2: My minimum payoff is -2 (if opponent plays Col 1)
+
+Row 1 guarantees me at least -1, while Row 2 guarantees only -2. So Row 1 is safer.
+
+**Opponent's Perspective (to anticipate their move):**
+- If opponent plays Col 1: They get -3 with Row 1, or +2 with Row 2. They prefer Row 2.
+- If opponent plays Col 2: They get +1 with Row 1, or -4 with Row 2. They prefer Row 1.
+
+The opponent faces uncertainty too. Their minimax is:
+- Col 1 guarantees them minimum of -3
+- Col 2 guarantees them minimum of -4
+
+So the opponent would prefer Col 1 (losing only -3 at worst).
+
+If I anticipate the opponent plays Col 1, then Row 1 gives me +3 and Row 2",A,True,True,699,
+044ff606,2026-06-27T01:52:59.962018,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,0,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this zero-sum game where the column player chooses simultaneously with me.
+
+**Step 1: Understand the payoff matrix**
+- If I play Row 1 and opponent plays Col 1: I get +3
+- If I play Row 1 and opponent plays Col 2: I get -1
+- If I play Row 2 and opponent plays Col 1: I get -2
+- If I play Row 2 and opponent plays Col 2: I get +4
+
+**Step 2: Analyze the opponent's perspective**
+Since this is zero-sum, the opponent's payoffs are the negatives of mine:
+- Col 1 gives opponent: -3, +2 (depending on my row)
+- Col 2 gives opponent: +1, -4 (depending on my row)
+
+The opponent will reason about which column minimizes my payoff (maximizes theirs):
+- If I play Row 1: opponent prefers Col 2 (giving me -1 vs +3)
+- If I play Row 2: opponent prefers Col 1 (giving me -2 vs +4)
+
+**Step 3: Find the minimax strategy**
+I should assume the opponent plays optimally against whatever I choose:
+- If I play Row 1: opponent plays Col 2, I get -1
+- If I play Row 2: opponent plays Col 1, I get -2
+
+Comparing: -1 > -2, so Row 1 gives me a better worst-case outcome.
+
+**Step 4: Verify with mixed strategy logic**
+Let me check if there's a Nash equilibrium. Looking at best responses:
+- My best response to Col 1: Row 1 (+3 > -2)
+- My best response to Col 2: Row 2 (+4 > -1)
+- Opponent's best response to Row 1: Col 2 (+1 > -3)
+- Opponent's best response to Row 2: Col 1 (+2 > -4)
+
+There's no pure strategy Nash equilibrium. However, using the minimax criterion (rational when opponent is strategic), Row 1 guarantees me -1 in the worst case, while Row 2 guarantees only",A,True,True,686,
+3ff5c877,2026-06-27T01:53:06.154125,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,4,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this two-player zero-sum game strategically.
+
+**Understanding the Setup:**
+- I choose between Row 1 or Row 2
+- Opponent simultaneously chooses between Column 1 or Column 2
+- My payoffs are shown; opponent gets the negative
+- This is a simultaneous game (no information about opponent's choice before I decide)
+
+**Analyzing Each Strategy:**
+
+**Row 1 Analysis:**
+- If opponent plays Col 1: I get +3
+- If opponent plays Col 2: I get -1
+- Worst case: -1, Best case: +3
+
+**Row 2 Analysis:**
+- If opponent plays Col 1: I get -2
+- If opponent plays Col 2: I get +4
+- Worst case: -2, Best case: +4
+
+**Finding the Mixed Strategy Equilibrium:**
+
+Since this is a zero-sum game, I should check if there's a dominant strategy or mixed strategy Nash equilibrium.
+
+Let me check for dominance:
+- Row 1 vs Row 2: Row 1 gives +3 vs -2 when opponent plays Col 1 (Row 1 better). Row 1 gives -1 vs +4 when opponent plays Col 2 (Row 2 better). No dominant strategy for me.
+
+**Minimax Analysis (Standard approach for zero-sum games):**
+
+The opponent wants to minimize my payoff (equivalently, maximize theirs).
+
+If opponent expects me to play Row 1, they'll choose Col 2 (giving me -1).
+If opponent expects me to play Row 2, they'll choose Col 1 (giving me -2).
+
+Let me find the mixed strategy equilibrium where opponent is indifferent:
+- If I play Row 1 with probability p and Row 2 with probability (1-p)
+- Opponent should be indifferent between Col 1 and Col 2
+- Expected payoff from Col 1: 3p + (-2)(1-p) = 3p - 2 + 2p = 5p - 2
+- Expected payoff from Col 2: -p + 4(1-p) = -p + 4 - 4p = 4 -",A,True,True,686,
+35f6bb5b,2026-06-27T01:53:08.167168,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,0,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this zero-sum game where the column player chooses simultaneously with me.
+
+**Step 1: Understand the payoff matrix**
+- If I play Row 1 and opponent plays Col 1: I get +3
+- If I play Row 1 and opponent plays Col 2: I get -1
+- If I play Row 2 and opponent plays Col 1: I get -2
+- If I play Row 2 and opponent plays Col 2: I get +4
+
+**Step 2: Analyze the opponent's perspective**
+Since this is zero-sum, the opponent's payoffs are the negatives of mine:
+- Col 1 gives opponent: -3, +2 (depending on my row)
+- Col 2 gives opponent: +1, -4 (depending on my row)
+
+The opponent will reason about which column minimizes my payoff (maximizes theirs):
+- If I play Row 1: opponent prefers Col 2 (giving me -1 vs +3)
+- If I play Row 2: opponent prefers Col 1 (giving me -2 vs +4)
+
+**Step 3: Find the minimax strategy**
+I should assume the opponent plays optimally against whatever I choose:
+- If I play Row 1: opponent plays Col 2, I get -1
+- If I play Row 2: opponent plays Col 1, I get -2
+
+Comparing: -1 > -2, so Row 1 gives me a better worst-case outcome.
+
+**Step 4: Verify with mixed strategy logic**
+Let me check if there's a Nash equilibrium. Looking at best responses:
+- My best response to Col 1: Row 1 (+3 > -2)
+- My best response to Col 2: Row 2 (+4 > -1)
+- Opponent's best response to Row 1: Col 2 (+1 > -3)
+- Opponent's best response to Row 2: Col 1 (+2 > -4)
+
+There's no pure strategy Nash equilibrium. However, using the minimax criterion (rational when opponent is strategic), Row 1 guarantees me -1 in the worst case, while Row 2 guarantees only",A,True,True,626,
+895f145e,2026-06-27T01:53:10.150885,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,1,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this strictly competitive game where my opponent's payoff is exactly opposite to mine.
+
+Let me first clarify the payoff matrix from my perspective:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  +3   |  -1   |
+| Row 2  |  -2   |  +4   |
+
+Since this is strictly competitive, my opponent has the opposite payoffs:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  -3   |  +1   |
+| Row 2  |  +2   |  -4   |
+
+**Analysis:**
+
+In a strictly competitive game with simultaneous moves, I should look for a mixed strategy Nash equilibrium or analyze each pure strategy.
+
+Let me check each row:
+- **Row 1**: Best case +3 (vs Col 1), worst case -1 (vs Col 2)
+- **Row 2**: Best case +4 (vs Col 2), worst case -2 (vs Col 1)
+
+**Minimax Analysis:**
+- If I play Row 1: My minimum payoff is -1 (if opponent plays Col 2)
+- If I play Row 2: My minimum payoff is -2 (if opponent plays Col 1)
+
+Row 1 guarantees me at least -1, while Row 2 guarantees only -2. So Row 1 is safer.
+
+**Opponent's Perspective (to anticipate their move):**
+- If opponent plays Col 1: They get -3 with Row 1, or +2 with Row 2. They prefer Row 2.
+- If opponent plays Col 2: They get +1 with Row 1, or -4 with Row 2. They prefer Row 1.
+
+The opponent faces uncertainty too. Their minimax is:
+- Col 1 guarantees them minimum of -3
+- Col 2 guarantees them minimum of -4
+
+So the opponent would prefer Col 1 (losing only -3 at worst).
+
+If I anticipate the opponent plays Col 1, then Row 1 gives me +3 and Row 2",A,True,True,632,
+a575f295,2026-06-27T01:53:12.842506,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,1,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this strictly competitive game where my opponent's payoff is exactly opposite to mine.
+
+Let me first clarify the payoff matrix from my perspective:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  +3   |  -1   |
+| Row 2  |  -2   |  +4   |
+
+Since this is strictly competitive, my opponent has the opposite payoffs:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  -3   |  +1   |
+| Row 2  |  +2   |  -4   |
+
+**Analysis:**
+
+In a strictly competitive game with simultaneous moves, I should look for a mixed strategy Nash equilibrium or analyze each pure strategy.
+
+Let me check each row:
+- **Row 1**: Best case +3 (vs Col 1), worst case -1 (vs Col 2)
+- **Row 2**: Best case +4 (vs Col 2), worst case -2 (vs Col 1)
+
+**Minimax Analysis:**
+- If I play Row 1: My minimum payoff is -1 (if opponent plays Col 2)
+- If I play Row 2: My minimum payoff is -2 (if opponent plays Col 1)
+
+Row 1 guarantees me at least -1, while Row 2 guarantees only -2. So Row 1 is safer.
+
+**Opponent's Perspective (to anticipate their move):**
+- If opponent plays Col 1: They get -3 with Row 1, or +2 with Row 2. They prefer Row 2.
+- If opponent plays Col 2: They get +1 with Row 1, or -4 with Row 2. They prefer Row 1.
+
+The opponent faces uncertainty too. Their minimax is:
+- Col 1 guarantees them minimum of -3
+- Col 2 guarantees them minimum of -4
+
+So the opponent would prefer Col 1 (losing only -3 at worst).
+
+If I anticipate the opponent plays Col 1, then Row 1 gives me +3 and Row 2",A,True,True,632,
+b2c1c034,2026-06-27T01:53:14.797228,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,1,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this strictly competitive game where my opponent's payoff is exactly opposite to mine.
+
+Let me first clarify the payoff matrix from my perspective:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  +3   |  -1   |
+| Row 2  |  -2   |  +4   |
+
+Since this is strictly competitive, my opponent has the opposite payoffs:
+
+|        | Col 1 | Col 2 |
+|--------|-------|-------|
+| Row 1  |  -3   |  +1   |
+| Row 2  |  +2   |  -4   |
+
+**Analysis:**
+
+In a strictly competitive game with simultaneous moves, I should look for a mixed strategy Nash equilibrium or analyze each pure strategy.
+
+Let me check each row:
+- **Row 1**: Best case +3 (vs Col 1), worst case -1 (vs Col 2)
+- **Row 2**: Best case +4 (vs Col 2), worst case -2 (vs Col 1)
+
+**Minimax Analysis:**
+- If I play Row 1: My minimum payoff is -1 (if opponent plays Col 2)
+- If I play Row 2: My minimum payoff is -2 (if opponent plays Col 1)
+
+Row 1 guarantees me at least -1, while Row 2 guarantees only -2. So Row 1 is safer.
+
+**Opponent's Perspective (to anticipate their move):**
+- If opponent plays Col 1: They get -3 with Row 1, or +2 with Row 2. They prefer Row 2.
+- If opponent plays Col 2: They get +1 with Row 1, or -4 with Row 2. They prefer Row 1.
+
+The opponent faces uncertainty too. Their minimax is:
+- Col 1 guarantees them minimum of -3
+- Col 2 guarantees them minimum of -4
+
+So the opponent would prefer Col 1 (losing only -3 at worst).
+
+If I anticipate the opponent plays Col 1, then Row 1 gives me +3 and Row 2",A,True,True,632,
+526e5455,2026-06-27T01:53:16.793495,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,0,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this zero-sum game where the column player chooses simultaneously with me.
+
+**Step 1: Understand the payoff matrix**
+- If I play Row 1 and opponent plays Col 1: I get +3
+- If I play Row 1 and opponent plays Col 2: I get -1
+- If I play Row 2 and opponent plays Col 1: I get -2
+- If I play Row 2 and opponent plays Col 2: I get +4
+
+**Step 2: Analyze the opponent's perspective**
+Since this is zero-sum, the opponent's payoffs are the negatives of mine:
+- Col 1 gives opponent: -3, +2 (depending on my row)
+- Col 2 gives opponent: +1, -4 (depending on my row)
+
+The opponent will reason about which column minimizes my payoff (maximizes theirs):
+- If I play Row 1: opponent prefers Col 2 (giving me -1 vs +3)
+- If I play Row 2: opponent prefers Col 1 (giving me -2 vs +4)
+
+**Step 3: Find the minimax strategy**
+I should assume the opponent plays optimally against whatever I choose:
+- If I play Row 1: opponent plays Col 2, I get -1
+- If I play Row 2: opponent plays Col 1, I get -2
+
+Comparing: -1 > -2, so Row 1 gives me a better worst-case outcome.
+
+**Step 4: Verify with mixed strategy logic**
+Let me check if there's a Nash equilibrium. Looking at best responses:
+- My best response to Col 1: Row 1 (+3 > -2)
+- My best response to Col 2: Row 2 (+4 > -1)
+- Opponent's best response to Row 1: Col 2 (+1 > -3)
+- Opponent's best response to Row 2: Col 1 (+2 > -4)
+
+There's no pure strategy Nash equilibrium. However, using the minimax criterion (rational when opponent is strategic), Row 1 guarantees me -1 in the worst case, while Row 2 guarantees only",A,True,True,626,
+d496d6e9,2026-06-27T01:53:22.950975,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,3,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this pure conflict game where my payoffs are exactly opposite to my opponent's payoffs.
+
+Let me first understand the payoff matrix from my perspective:
+- Row 1, Column 1: +3 (I win 3, opponent loses 3)
+- Row 1, Column 2: -1 (I lose 1, opponent wins 1)
+- Row 2, Column 1: -2 (I lose 2, opponent wins 2)
+- Row 2, Column 2: +4 (I win 4, opponent loses 4)
+
+**Analyzing Row 1:**
+- Best case: +3 (if opponent chooses C1)
+- Worst case: -1 (if opponent chooses C2)
+- My worst-case payoff: -1
+
+**Analyzing Row 2:**
+- Best case: +4 (if opponent chooses C2)
+- Worst case: -2 (if opponent chooses C1)
+- My worst-case payoff: -2
+
+**Maximin Strategy (conservative approach):**
+I should maximize my minimum guaranteed payoff:
+- Row 1 guarantees at least -1
+- Row 2 guarantees at least -2
+
+Row 1 is safer with a worst-case of -1 versus -2.
+
+**Now consider the opponent's perspective** (their payoffs are my negatives):
+From their view:
+- C1: If I choose R1, they get -3; if I choose R2, they get +2
+- C2: If I choose R1, they get +1; if I choose R2, they get -4
+
+The opponent's maximin strategy:
+- Column 1 guarantees them at least -3 (if they play C1)
+- Column 2 guarantees them at least -4 (if they play C2)
+
+The opponent would prefer C1 (worst case -3 is better than worst case -4).
+
+**Rational play under mutual maximin strategies:**
+If the opponent plays C1 (their maximin choice), and I play R1 (my maximin choice), the outcome is R1C1 = +3 for me.
+
+This is the Nash equilibrium in maximin strategies, yiel",A,True,True,680,
+992d6c94,2026-06-27T01:53:25.044394,protected.Claude-Haiku-4.5,zero_sum_matching,Zero-Sum Matching,reasoning,0,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"I need to analyze this zero-sum game where the column player chooses simultaneously with me.
+
+**Step 1: Understand the payoff matrix**
+- If I play Row 1 and opponent plays Col 1: I get +3
+- If I play Row 1 and opponent plays Col 2: I get -1
+- If I play Row 2 and opponent plays Col 1: I get -2
+- If I play Row 2 and opponent plays Col 2: I get +4
+
+**Step 2: Analyze the opponent's perspective**
+Since this is zero-sum, the opponent's payoffs are the negatives of mine:
+- Col 1 gives opponent: -3, +2 (depending on my row)
+- Col 2 gives opponent: +1, -4 (depending on my row)
+
+The opponent will reason about which column minimizes my payoff (maximizes theirs):
+- If I play Row 1: opponent prefers Col 2 (giving me -1 vs +3)
+- If I play Row 2: opponent prefers Col 1 (giving me -2 vs +4)
+
+**Step 3: Find the minimax strategy**
+I should assume the opponent plays optimally against whatever I choose:
+- If I play Row 1: opponent plays Col 2, I get -1
+- If I play Row 2: opponent plays Col 1, I get -2
+
+Comparing: -1 > -2, so Row 1 gives me a better worst-case outcome.
+
+**Step 4: Verify with mixed strategy logic**
+Let me check if there's a Nash equilibrium. Looking at best responses:
+- My best response to Col 1: Row 1 (+3 > -2)
+- My best response to Col 2: Row 2 (+4 > -1)
+- Opponent's best response to Row 1: Col 2 (+1 > -3)
+- Opponent's best response to Row 2: Col 1 (+2 > -4)
+
+There's no pure strategy Nash equilibrium. However, using the minimax criterion (rational when opponent is strategic), Row 1 guarantees me -1 in the worst case, while Row 2 guarantees only",A,True,True,626,
+6862b9a9,2026-06-27T01:53:31.560702,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,1,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"I'll work through this game-theoretically, analyzing what happens with each choice.
+
+**Understanding the Payoff Structure:**
+- Both travelers receive: min(claim₁, claim₂)
+- Undercutter (lower claim) gets: +2 bonus
+- Overclaimer (higher claim) gets: -2 penalty
+- If claims are equal, both get that amount with no bonus/penalty
+
+**Analyzing Each Option:**
+
+Let me consider what I receive under different scenarios for each of my claims:
+
+**If I claim $2:**
+- If opponent claims ≥$2: I get $2 + $2 bonus = $4
+- Best case: $4
+- Worst case: $4
+- This is the safest floor
+
+**If I claim $25:**
+- If opponent claims $2: I get $2 - $2 penalty = $0
+- If opponent claims $25: I get $25 (no bonus/penalty)
+- If opponent claims >$25: I get $25 + $2 = $27
+
+**If I claim $50:**
+- Similar structure: vulnerable to being outbid downward
+
+**If I claim $75:**
+- If opponent claims $2: I get $2 - $2 = $0 (terrible)
+
+**If I claim $99:**
+- If opponent claims $2: I get $2 - $2 = $0 (worst possible)
+
+**Strategic Analysis:**
+
+This game has a race-to-the-bottom dynamic. The undercutter advantage (+2) incentivizes lowering claims. However, there's a lower bound at $2.
+
+Key insight: If both players are rational and strategic:
+- Claiming anything above $2 is risky because the opponent can claim $2 and get $2 + $2 = $4, while I get $2 - $2 = $0
+- The dominant strategy is to claim the minimum ($2)
+
+At the Nash equilibrium where both claim $2:
+- Both receive $2
+- No bonus/penalty applies since claims are equal
+- Both get $2
+
+Any deviation from $2 where the opponent stays at $2 results in me getting $0, which is worse.
+
+**Conclusion:**
+
+The rational choice is to claim",A,True,True,697,
+80898bf5,2026-06-27T01:53:33.524075,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,1,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"I'll work through this game-theoretically, analyzing what happens with each choice.
+
+**Understanding the Payoff Structure:**
+- Both travelers receive: min(claim₁, claim₂)
+- Undercutter (lower claim) gets: +2 bonus
+- Overclaimer (higher claim) gets: -2 penalty
+- If claims are equal, both get that amount with no bonus/penalty
+
+**Analyzing Each Option:**
+
+Let me consider what I receive under different scenarios for each of my claims:
+
+**If I claim $2:**
+- If opponent claims ≥$2: I get $2 + $2 bonus = $4
+- Best case: $4
+- Worst case: $4
+- This is the safest floor
+
+**If I claim $25:**
+- If opponent claims $2: I get $2 - $2 penalty = $0
+- If opponent claims $25: I get $25 (no bonus/penalty)
+- If opponent claims >$25: I get $25 + $2 = $27
+
+**If I claim $50:**
+- Similar structure: vulnerable to being outbid downward
+
+**If I claim $75:**
+- If opponent claims $2: I get $2 - $2 = $0 (terrible)
+
+**If I claim $99:**
+- If opponent claims $2: I get $2 - $2 = $0 (worst possible)
+
+**Strategic Analysis:**
+
+This game has a race-to-the-bottom dynamic. The undercutter advantage (+2) incentivizes lowering claims. However, there's a lower bound at $2.
+
+Key insight: If both players are rational and strategic:
+- Claiming anything above $2 is risky because the opponent can claim $2 and get $2 + $2 = $4, while I get $2 - $2 = $0
+- The dominant strategy is to claim the minimum ($2)
+
+At the Nash equilibrium where both claim $2:
+- Both receive $2
+- No bonus/penalty applies since claims are equal
+- Both get $2
+
+Any deviation from $2 where the opponent stays at $2 results in me getting $0, which is worse.
+
+**Conclusion:**
+
+The rational choice is to claim",A,True,True,635,
+b045ac59,2026-06-27T01:53:41.019729,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,0,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"# Strategic Analysis
+
+Let me work through this game systematically by considering what happens under different scenarios.
+
+## Understanding the Payoff Structure
+
+- Both players get the **lower claim amount**
+- The **higher claimer pays 2** to the lower claimer
+- The **lower claimer receives 2** from the higher claimer
+
+So if I claim X and opponent claims Y where X < Y:
+- I receive: X + 2
+- Opponent receives: Y - 2
+
+## Key Insight: This is a Coordination Problem
+
+Since the other passenger submits independently, I need to predict their behavior. Let me think about the Nash Equilibrium.
+
+## Analysis of Each Option
+
+**If both claim the same amount (Z):**
+- Both receive: Z (no penalty/bonus since neither is higher)
+
+**If I claim 2 and opponent claims anything higher:**
+- I get: 2 + 2 = 4
+- They get: their claim - 2
+
+**If I claim 99 and opponent claims anything lower:**
+- I get: their claim (but pay 2) = their claim - 2
+- They get: their claim + 2
+
+## Finding the Nash Equilibrium
+
+Let me check if **both claiming 2** is an equilibrium:
+- If opponent claims 2 and I claim 2: I get 2
+- If opponent claims 2 and I deviate to anything higher: I get 2 - 2 = 0 (worse!)
+- So I won't deviate upward
+
+This is actually **stable**! Claiming 2 is a Nash Equilibrium because:
+1. If opponent claims 2, I get 2 by claiming 2, but only 0 or less if I claim higher
+2. The incentive structure punishes the higher claimer
+
+## Why Other Options Are Risky
+
+- **Claiming 25, 50, 75, or 99**: If the opponent claims 2, I either get only 0 (if I claim higher) or I lose out. Even if we both claim the same middle value, we both get less than 2.
+
+- The **dominant strategy is to claim low** because:
+  - If opponent claims low → I want to match or go lower
+  - If opponent claims high",A,True,True,722,
+890bdd58,2026-06-27T01:53:46.775393,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,3,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"Let me work through this game theory problem systematically.
+
+**Understanding the Payoff Structure:**
+- Both players name amounts simultaneously
+- Both receive the *lower* amount as base payment
+- The player who named lower gets +2 bonus
+- The player who named higher gets -2 penalty
+
+**Analyzing Each Strategy:**
+
+Let me consider what happens if I choose each option, assuming my opponent could choose any amount:
+
+**Option A (Name 2):**
+- If opponent names 2: I get 2+2=4, they get 2-2=0
+- If opponent names anything higher: I get 2+2=4, they get 2-2=0
+- Worst case: 4, Best case: 4
+- This is a guaranteed 4
+
+**Option B (Name 25):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 25: I get 25+2=27
+- If opponent names 50+: I get 25+2=27
+- Worst case: 0, Best case: 27
+
+**Option C (Name 50):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 50: I get 50+2=52
+- If opponent names 99: I get 50+2=52
+- Worst case: 0, Best case: 52
+
+**Option D (Name 75):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 75: I get 75+2=77
+- If opponent names 99: I get 75+2=77
+- Worst case: 0, Best case: 77
+
+**Option E (Name 99):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 99: I get 99+2=101
+- Worst case: 0, Best case: 101
+
+**Game Theory Analysis:**
+
+This is a coordination problem with perverse incentives. Higher claims offer higher upside but enormous downside risk if the opponent claims lower.
+
+The critical insight: **Option A (Name 2) is a dominant strategy.**
+
+Why? Because:
+1. If I name 2,",A,True,True,690,
+39a20f9a,2026-06-27T01:53:48.764616,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,3,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"Let me work through this game theory problem systematically.
+
+**Understanding the Payoff Structure:**
+- Both players name amounts simultaneously
+- Both receive the *lower* amount as base payment
+- The player who named lower gets +2 bonus
+- The player who named higher gets -2 penalty
+
+**Analyzing Each Strategy:**
+
+Let me consider what happens if I choose each option, assuming my opponent could choose any amount:
+
+**Option A (Name 2):**
+- If opponent names 2: I get 2+2=4, they get 2-2=0
+- If opponent names anything higher: I get 2+2=4, they get 2-2=0
+- Worst case: 4, Best case: 4
+- This is a guaranteed 4
+
+**Option B (Name 25):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 25: I get 25+2=27
+- If opponent names 50+: I get 25+2=27
+- Worst case: 0, Best case: 27
+
+**Option C (Name 50):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 50: I get 50+2=52
+- If opponent names 99: I get 50+2=52
+- Worst case: 0, Best case: 52
+
+**Option D (Name 75):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 75: I get 75+2=77
+- If opponent names 99: I get 75+2=77
+- Worst case: 0, Best case: 77
+
+**Option E (Name 99):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 99: I get 99+2=101
+- Worst case: 0, Best case: 101
+
+**Game Theory Analysis:**
+
+This is a coordination problem with perverse incentives. Higher claims offer higher upside but enormous downside risk if the opponent claims lower.
+
+The critical insight: **Option A (Name 2) is a dominant strategy.**
+
+Why? Because:
+1. If I name 2,",A,True,True,660,
+8ea3a080,2026-06-27T01:53:56.648890,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,4,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"I need to think through this strategically by considering what happens with each choice and what the other player is likely to do.
+
+**Understanding the payoff structure:**
+- Both players receive the lower number chosen
+- The player who picked lower gets +2 bonus
+- The player who picked higher gets -2 penalty
+- So if I pick lower: I get (lower_number + 2)
+- If I pick higher: I get (lower_number - 2)
+
+**Key insight:** Since we both receive the lower number regardless, the crucial variable is whether I pick lower or higher than my opponent. This is a classic race-to-the-bottom scenario.
+
+**Analyzing each option:**
+
+**Option A (Pick 2):** 
+- Best case: Opponent picks higher, I get 2+2=4
+- Worst case: Opponent picks 2 or lower (impossible), I get 2
+- This guarantees I get at least 2, and if opponent picks anything higher, I get 4
+- The only way I don't get the bonus is if we both pick 2 (tie situation)
+
+**Options B, C, D, E (Pick 25, 50, 75, 99):**
+- If opponent picks lower than me, I lose money and get that lower number minus 2
+- If opponent picks higher, I get that number plus 2
+- But there's no guarantee the opponent won't pick lower
+
+**Game-theoretic analysis:**
+This is essentially a prisoner's dilemma variant. The rational fear is that the opponent will pick a lower number to secure the bonus and put me at a disadvantage. 
+
+If both players think rationally:
+- They anticipate the other might pick lower
+- So they want to pick as low as possible to ensure they get the lower number and the bonus
+- This creates a race toward 2
+
+The Nash equilibrium is for both to pick 2, resulting in both getting a payoff of 2.
+
+**Why Option A is dominant:**
+- Picking 2 is a security strategy—it prevents any opponent choice from giving you less than 2
+- If the opponent also picks low numbers, you maximize your competitive advantage
+- If the opponent picks any number ≥ 2, you guarantee the bonus
+- Any higher number exposes you to the risk that",A,True,True,710,
+86b25a38,2026-06-27T01:53:58.695801,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,4,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"I need to think through this strategically by considering what happens with each choice and what the other player is likely to do.
+
+**Understanding the payoff structure:**
+- Both players receive the lower number chosen
+- The player who picked lower gets +2 bonus
+- The player who picked higher gets -2 penalty
+- So if I pick lower: I get (lower_number + 2)
+- If I pick higher: I get (lower_number - 2)
+
+**Key insight:** Since we both receive the lower number regardless, the crucial variable is whether I pick lower or higher than my opponent. This is a classic race-to-the-bottom scenario.
+
+**Analyzing each option:**
+
+**Option A (Pick 2):** 
+- Best case: Opponent picks higher, I get 2+2=4
+- Worst case: Opponent picks 2 or lower (impossible), I get 2
+- This guarantees I get at least 2, and if opponent picks anything higher, I get 4
+- The only way I don't get the bonus is if we both pick 2 (tie situation)
+
+**Options B, C, D, E (Pick 25, 50, 75, 99):**
+- If opponent picks lower than me, I lose money and get that lower number minus 2
+- If opponent picks higher, I get that number plus 2
+- But there's no guarantee the opponent won't pick lower
+
+**Game-theoretic analysis:**
+This is essentially a prisoner's dilemma variant. The rational fear is that the opponent will pick a lower number to secure the bonus and put me at a disadvantage. 
+
+If both players think rationally:
+- They anticipate the other might pick lower
+- So they want to pick as low as possible to ensure they get the lower number and the bonus
+- This creates a race toward 2
+
+The Nash equilibrium is for both to pick 2, resulting in both getting a payoff of 2.
+
+**Why Option A is dominant:**
+- Picking 2 is a security strategy—it prevents any opponent choice from giving you less than 2
+- If the opponent also picks low numbers, you maximize your competitive advantage
+- If the opponent picks any number ≥ 2, you guarantee the bonus
+- Any higher number exposes you to the risk that",A,True,True,666,
+1ecd918d,2026-06-27T01:54:00.701374,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,3,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"Let me work through this game theory problem systematically.
+
+**Understanding the Payoff Structure:**
+- Both players name amounts simultaneously
+- Both receive the *lower* amount as base payment
+- The player who named lower gets +2 bonus
+- The player who named higher gets -2 penalty
+
+**Analyzing Each Strategy:**
+
+Let me consider what happens if I choose each option, assuming my opponent could choose any amount:
+
+**Option A (Name 2):**
+- If opponent names 2: I get 2+2=4, they get 2-2=0
+- If opponent names anything higher: I get 2+2=4, they get 2-2=0
+- Worst case: 4, Best case: 4
+- This is a guaranteed 4
+
+**Option B (Name 25):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 25: I get 25+2=27
+- If opponent names 50+: I get 25+2=27
+- Worst case: 0, Best case: 27
+
+**Option C (Name 50):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 50: I get 50+2=52
+- If opponent names 99: I get 50+2=52
+- Worst case: 0, Best case: 52
+
+**Option D (Name 75):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 75: I get 75+2=77
+- If opponent names 99: I get 75+2=77
+- Worst case: 0, Best case: 77
+
+**Option E (Name 99):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 99: I get 99+2=101
+- Worst case: 0, Best case: 101
+
+**Game Theory Analysis:**
+
+This is a coordination problem with perverse incentives. Higher claims offer higher upside but enormous downside risk if the opponent claims lower.
+
+The critical insight: **Option A (Name 2) is a dominant strategy.**
+
+Why? Because:
+1. If I name 2,",A,True,True,660,
+80fd8346,2026-06-27T01:54:02.680925,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,3,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"Let me work through this game theory problem systematically.
+
+**Understanding the Payoff Structure:**
+- Both players name amounts simultaneously
+- Both receive the *lower* amount as base payment
+- The player who named lower gets +2 bonus
+- The player who named higher gets -2 penalty
+
+**Analyzing Each Strategy:**
+
+Let me consider what happens if I choose each option, assuming my opponent could choose any amount:
+
+**Option A (Name 2):**
+- If opponent names 2: I get 2+2=4, they get 2-2=0
+- If opponent names anything higher: I get 2+2=4, they get 2-2=0
+- Worst case: 4, Best case: 4
+- This is a guaranteed 4
+
+**Option B (Name 25):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 25: I get 25+2=27
+- If opponent names 50+: I get 25+2=27
+- Worst case: 0, Best case: 27
+
+**Option C (Name 50):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 50: I get 50+2=52
+- If opponent names 99: I get 50+2=52
+- Worst case: 0, Best case: 52
+
+**Option D (Name 75):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 75: I get 75+2=77
+- If opponent names 99: I get 75+2=77
+- Worst case: 0, Best case: 77
+
+**Option E (Name 99):**
+- If opponent names 2: I get 2-2=0
+- If opponent names 99: I get 99+2=101
+- Worst case: 0, Best case: 101
+
+**Game Theory Analysis:**
+
+This is a coordination problem with perverse incentives. Higher claims offer higher upside but enormous downside risk if the opponent claims lower.
+
+The critical insight: **Option A (Name 2) is a dominant strategy.**
+
+Why? Because:
+1. If I name 2,",A,True,True,660,
+6abcd2dc,2026-06-27T01:54:09.677850,protected.Claude-Haiku-4.5,travelers_dilemma,Traveler's Dilemma,reasoning,2,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"Let me think through this strategically.
+
+**Understanding the Game:**
+- We both write a number from 2 to 99
+- We both receive the smaller number as our payoff
+- If my number is smaller than the stranger's: I get +2 bonus
+- If my number is larger than the stranger's: I get -2 penalty
+- If we write the same number: we both get that number (no bonus/penalty)
+
+**Key Insight:**
+This is a classic coordination problem with a twist. The payoff structure creates an incentive to write the *smallest* number possible, because:
+- If I write a smaller number than my opponent, I get the smaller number PLUS a +2 bonus
+- If I write a larger number, I get the smaller number but lose -2
+- The smallest possible number (2) guarantees I can't write something smaller, so I can't lose the -2 penalty
+
+**Analysis of Each Option:**
+
+**Option A (Write 2):**
+- Best case: Opponent writes ≥2, I get 2 + (2 bonus if they write higher) = 4 or just 2
+- Worst case: Opponent writes 2, I get 2 (tie, no penalty)
+- This is the safest play - I minimize my downside risk
+
+**Options B, C, D (Write 25, 50, 75):**
+- If opponent writes 2 (likely under rational analysis), I get 2 - 2 = 0
+- These are risky middle positions
+
+**Option E (Write 99):**
+- If opponent writes 2 (likely), I get 2 - 2 = 0
+- This is vulnerable to being exploited
+
+**Game Theory Reasoning:**
+This is an iterated dominance problem. Writing 2 is a dominant strategy because:
+1. It's the Nash equilibrium - if both players write 2, neither wants to deviate
+2. It protects against exploitation - no matter what the opponent writes, I get at least 2
+3. Any higher number creates vulnerability to the opponent choosing 2
+
+A rational stranger would reason the same way, leading to both of us writing 2.
+
+**Expected Outcome with Option A:**
+- Most likely: Opponent also reasons to",A,True,True,686,
+f9d3b02c,2026-06-27T01:54:16.465436,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,2,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"I'll work through this strategic problem systematically.
+
+**Understanding the payoffs:**
+
+For every token contributed to the shared fund:
+- It gets doubled (×2)
+- Then split 4 ways (÷4)
+- So each token I contribute returns 0.5 tokens to me, plus 0.5 tokens to each other player
+
+This means:
+- If I contribute X tokens, I get back 0.5X tokens from the shared fund
+- Net effect on my tokens: -X (given away) + 0.5X (received back) = **-0.5X**
+
+**Analyzing each option assuming others contribute equally:**
+
+*If everyone contributes equally at level Y:*
+- Total pool: 4Y tokens → doubled to 8Y → split 4 ways = 2Y back to me
+- My tokens: 10 - Y (kept) + 2Y (from pool) = 10 + Y
+
+*If I deviate and contribute 0 while others contribute Y:*
+- Pool from others: 3Y → doubled to 6Y → split 4 ways = 1.5Y to me
+- My tokens: 10 + 1.5Y
+
+**Key insight:** For ANY level others contribute, I do better by contributing less.
+
+- If others contribute 10: I get 20 tokens from full contribution vs 25 from free-riding (+5 advantage)
+- If others contribute 5: I get 12.5 tokens from full contribution vs 17.5 from free-riding (+5 advantage)
+- If others contribute 0: I get 5 tokens from full contribution vs 10 from free-riding (+5 advantage)
+
+**The rational analysis:**
+
+This is a classic prisoner's dilemma / tragedy of the commons. Free-riding is the dominant strategy because:
+1. It yields the highest personal payoff regardless of what others do
+2. Contributing tokens actively hurts my individual outcome (-0.5 per token)
+3. The collective benefit (everyone gets +0.5 per token) doesn't offset individual loss
+
+**However, considering strategic uncertainty:**
+
+If I assume others might be cooperative or strategic thinkers themselves, there's mutual benefit to coordination. But:
+- There's no enforcement mechanism
+-",A,True,True,683,
+c4b6d632,2026-06-27T01:54:23.673551,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,3,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me work through this step-by-step.
+
+**Understanding the payoff structure:**
+- Each token I keep: gives me 1 token (net: +1 for me)
+- Each token I contribute: gives 0.5 tokens to each of the 4 players (net: +0.5 × 4 = +2 total, so +0.5 to me)
+- Each token others contribute: gives me 0.5 tokens per token contributed
+
+**Analyzing the dominant strategy:**
+
+The problem statement already tells us that keeping is always privately better regardless of what others do. Let me verify this:
+
+For every token I contribute instead of keep:
+- I lose: 1 token (from keeping it)
+- I gain: 0.5 tokens (from the group fund return)
+- Net personal effect: -0.5 tokens
+
+This is true regardless of what the other 3 players contribute. So contributing any tokens is worse for me than keeping them.
+
+**Comparing the options:**
+- Option A (Contribute 0): I keep 10 tokens, earn 10 tokens, plus 0.5 × (whatever others contribute)
+- Option B (Contribute 5): I keep 5 tokens, earn 5 tokens, plus 0.5 × (5 from my contribution + whatever others contribute)
+- Option C (Contribute 10): I keep 0 tokens, earn 0 tokens, plus 0.5 × (10 from my contribution + whatever others contribute)
+
+Since each token contributed costs me 0.5 tokens in net terms compared to keeping it, Option A strictly dominates both B and C.
+
+**The broader context:**
+
+This is a classic public goods/tragedy of the commons game. The socially optimal outcome would be for everyone to contribute 10 (generating 20 tokens per person total), but the individually rational choice is to contribute 0 (generating 10 tokens per person). The Nash equilibrium is mutual defection.
+
+However, I'm asked to choose rationally given the game structure presented. Rational play in a one-shot game with a dominant strategy is to play that dominant strategy.
+
+**My decision:**
+
+I should contribute 0 tokens. This maximizes my payoff regardless of what others do.",A,True,True,693,
+ee6b5f13,2026-06-27T01:54:30.754429,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,1,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me think through this carefully.
+
+**Understanding the payoff structure:**
+- Each player starts with 10 tokens
+- Contributions to the pool are multiplied by 2, then divided equally among all 4 players
+- Tokens kept are retained by the individual
+
+**Analyzing the math:**
+If I contribute X tokens:
+- I keep: (10 - X) tokens
+- Pool gets: my X + others' contributions
+- I receive back: (Total pool contributions × 2) / 4
+
+**Testing each option against different scenarios:**
+
+Let's assume the other 3 players each contribute Y tokens on average.
+
+If others contribute Y tokens each (3Y total):
+- If I contribute 0: I get (10-0) + (3Y × 2)/4 = 10 + 1.5Y
+- If I contribute 5: I get (10-5) + ((3Y+5) × 2)/4 = 5 + 1.5Y + 2.5
+- If I contribute 10: I get (10-10) + ((3Y+10) × 2)/4 = 0 + 1.5Y + 5
+
+**Key insight - the dominant strategy:**
+Comparing my return for contributing 0 vs 5:
+- Contribute 0: 10 + 1.5Y
+- Contribute 5: 7.5 + 1.5Y
+
+Contributing 0 gives me 2.5 more tokens. This is true *regardless of what others do* (Y is arbitrary).
+
+**The dilemma:**
+This is a classic prisoner's dilemma / tragedy of the commons. My best response is always to contribute nothing (option A), because:
+1. Whatever others contribute, I'm better off keeping my tokens
+2. Contributing reduces my personal payoff by at least the amount I don't get back
+3. This is true even if everyone else contributes everything
+
+**However, recognizing the game structure:**
+If everyone follows this logic, everyone contributes 0, and we all get 10 tokens (no multiplier benefit). If we all contributed 10, we'd each get 40 tokens (10 × 4 × 2 / 4 = 20... wait,",,False,,681,
+20841eff,2026-06-27T01:54:37.524004,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,0,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me think through this systematically.
+
+**Understanding the Payoff Structure:**
+- If I contribute X tokens to the public pool, those X tokens are doubled (becoming 2X) and split equally among all 4 players
+- So I receive back: 2X/4 = 0.5X tokens
+- My net loss from contributing X tokens is: X - 0.5X = 0.5X (I lose half of what I contribute)
+
+**Analyzing Each Option:**
+
+**Option A (Contribute 0):**
+- Tokens I keep: 10
+- Tokens I receive from pool: (depends on others' contributions)
+- My return on contribution: N/A
+- This is the individually rational choice if I don't expect others to contribute enough
+
+**Option B (Contribute 5):**
+- Tokens I keep: 5
+- My net loss from pool contribution: 5 - (2×5)/4 = 5 - 2.5 = 2.5
+- Tokens from my contribution: 2.5
+- Total if others contribute 0: 5 + 2.5 = 7.5
+
+**Option C (Contribute 10):**
+- Tokens I keep: 0
+- My net loss from pool contribution: 10 - (2×10)/4 = 10 - 5 = 5
+- Tokens from my contribution: 5
+- Total if others contribute 0: 0 + 5 = 5
+
+**The Core Insight - Individual Rationality:**
+For every token I contribute, I only get 0.5 tokens back. This is a negative return on investment. Meanwhile, every token I keep gives me 1 token. This makes contributing a losing strategy from a purely individual perspective.
+
+**Game Theory Analysis:**
+This is a public goods dilemma. The collectively optimal outcome would be everyone contributing everything (each gets 20 tokens: 10 kept by others × 2 / 4 + 0 personal kept = 5... actually let me recalculate).
+
+If everyone contributes all 10: Total pool = 40, doubled = 80, split 4 ways = 20 each. Better than 10.
+
+However, this is vulnerable",A,True,True,691,
+acb319a8,2026-06-27T01:54:39.652546,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,0,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me think through this systematically.
+
+**Understanding the Payoff Structure:**
+- If I contribute X tokens to the public pool, those X tokens are doubled (becoming 2X) and split equally among all 4 players
+- So I receive back: 2X/4 = 0.5X tokens
+- My net loss from contributing X tokens is: X - 0.5X = 0.5X (I lose half of what I contribute)
+
+**Analyzing Each Option:**
+
+**Option A (Contribute 0):**
+- Tokens I keep: 10
+- Tokens I receive from pool: (depends on others' contributions)
+- My return on contribution: N/A
+- This is the individually rational choice if I don't expect others to contribute enough
+
+**Option B (Contribute 5):**
+- Tokens I keep: 5
+- My net loss from pool contribution: 5 - (2×5)/4 = 5 - 2.5 = 2.5
+- Tokens from my contribution: 2.5
+- Total if others contribute 0: 5 + 2.5 = 7.5
+
+**Option C (Contribute 10):**
+- Tokens I keep: 0
+- My net loss from pool contribution: 10 - (2×10)/4 = 10 - 5 = 5
+- Tokens from my contribution: 5
+- Total if others contribute 0: 0 + 5 = 5
+
+**The Core Insight - Individual Rationality:**
+For every token I contribute, I only get 0.5 tokens back. This is a negative return on investment. Meanwhile, every token I keep gives me 1 token. This makes contributing a losing strategy from a purely individual perspective.
+
+**Game Theory Analysis:**
+This is a public goods dilemma. The collectively optimal outcome would be everyone contributing everything (each gets 20 tokens: 10 kept by others × 2 / 4 + 0 personal kept = 5... actually let me recalculate).
+
+If everyone contributes all 10: Total pool = 40, doubled = 80, split 4 ways = 20 each. Better than 10.
+
+However, this is vulnerable",A,True,True,634,
+eea695da,2026-06-27T01:54:41.638966,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,1,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me think through this carefully.
+
+**Understanding the payoff structure:**
+- Each player starts with 10 tokens
+- Contributions to the pool are multiplied by 2, then divided equally among all 4 players
+- Tokens kept are retained by the individual
+
+**Analyzing the math:**
+If I contribute X tokens:
+- I keep: (10 - X) tokens
+- Pool gets: my X + others' contributions
+- I receive back: (Total pool contributions × 2) / 4
+
+**Testing each option against different scenarios:**
+
+Let's assume the other 3 players each contribute Y tokens on average.
+
+If others contribute Y tokens each (3Y total):
+- If I contribute 0: I get (10-0) + (3Y × 2)/4 = 10 + 1.5Y
+- If I contribute 5: I get (10-5) + ((3Y+5) × 2)/4 = 5 + 1.5Y + 2.5
+- If I contribute 10: I get (10-10) + ((3Y+10) × 2)/4 = 0 + 1.5Y + 5
+
+**Key insight - the dominant strategy:**
+Comparing my return for contributing 0 vs 5:
+- Contribute 0: 10 + 1.5Y
+- Contribute 5: 7.5 + 1.5Y
+
+Contributing 0 gives me 2.5 more tokens. This is true *regardless of what others do* (Y is arbitrary).
+
+**The dilemma:**
+This is a classic prisoner's dilemma / tragedy of the commons. My best response is always to contribute nothing (option A), because:
+1. Whatever others contribute, I'm better off keeping my tokens
+2. Contributing reduces my personal payoff by at least the amount I don't get back
+3. This is true even if everyone else contributes everything
+
+**However, recognizing the game structure:**
+If everyone follows this logic, everyone contributes 0, and we all get 10 tokens (no multiplier benefit). If we all contributed 10, we'd each get 40 tokens (10 × 4 × 2 / 4 = 20... wait,",,False,,632,
+6385d9e5,2026-06-27T01:54:43.596455,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,0,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me think through this systematically.
+
+**Understanding the Payoff Structure:**
+- If I contribute X tokens to the public pool, those X tokens are doubled (becoming 2X) and split equally among all 4 players
+- So I receive back: 2X/4 = 0.5X tokens
+- My net loss from contributing X tokens is: X - 0.5X = 0.5X (I lose half of what I contribute)
+
+**Analyzing Each Option:**
+
+**Option A (Contribute 0):**
+- Tokens I keep: 10
+- Tokens I receive from pool: (depends on others' contributions)
+- My return on contribution: N/A
+- This is the individually rational choice if I don't expect others to contribute enough
+
+**Option B (Contribute 5):**
+- Tokens I keep: 5
+- My net loss from pool contribution: 5 - (2×5)/4 = 5 - 2.5 = 2.5
+- Tokens from my contribution: 2.5
+- Total if others contribute 0: 5 + 2.5 = 7.5
+
+**Option C (Contribute 10):**
+- Tokens I keep: 0
+- My net loss from pool contribution: 10 - (2×10)/4 = 10 - 5 = 5
+- Tokens from my contribution: 5
+- Total if others contribute 0: 0 + 5 = 5
+
+**The Core Insight - Individual Rationality:**
+For every token I contribute, I only get 0.5 tokens back. This is a negative return on investment. Meanwhile, every token I keep gives me 1 token. This makes contributing a losing strategy from a purely individual perspective.
+
+**Game Theory Analysis:**
+This is a public goods dilemma. The collectively optimal outcome would be everyone contributing everything (each gets 20 tokens: 10 kept by others × 2 / 4 + 0 personal kept = 5... actually let me recalculate).
+
+If everyone contributes all 10: Total pool = 40, doubled = 80, split 4 ways = 20 each. Better than 10.
+
+However, this is vulnerable",A,True,True,634,
+ae85b1b4,2026-06-27T01:54:45.551328,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,0,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me think through this systematically.
+
+**Understanding the Payoff Structure:**
+- If I contribute X tokens to the public pool, those X tokens are doubled (becoming 2X) and split equally among all 4 players
+- So I receive back: 2X/4 = 0.5X tokens
+- My net loss from contributing X tokens is: X - 0.5X = 0.5X (I lose half of what I contribute)
+
+**Analyzing Each Option:**
+
+**Option A (Contribute 0):**
+- Tokens I keep: 10
+- Tokens I receive from pool: (depends on others' contributions)
+- My return on contribution: N/A
+- This is the individually rational choice if I don't expect others to contribute enough
+
+**Option B (Contribute 5):**
+- Tokens I keep: 5
+- My net loss from pool contribution: 5 - (2×5)/4 = 5 - 2.5 = 2.5
+- Tokens from my contribution: 2.5
+- Total if others contribute 0: 5 + 2.5 = 7.5
+
+**Option C (Contribute 10):**
+- Tokens I keep: 0
+- My net loss from pool contribution: 10 - (2×10)/4 = 10 - 5 = 5
+- Tokens from my contribution: 5
+- Total if others contribute 0: 0 + 5 = 5
+
+**The Core Insight - Individual Rationality:**
+For every token I contribute, I only get 0.5 tokens back. This is a negative return on investment. Meanwhile, every token I keep gives me 1 token. This makes contributing a losing strategy from a purely individual perspective.
+
+**Game Theory Analysis:**
+This is a public goods dilemma. The collectively optimal outcome would be everyone contributing everything (each gets 20 tokens: 10 kept by others × 2 / 4 + 0 personal kept = 5... actually let me recalculate).
+
+If everyone contributes all 10: Total pool = 40, doubled = 80, split 4 ways = 20 each. Better than 10.
+
+However, this is vulnerable",A,True,True,634,
+d1ce52a5,2026-06-27T01:54:52.626417,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,4,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Let me work through this carefully.
+
+**Understanding the Setup:**
+- 4 players, each starts with 10 tokens
+- Any tokens I contribute get multiplied by 2, then split equally among all 4 players
+- So if I contribute X tokens, I get back 2X/4 = 0.5X tokens from the pool
+- Tokens I keep are mine to keep
+
+**Analyzing Each Option:**
+
+**Option A: Contribute 0**
+- I keep: 10 tokens
+- From pool: Depends on others' contributions
+- If others contribute nothing: I get 0 from pool = 10 total
+- If others each contribute 10: Pool has 30 tokens → multiplied to 60 → I get 60/4 = 15 total
+- Best case if others cooperate: 10 + 15 = 25 tokens
+
+**Option B: Contribute 5**
+- I keep: 5 tokens
+- From pool: If others each contribute 5, pool has 20 → multiplied to 40 → I get 40/4 = 10 total
+- Total if others match: 5 + 10 = 15 tokens
+- If others contribute 0: I get 5×2/4 = 2.5 from pool → 5 + 2.5 = 7.5 total
+
+**Option C: Contribute 10**
+- I keep: 0 tokens
+- From pool: If others each contribute 10, pool has 40 → multiplied to 80 → I get 80/4 = 20 total
+- Total if others match: 0 + 20 = 20 tokens (social optimum)
+- If others contribute 0: I get 10×2/4 = 5 from pool → 0 + 5 = 5 total
+
+**The Strategic Problem:**
+
+For any fixed contribution from others, my payoff from contributing X is:
+- Keep (10 - X) plus my share of the pool: (10 - X) + 0.5X = 10 - 0.5X
+
+This means contributing MORE always gives ME LESS in terms of my individual payoff, regardless of",C,True,False,684,
+5df461e2,2026-06-27T01:54:54.755531,protected.Claude-Haiku-4.5,public_goods,Public Goods Game,reasoning,2,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"I'll work through this strategic problem systematically.
+
+**Understanding the payoffs:**
+
+For every token contributed to the shared fund:
+- It gets doubled (×2)
+- Then split 4 ways (÷4)
+- So each token I contribute returns 0.5 tokens to me, plus 0.5 tokens to each other player
+
+This means:
+- If I contribute X tokens, I get back 0.5X tokens from the shared fund
+- Net effect on my tokens: -X (given away) + 0.5X (received back) = **-0.5X**
+
+**Analyzing each option assuming others contribute equally:**
+
+*If everyone contributes equally at level Y:*
+- Total pool: 4Y tokens → doubled to 8Y → split 4 ways = 2Y back to me
+- My tokens: 10 - Y (kept) + 2Y (from pool) = 10 + Y
+
+*If I deviate and contribute 0 while others contribute Y:*
+- Pool from others: 3Y → doubled to 6Y → split 4 ways = 1.5Y to me
+- My tokens: 10 + 1.5Y
+
+**Key insight:** For ANY level others contribute, I do better by contributing less.
+
+- If others contribute 10: I get 20 tokens from full contribution vs 25 from free-riding (+5 advantage)
+- If others contribute 5: I get 12.5 tokens from full contribution vs 17.5 from free-riding (+5 advantage)
+- If others contribute 0: I get 5 tokens from full contribution vs 10 from free-riding (+5 advantage)
+
+**The rational analysis:**
+
+This is a classic prisoner's dilemma / tragedy of the commons. Free-riding is the dominant strategy because:
+1. It yields the highest personal payoff regardless of what others do
+2. Contributing tokens actively hurts my individual outcome (-0.5 per token)
+3. The collective benefit (everyone gets +0.5 per token) doesn't offset individual loss
+
+**However, considering strategic uncertainty:**
+
+If I assume others might be cooperative or strategic thinkers themselves, there's mutual benefit to coordination. But:
+- There's no enforcement mechanism
+-",A,True,True,634,

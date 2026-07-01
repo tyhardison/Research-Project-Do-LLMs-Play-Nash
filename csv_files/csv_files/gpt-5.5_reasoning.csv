@@ -1,0 +1,1384 @@
+trial_id,timestamp,model,game,game_name,motivation,prompt_variant,nash_action,nash_type,nash_note,raw_response,parsed_action,is_valid,is_nash,tokens_used,api_error
+2aa7dbbb,2026-06-28T04:03:22.206569,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,4,B,pure,Defect (B) — strictly dominant strategy,"For Player 1, compare the payoffs for each possible action by Player 2:
+
+- If Player 2 is Silent:
+  - You are Silent: payoff = -1
+  - You Testify: payoff = 0  
+  Testify is better.
+
+- If Player 2 Testifies:
+  - You are Silent: payoff = -4
+  - You Testify: payoff = -3  
+  Testify is better.
+
+So, no matter what Player 2 does, Testify gives Player 1 a higher payoff. Therefore, Testify is the dominant strategy.
+
+DECISION: B",B,TRUE,TRUE,361,
+ceeb6485,2026-06-28T04:03:28.351147,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"If the other suspect cooperates (stays silent), then:
+
+- If I cooperate too, I get -1 year.
+- If I defect, I get 0 years.
+
+So if they cooperate, defecting is better for me.
+
+If the other suspect defects, then:
+
+- If I cooperate, I get -4 years.
+- If I defect too, I get -3 years.
+
+So if they defect, defecting is also better for me.
+
+That means defecting strictly dominates cooperating: no matter what the other suspect does, I personally get a better outcome by defecting. Even though both cooperating would be better collectively than both defecting, I cannot control their choice, and the rational individual move is to defect.
+
+DECISION: B",B,TRUE,TRUE,440,
+9c2c761c,2026-06-28T04:03:34.588137,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,1,B,pure,Defect (B) — strictly dominant strategy,"If the other partner stays silent:
+- If I stay silent, I get 1 year.
+- If I talk, I go free.
+So talking is better.
+
+If the other partner talks:
+- If I stay silent, I get 4 years.
+- If I talk, I get 3 years.
+So talking is also better.
+
+That means talking is the dominant strategy: it gives me a better outcome no matter what the other partner does. Although both staying silent would produce the best combined outcome, without communication or enforceable trust, the individually rational choice is to talk.
+
+DECISION: B",B,TRUE,TRUE,372,
+5ef68867,2026-06-28T04:03:36.779356,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"If the other suspect cooperates (stays silent), then:
+
+- If I cooperate too, I get -1 year.
+- If I defect, I get 0 years.
+
+So if they cooperate, defecting is better for me.
+
+If the other suspect defects, then:
+
+- If I cooperate, I get -4 years.
+- If I defect too, I get -3 years.
+
+So if they defect, defecting is also better for me.
+
+That means defecting strictly dominates cooperating: no matter what the other suspect does, I personally get a better outcome by defecting. Even though both cooperating would be better collectively than both defecting, I cannot control their choice, and the rational individual move is to defect.
+
+DECISION: B",B,TRUE,TRUE,331,
+3f1e94d8,2026-06-28T04:03:38.870697,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"If the other suspect cooperates (stays silent), then:
+
+- If I cooperate too, I get -1 year.
+- If I defect, I get 0 years.
+
+So if they cooperate, defecting is better for me.
+
+If the other suspect defects, then:
+
+- If I cooperate, I get -4 years.
+- If I defect too, I get -3 years.
+
+So if they defect, defecting is also better for me.
+
+That means defecting strictly dominates cooperating: no matter what the other suspect does, I personally get a better outcome by defecting. Even though both cooperating would be better collectively than both defecting, I cannot control their choice, and the rational individual move is to defect.
+
+DECISION: B",B,TRUE,TRUE,331,
+89d348d1,2026-06-28T04:03:48.349966,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,0,B,pure,Defect (B) — strictly dominant strategy,"If the other suspect stays silent, then testifying gets me 0 years instead of 1 year, so testifying is better.
+
+If the other suspect testifies, then testifying gets me 3 years instead of 4 years, so testifying is still better.
+
+So regardless of what the other suspect does, testifying gives me a lower sentence. Since we cannot communicate or enforce mutual silence, the rational individual choice is to defect.
+
+DECISION: B",B,TRUE,TRUE,355,
+dd35a4a2,2026-06-28T04:03:50.485161,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,2,B,pure,Defect (B) — strictly dominant strategy,"If the other suspect cooperates (stays silent), then:
+
+- If I cooperate too, I get -1 year.
+- If I defect, I get 0 years.
+
+So if they cooperate, defecting is better for me.
+
+If the other suspect defects, then:
+
+- If I cooperate, I get -4 years.
+- If I defect too, I get -3 years.
+
+So if they defect, defecting is also better for me.
+
+That means defecting strictly dominates cooperating: no matter what the other suspect does, I personally get a better outcome by defecting. Even though both cooperating would be better collectively than both defecting, I cannot control their choice, and the rational individual move is to defect.
+
+DECISION: B",B,TRUE,TRUE,331,
+65db00b0,2026-06-28T04:03:52.548806,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,1,B,pure,Defect (B) — strictly dominant strategy,"If the other partner stays silent:
+- If I stay silent, I get 1 year.
+- If I talk, I go free.
+So talking is better.
+
+If the other partner talks:
+- If I stay silent, I get 4 years.
+- If I talk, I get 3 years.
+So talking is also better.
+
+That means talking is the dominant strategy: it gives me a better outcome no matter what the other partner does. Although both staying silent would produce the best combined outcome, without communication or enforceable trust, the individually rational choice is to talk.
+
+DECISION: B",B,TRUE,TRUE,293,
+dd36dc82,2026-06-28T04:04:02.680402,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,3,B,pure,Defect (B) — strictly dominant strategy,,,FALSE,,0,"TAMU gateway error: 🚫 **Unexpected Error**
+
+An unexpected error occurred: 400: 🚫 **Error**
+
+litellm.BadRequestError: litellm.ContentPolicyViolationError: litellm.ContentPolicyViolationError: AzureException - The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+model=gpt-5.5. content_policy_fallback=None. fal"
+d99679ce,2026-06-28T04:04:14.306259,protected.gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,reasoning,3,B,pure,Defect (B) — strictly dominant strategy,,,FALSE,,0,"TAMU gateway error: 🚫 **Unexpected Error**
+
+An unexpected error occurred: 400: 🚫 **Error**
+
+litellm.BadRequestError: litellm.ContentPolicyViolationError: litellm.ContentPolicyViolationError: AzureException - The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+model=gpt-5.5. content_policy_fallback=None. fal"
+5c580091,2026-06-28T04:04:21.356864,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,0,"A,B",mixed,Mixed NE: play each with probability 0.5,"This is a zero-sum matching-pennies game:
+
+1. If I choose Heads and the opponent chooses Heads, I win.
+2. If I choose Heads and the opponent chooses Tails, I lose.
+3. If I choose Tails and the opponent chooses Tails, I win.
+4. If I choose Tails and the opponent chooses Heads, I lose.
+
+There is no pure strategy that guarantees a win, because whichever option I choose can be beaten if the opponent chooses the opposite. The optimal strategic approach would be to randomize 50/50 between Heads and Tails so the opponent cannot exploit a pattern.
+
+Since I must choose one of the two options here, neither Heads nor Tails has an inherent advantage. I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,404,
+760fca19,2026-06-28T04:04:23.474974,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,0,"A,B",mixed,Mixed NE: play each with probability 0.5,"This is a zero-sum matching-pennies game:
+
+1. If I choose Heads and the opponent chooses Heads, I win.
+2. If I choose Heads and the opponent chooses Tails, I lose.
+3. If I choose Tails and the opponent chooses Tails, I win.
+4. If I choose Tails and the opponent chooses Heads, I lose.
+
+There is no pure strategy that guarantees a win, because whichever option I choose can be beaten if the opponent chooses the opposite. The optimal strategic approach would be to randomize 50/50 between Heads and Tails so the opponent cannot exploit a pattern.
+
+Since I must choose one of the two options here, neither Heads nor Tails has an inherent advantage. I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,301,
+f525499b,2026-06-28T04:04:31.633333,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,2,"A,B",mixed,Mixed NE: play each with probability 0.5,"The payoff is +1 if we match the adversary’s coin face and -1 if we do not match.
+
+This is a symmetric zero-sum situation:
+
+- If I pick Heads, the adversary would prefer to pick Tails, giving me -1.
+- If I pick Tails, the adversary would prefer to pick Heads, giving me -1.
+- There is no pure choice that guarantees a positive payoff.
+
+The rational game-theoretic strategy would be to randomize 50/50 between Heads and Tails, making the adversary unable to exploit a predictable choice. But since I must choose one of the two listed options, Heads and Tails are strategically equivalent.
+
+I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,445,
+ca9d4606,2026-06-28T04:04:33.612693,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,2,"A,B",mixed,Mixed NE: play each with probability 0.5,"The payoff is +1 if we match the adversary’s coin face and -1 if we do not match.
+
+This is a symmetric zero-sum situation:
+
+- If I pick Heads, the adversary would prefer to pick Tails, giving me -1.
+- If I pick Tails, the adversary would prefer to pick Heads, giving me -1.
+- There is no pure choice that guarantees a positive payoff.
+
+The rational game-theoretic strategy would be to randomize 50/50 between Heads and Tails, making the adversary unable to exploit a predictable choice. But since I must choose one of the two listed options, Heads and Tails are strategically equivalent.
+
+I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,317,
+5890dc29,2026-06-28T04:04:35.526368,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,2,"A,B",mixed,Mixed NE: play each with probability 0.5,"The payoff is +1 if we match the adversary’s coin face and -1 if we do not match.
+
+This is a symmetric zero-sum situation:
+
+- If I pick Heads, the adversary would prefer to pick Tails, giving me -1.
+- If I pick Tails, the adversary would prefer to pick Heads, giving me -1.
+- There is no pure choice that guarantees a positive payoff.
+
+The rational game-theoretic strategy would be to randomize 50/50 between Heads and Tails, making the adversary unable to exploit a predictable choice. But since I must choose one of the two listed options, Heads and Tails are strategically equivalent.
+
+I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,317,
+060baa70,2026-06-28T04:04:45.890727,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,3,"A,B",mixed,Mixed NE: play each with probability 0.5,"This is a matching-pennies game where I win if my choice matches the opponent’s.
+
+- If I choose Heads, I win if the opponent chooses Heads and lose if they choose Tails.
+- If I choose Tails, I win if the opponent chooses Tails and lose if they choose Heads.
+- There is no pure choice that is inherently better, because the opponent would prefer to choose the opposite of whatever I choose.
+- The game-theoretic optimal strategy is to randomize 50/50 between Heads and Tails.
+
+Since I must select one option here, I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,489,
+e71d0420,2026-06-28T04:04:48.033644,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,2,"A,B",mixed,Mixed NE: play each with probability 0.5,"The payoff is +1 if we match the adversary’s coin face and -1 if we do not match.
+
+This is a symmetric zero-sum situation:
+
+- If I pick Heads, the adversary would prefer to pick Tails, giving me -1.
+- If I pick Tails, the adversary would prefer to pick Heads, giving me -1.
+- There is no pure choice that guarantees a positive payoff.
+
+The rational game-theoretic strategy would be to randomize 50/50 between Heads and Tails, making the adversary unable to exploit a predictable choice. But since I must choose one of the two listed options, Heads and Tails are strategically equivalent.
+
+I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,317,
+1c012871,2026-06-28T04:04:51.032978,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,2,"A,B",mixed,Mixed NE: play each with probability 0.5,"The payoff is +1 if we match the adversary’s coin face and -1 if we do not match.
+
+This is a symmetric zero-sum situation:
+
+- If I pick Heads, the adversary would prefer to pick Tails, giving me -1.
+- If I pick Tails, the adversary would prefer to pick Heads, giving me -1.
+- There is no pure choice that guarantees a positive payoff.
+
+The rational game-theoretic strategy would be to randomize 50/50 between Heads and Tails, making the adversary unable to exploit a predictable choice. But since I must choose one of the two listed options, Heads and Tails are strategically equivalent.
+
+I will choose Heads.
+
+DECISION: A",A,TRUE,TRUE,317,
+2fdeee49,2026-06-28T04:04:57.657689,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,1,"A,B",mixed,Mixed NE: play each with probability 0.5,"This is the classic matching-pennies game.
+
+- If I choose Heads and the opponent chooses Heads, I win.
+- If I choose Tails and the opponent chooses Tails, I win.
+- If we differ, I lose.
+
+There is no pure strategy that is always better: Heads and Tails are symmetric. If the opponent can predict my choice, they can choose the opposite and make me lose. So the rational strategy is to randomize 50/50 between Heads and Tails.
+
+Since I must pick one option here, I will select one arbitrarily.
+
+DECISION: A",A,TRUE,TRUE,387,
+33ec2aec,2026-06-28T04:04:59.847721,protected.gpt-5.5,matching_pennies,Matching Pennies,reasoning,1,"A,B",mixed,Mixed NE: play each with probability 0.5,"This is the classic matching-pennies game.
+
+- If I choose Heads and the opponent chooses Heads, I win.
+- If I choose Tails and the opponent chooses Tails, I win.
+- If we differ, I lose.
+
+There is no pure strategy that is always better: Heads and Tails are symmetric. If the opponent can predict my choice, they can choose the opposite and make me lose. So the rational strategy is to randomize 50/50 between Heads and Tails.
+
+Since I must pick one option here, I will select one arbitrarily.
+
+DECISION: A",A,TRUE,TRUE,267,
+f4435b59,2026-06-28T04:05:06.020541,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"This is a zero-sum simultaneous game with no information about the opponent’s choice.
+
+- If I choose Rock: I beat Scissors, lose to Paper, tie Rock.
+- If I choose Paper: I beat Rock, lose to Scissors, tie Paper.
+- If I choose Scissors: I beat Paper, lose to Rock, tie Scissors.
+
+No option is strictly better than the others. In optimal play, the rational strategy is to randomize uniformly among Rock, Paper, and Scissors, because any predictable bias can be exploited.
+
+Since I must choose one option here, I will select one as an arbitrary realization of that mixed strategy.
+
+DECISION: A",A,TRUE,TRUE,398,
+549def0f,2026-06-28T04:05:15.124784,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,1,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"In rock-paper-scissors, each pure option is exploitable:
+
+- Rock beats Scissors but loses to Paper.
+- Paper beats Rock but loses to Scissors.
+- Scissors beats Paper but loses to Rock.
+
+Because this is a simultaneous zero-sum game with symmetric payoffs, there is no pure strategy that is rationally superior. The optimal minimax strategy is to randomize uniformly: choose Rock, Paper, and Scissors each with probability 1/3. This prevents the opponent from gaining an advantage.
+
+Since a single concrete choice is required, I will instantiate that mixed strategy with one selection.
+
+DECISION: A",A,TRUE,TRUE,544,
+da717004,2026-06-28T04:05:32.092563,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,4,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"This is the standard rock-paper-scissors payoff structure.
+
+1. There is no strictly dominant pure option:
+   - Rock beats Scissors but loses to Paper.
+   - Paper beats Rock but loses to Scissors.
+   - Scissors beats Paper but loses to Rock.
+
+2. If the opponent is strategically rational, they should not favor any one option predictably, because any predictable bias can be exploited.
+
+3. The Nash equilibrium is to randomize uniformly among Rock, Paper, and Scissors. In that equilibrium, each pure choice has expected payoff 0.
+
+4. Since I must choose a single option here, no pure choice is strategically superior without additional information. I will select one arbitrary action from the equilibrium support.
+
+DECISION: B",B,TRUE,TRUE,856,
+0bba4b20,2026-06-28T04:05:40.466627,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,3,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"In Rock-Paper-Scissors, each option has symmetric payoffs:
+
+- Rock beats Scissors, loses to Paper.
+- Paper beats Rock, loses to Scissors.
+- Scissors beats Paper, loses to Rock.
+
+Because this is a one-shot simultaneous zero-sum game, there is no way to condition my move on the opponent’s choice. No pure option is inherently better than the others: each wins against one option, loses against one option, and ties itself.
+
+The game-theoretically optimal strategy is to randomize uniformly among Rock, Paper, and Scissors, choosing each with probability 1/3. Since I must output a single choice here, any one of the three is equally valid if selected as part of that mixed strategy.
+
+DECISION: B",B,TRUE,TRUE,459,
+b89b268c,2026-06-28T04:05:42.615931,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"This is a zero-sum simultaneous game with no information about the opponent’s choice.
+
+- If I choose Rock: I beat Scissors, lose to Paper, tie Rock.
+- If I choose Paper: I beat Rock, lose to Scissors, tie Paper.
+- If I choose Scissors: I beat Paper, lose to Rock, tie Scissors.
+
+No option is strictly better than the others. In optimal play, the rational strategy is to randomize uniformly among Rock, Paper, and Scissors, because any predictable bias can be exploited.
+
+Since I must choose one option here, I will select one as an arbitrary realization of that mixed strategy.
+
+DECISION: A",A,TRUE,TRUE,286,
+4805bcd1,2026-06-28T04:05:44.745904,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,1,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"In rock-paper-scissors, each pure option is exploitable:
+
+- Rock beats Scissors but loses to Paper.
+- Paper beats Rock but loses to Scissors.
+- Scissors beats Paper but loses to Rock.
+
+Because this is a simultaneous zero-sum game with symmetric payoffs, there is no pure strategy that is rationally superior. The optimal minimax strategy is to randomize uniformly: choose Rock, Paper, and Scissors each with probability 1/3. This prevents the opponent from gaining an advantage.
+
+Since a single concrete choice is required, I will instantiate that mixed strategy with one selection.
+
+DECISION: A",A,TRUE,TRUE,281,
+3fcc5315,2026-06-28T04:05:46.842607,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,4,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"This is the standard rock-paper-scissors payoff structure.
+
+1. There is no strictly dominant pure option:
+   - Rock beats Scissors but loses to Paper.
+   - Paper beats Rock but loses to Scissors.
+   - Scissors beats Paper but loses to Rock.
+
+2. If the opponent is strategically rational, they should not favor any one option predictably, because any predictable bias can be exploited.
+
+3. The Nash equilibrium is to randomize uniformly among Rock, Paper, and Scissors. In that equilibrium, each pure choice has expected payoff 0.
+
+4. Since I must choose a single option here, no pure choice is strategically superior without additional information. I will select one arbitrary action from the equilibrium support.
+
+DECISION: B",B,TRUE,TRUE,335,
+2e273f00,2026-06-28T04:05:48.995691,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,0,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"This is a zero-sum simultaneous game with no information about the opponent’s choice.
+
+- If I choose Rock: I beat Scissors, lose to Paper, tie Rock.
+- If I choose Paper: I beat Rock, lose to Scissors, tie Paper.
+- If I choose Scissors: I beat Paper, lose to Rock, tie Scissors.
+
+No option is strictly better than the others. In optimal play, the rational strategy is to randomize uniformly among Rock, Paper, and Scissors, because any predictable bias can be exploited.
+
+Since I must choose one option here, I will select one as an arbitrary realization of that mixed strategy.
+
+DECISION: A",A,TRUE,TRUE,286,
+bb6b78df,2026-06-28T04:05:51.018786,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,3,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"In Rock-Paper-Scissors, each option has symmetric payoffs:
+
+- Rock beats Scissors, loses to Paper.
+- Paper beats Rock, loses to Scissors.
+- Scissors beats Paper, loses to Rock.
+
+Because this is a one-shot simultaneous zero-sum game, there is no way to condition my move on the opponent’s choice. No pure option is inherently better than the others: each wins against one option, loses against one option, and ties itself.
+
+The game-theoretically optimal strategy is to randomize uniformly among Rock, Paper, and Scissors, choosing each with probability 1/3. Since I must output a single choice here, any one of the three is equally valid if selected as part of that mixed strategy.
+
+DECISION: B",B,TRUE,TRUE,308,
+403f4c67,2026-06-28T04:05:53.114689,protected.gpt-5.5,rock_paper_scissors,Rock Paper Scissors,reasoning,4,"A,B,C",mixed,Mixed NE: play each with probability 1/3,"This is the standard rock-paper-scissors payoff structure.
+
+1. There is no strictly dominant pure option:
+   - Rock beats Scissors but loses to Paper.
+   - Paper beats Rock but loses to Scissors.
+   - Scissors beats Paper but loses to Rock.
+
+2. If the opponent is strategically rational, they should not favor any one option predictably, because any predictable bias can be exploited.
+
+3. The Nash equilibrium is to randomize uniformly among Rock, Paper, and Scissors. In that equilibrium, each pure choice has expected payoff 0.
+
+4. Since I must choose a single option here, no pure choice is strategically superior without additional information. I will select one arbitrary action from the equilibrium support.
+
+DECISION: B",B,TRUE,TRUE,335,
+0bfa7156,2026-06-28T04:05:58.234747,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,1,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Both players get +2 if we choose the same option and +0 if we choose different options.
+
+Since Option A and Option B have identical payoffs, there is no strategic advantage to either choice based on rewards alone. In a no-communication coordination problem, the best approach is to choose the option that is most likely to be selected as a natural focal point. Here, Option A is listed first and is the default-looking choice, so it is slightly more salient.
+
+Therefore, I will choose Option A.
+
+DECISION: A",A,TRUE,TRUE,302,
+75e55fb0,2026-06-28T04:06:05.001425,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,4,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Both players get +2 if they coordinate on the same option, whether that is A or B. If they choose different options, both get 0.
+
+So the key issue is not which option is intrinsically better—they are payoff-equivalent—but which option is more likely to be chosen by the other player. Since there is no payoff difference between coordinating on A and coordinating on B, either could be rational. In the absence of any additional signal, convention, or communication, Option A may be slightly more focal because it is listed first and labeled “A.”
+
+Therefore, I would choose A as the more natural coordination point.
+
+DECISION: A",A,TRUE,TRUE,370,
+4a2dc3f7,2026-06-28T04:06:10.138014,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","In a pure coordination game, the only thing that matters is matching the other player’s choice. If both choose A, both get 2 points. If both choose B, both get 2 points. If choices differ, both get 0.
+
+Since there is no payoff difference between A and B, the rational strategy is to pick the option that seems most likely to be chosen by the other player. With no additional context, Option A is often the natural focal point because it is listed first and labeled “A.”
+
+Therefore, I choose Option A.
+
+DECISION: A",A,TRUE,TRUE,289,
+4c3f2d50,2026-06-28T04:06:12.807856,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","In a pure coordination game, the only thing that matters is matching the other player’s choice. If both choose A, both get 2 points. If both choose B, both get 2 points. If choices differ, both get 0.
+
+Since there is no payoff difference between A and B, the rational strategy is to pick the option that seems most likely to be chosen by the other player. With no additional context, Option A is often the natural focal point because it is listed first and labeled “A.”
+
+Therefore, I choose Option A.
+
+DECISION: A",A,TRUE,TRUE,251,
+d9f446c7,2026-06-28T04:06:14.852179,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,1,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Both players get +2 if we choose the same option and +0 if we choose different options.
+
+Since Option A and Option B have identical payoffs, there is no strategic advantage to either choice based on rewards alone. In a no-communication coordination problem, the best approach is to choose the option that is most likely to be selected as a natural focal point. Here, Option A is listed first and is the default-looking choice, so it is slightly more salient.
+
+Therefore, I will choose Option A.
+
+DECISION: A",A,TRUE,TRUE,237,
+6a3648ae,2026-06-28T04:06:19.918180,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,0,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","We need coordinate on the same option to get the reward. Since both options have identical payoffs and no extra distinguishing information, there is no strategic advantage to B over A.
+
+In situations like this, the most natural focal point is usually the first-listed/default option, which is A. If the partner reasons similarly, they may also choose A.
+
+DECISION: A",A,TRUE,TRUE,269,
+84798932,2026-06-28T04:06:22.087785,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,1,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Both players get +2 if we choose the same option and +0 if we choose different options.
+
+Since Option A and Option B have identical payoffs, there is no strategic advantage to either choice based on rewards alone. In a no-communication coordination problem, the best approach is to choose the option that is most likely to be selected as a natural focal point. Here, Option A is listed first and is the default-looking choice, so it is slightly more salient.
+
+Therefore, I will choose Option A.
+
+DECISION: A",A,TRUE,TRUE,237,
+e0832d17,2026-06-28T04:06:24.169087,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","In a pure coordination game, the only thing that matters is matching the other player’s choice. If both choose A, both get 2 points. If both choose B, both get 2 points. If choices differ, both get 0.
+
+Since there is no payoff difference between A and B, the rational strategy is to pick the option that seems most likely to be chosen by the other player. With no additional context, Option A is often the natural focal point because it is listed first and labeled “A.”
+
+Therefore, I choose Option A.
+
+DECISION: A",A,TRUE,TRUE,251,
+d4cd113d,2026-06-28T04:06:26.299151,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,1,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","Both players get +2 if we choose the same option and +0 if we choose different options.
+
+Since Option A and Option B have identical payoffs, there is no strategic advantage to either choice based on rewards alone. In a no-communication coordination problem, the best approach is to choose the option that is most likely to be selected as a natural focal point. Here, Option A is listed first and is the default-looking choice, so it is slightly more salient.
+
+Therefore, I will choose Option A.
+
+DECISION: A",A,TRUE,TRUE,237,
+dd706d49,2026-06-28T04:06:28.393133,protected.gpt-5.5,coordination_game,Coordination Game,reasoning,0,"A,B",multiple,"Two pure NE: (A,A) and (B,B). Tests focal point selection.","We need coordinate on the same option to get the reward. Since both options have identical payoffs and no extra distinguishing information, there is no strategic advantage to B over A.
+
+In situations like this, the most natural focal point is usually the first-listed/default option, which is A. If the partner reasons similarly, they may also choose A.
+
+DECISION: A",A,TRUE,TRUE,217,
+bc29bc09,2026-06-28T04:06:39.455577,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,1,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","This is a coordination game: the worst outcome is splitting up, since both get 0. So the key is not just choosing my favorite, but choosing where I think Person 2 will also go.
+
+- If I go Football and Person 2 also goes Football, I get 2.
+- If I go Opera and Person 2 also goes Opera, I get 1.
+- If we split, I get 0.
+
+There are two stable coordinated outcomes: both at Football or both at Opera. As Person 1, I prefer the Football coordination outcome. Without any additional communication or signal indicating Person 2 will go to Opera, my best strategic choice is to go to the location I most prefer among the coordinated outcomes: Football.
+
+DECISION: A",A,TRUE,TRUE,588,
+a57ffdf2,2026-06-28T04:06:48.303488,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,2,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","This is a coordination game with two possible successful outcomes:
+
+- If we both choose **A / Football**, I get 2 and the opponent gets 1.
+- If we both choose **B / Opera**, I get 1 and the opponent gets 2.
+- If we fail to coordinate, both get 0.
+
+There are two pure coordination equilibria: both choose A or both choose B. Since I am the first player and my preferred coordinated outcome is **A**, choosing A gives me the higher payoff if coordination succeeds.
+
+The main risk is that the opponent prefers B and may choose it. But without communication or a binding agreement, I should select the option that leads to my preferred equilibrium and maximizes my payoff conditional on successful coordination.
+
+So I choose **Football game**.
+
+DECISION: A",A,TRUE,TRUE,569,
+4a866dda,2026-06-28T04:06:57.805145,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,4,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","This is a coordination game: both players get 0 if they fail to coordinate, so the most important goal is to choose the same event.
+
+There are two pure-strategy equilibria:
+
+- Both choose Football: payoff is **2 for me**, 1 for Player 2.
+- Both choose Opera: payoff is **1 for me**, 2 for Player 2.
+
+As Player 1, I prefer the Football equilibrium because it gives me a higher payoff. Player 2 prefers Opera, but Player 2 also wants to coordinate rather than mismatch.
+
+If I must choose without communication, Football is the better strategic choice for me: it is my preferred coordination outcome, and in the mixed-strategy equilibrium Player 1 places more weight on Football than Opera.
+
+DECISION: A",A,TRUE,TRUE,572,
+dd908e8b,2026-06-28T04:07:22.415407,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,0,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Step-by-step reasoning:
+
+1. The worst outcome is splitting up: if we choose different events, both get 0.
+2. If we coordinate, both get positive payoffs.
+3. I personally prefer Football: coordinating there gives me +2.
+4. My partner prefers Opera: coordinating there gives me +1.
+5. There is no dominant choice: the best option depends on what my partner chooses.
+6. Since I am choosing for myself and Football gives me the higher payoff if we successfully coordinate, I would choose Football unless I had a strong signal that my partner will definitely choose Opera.
+
+DECISION: A",A,TRUE,TRUE,1351,
+c3da6c93,2026-06-28T04:07:39.730719,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,3,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","We need coordinate, because being apart gives both of us 0.
+
+- If I think my partner will go to Football, I should choose Football: payoff 2 instead of 0.
+- If I think my partner will go to Opera, I should choose Opera: payoff 1 instead of 0.
+- So my best response is always to match my partner.
+
+There are two stable coordinated outcomes:
+
+- Both go to Football: I get 2, partner gets 1.
+- Both go to Opera: I get 1, partner gets 2.
+
+Since I prefer Football and my partner prefers Opera, there is no single obvious fair focal point. But from my perspective, if I must choose independently, Football is my preferred coordinated outcome. Also, in the mixed-strategy equilibrium, I would choose Football with higher probability than Opera.
+
+So I will choose Football.
+
+DECISION: A",A,TRUE,TRUE,871,
+c0de6c00,2026-06-28T04:07:41.934589,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,1,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","This is a coordination game: the worst outcome is splitting up, since both get 0. So the key is not just choosing my favorite, but choosing where I think Person 2 will also go.
+
+- If I go Football and Person 2 also goes Football, I get 2.
+- If I go Opera and Person 2 also goes Opera, I get 1.
+- If we split, I get 0.
+
+There are two stable coordinated outcomes: both at Football or both at Opera. As Person 1, I prefer the Football coordination outcome. Without any additional communication or signal indicating Person 2 will go to Opera, my best strategic choice is to go to the location I most prefer among the coordinated outcomes: Football.
+
+DECISION: A",A,TRUE,TRUE,331,
+1c092f90,2026-06-28T04:07:43.919479,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,0,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Step-by-step reasoning:
+
+1. The worst outcome is splitting up: if we choose different events, both get 0.
+2. If we coordinate, both get positive payoffs.
+3. I personally prefer Football: coordinating there gives me +2.
+4. My partner prefers Opera: coordinating there gives me +1.
+5. There is no dominant choice: the best option depends on what my partner chooses.
+6. Since I am choosing for myself and Football gives me the higher payoff if we successfully coordinate, I would choose Football unless I had a strong signal that my partner will definitely choose Opera.
+
+DECISION: A",A,TRUE,TRUE,312,
+dd4efa41,2026-06-28T04:07:45.925340,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,0,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Step-by-step reasoning:
+
+1. The worst outcome is splitting up: if we choose different events, both get 0.
+2. If we coordinate, both get positive payoffs.
+3. I personally prefer Football: coordinating there gives me +2.
+4. My partner prefers Opera: coordinating there gives me +1.
+5. There is no dominant choice: the best option depends on what my partner chooses.
+6. Since I am choosing for myself and Football gives me the higher payoff if we successfully coordinate, I would choose Football unless I had a strong signal that my partner will definitely choose Opera.
+
+DECISION: A",A,TRUE,TRUE,312,
+eb1c38e1,2026-06-28T04:07:48.060454,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,0,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","Step-by-step reasoning:
+
+1. The worst outcome is splitting up: if we choose different events, both get 0.
+2. If we coordinate, both get positive payoffs.
+3. I personally prefer Football: coordinating there gives me +2.
+4. My partner prefers Opera: coordinating there gives me +1.
+5. There is no dominant choice: the best option depends on what my partner chooses.
+6. Since I am choosing for myself and Football gives me the higher payoff if we successfully coordinate, I would choose Football unless I had a strong signal that my partner will definitely choose Opera.
+
+DECISION: A",A,TRUE,TRUE,312,
+2d7f890b,2026-06-28T04:07:50.166694,protected.gpt-5.5,battle_of_sexes,Battle of the Sexes,reasoning,4,"A,B",multiple,"Two pure NE: (A,A) preferred by Player 1; (B,B) preferred by Player 2","This is a coordination game: both players get 0 if they fail to coordinate, so the most important goal is to choose the same event.
+
+There are two pure-strategy equilibria:
+
+- Both choose Football: payoff is **2 for me**, 1 for Player 2.
+- Both choose Opera: payoff is **1 for me**, 2 for Player 2.
+
+As Player 1, I prefer the Football equilibrium because it gives me a higher payoff. Player 2 prefers Opera, but Player 2 also wants to coordinate rather than mismatch.
+
+If I must choose without communication, Football is the better strategic choice for me: it is my preferred coordination outcome, and in the mixed-strategy equilibrium Player 1 places more weight on Football than Opera.
+
+DECISION: A",A,TRUE,TRUE,319,
+5dc7c738,2026-06-28T04:07:58.688750,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,4,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"This is a Stag Hunt coordination game.
+
+- If both choose Stag, both get the best payoff: 4.
+- If I choose Stag but the other chooses Hare, I get 0, which is the worst outcome for me.
+- If I choose Hare, I get 2 no matter what the other player does.
+
+So:
+
+- Stag is better if I am confident the other player will also choose Stag.
+- Hare is safer because it guarantees a payoff of 2.
+- Without communication or assurance that the other player will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,522,
+4485e4ca,2026-06-28T04:08:12.271278,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,2,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"There are two stable outcomes:
+
+1. **Both hunt Stag**: each gets 4 — best collective outcome.
+2. **Both hunt Hare**: each gets 2 — safer but lower payoff.
+
+If I choose **Stag**, my payoff depends entirely on the other player also choosing Stag:
+- Other chooses Stag → I get 4.
+- Other chooses Hare → I get 0.
+
+If I choose **Hare**, I get 2 regardless of what the other player does:
+- Other chooses Stag → I get 2.
+- Other chooses Hare → I get 2.
+
+So the expected payoff from Stag is \(4p\), where \(p\) is the probability the other player chooses Stag. Hare gives a guaranteed 2. Stag is better only if \(p > 0.5\).
+
+With no assurance that the other player will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,876,
+ad336519,2026-06-28T04:08:14.238539,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,2,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"There are two stable outcomes:
+
+1. **Both hunt Stag**: each gets 4 — best collective outcome.
+2. **Both hunt Hare**: each gets 2 — safer but lower payoff.
+
+If I choose **Stag**, my payoff depends entirely on the other player also choosing Stag:
+- Other chooses Stag → I get 4.
+- Other chooses Hare → I get 0.
+
+If I choose **Hare**, I get 2 regardless of what the other player does:
+- Other chooses Stag → I get 2.
+- Other chooses Hare → I get 2.
+
+So the expected payoff from Stag is \(4p\), where \(p\) is the probability the other player chooses Stag. Hare gives a guaranteed 2. Stag is better only if \(p > 0.5\).
+
+With no assurance that the other player will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,360,
+3d81cf58,2026-06-28T04:08:16.138544,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,4,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"This is a Stag Hunt coordination game.
+
+- If both choose Stag, both get the best payoff: 4.
+- If I choose Stag but the other chooses Hare, I get 0, which is the worst outcome for me.
+- If I choose Hare, I get 2 no matter what the other player does.
+
+So:
+
+- Stag is better if I am confident the other player will also choose Stag.
+- Hare is safer because it guarantees a payoff of 2.
+- Without communication or assurance that the other player will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,296,
+81ea4df6,2026-06-28T04:08:18.054844,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,4,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"This is a Stag Hunt coordination game.
+
+- If both choose Stag, both get the best payoff: 4.
+- If I choose Stag but the other chooses Hare, I get 0, which is the worst outcome for me.
+- If I choose Hare, I get 2 no matter what the other player does.
+
+So:
+
+- Stag is better if I am confident the other player will also choose Stag.
+- Hare is safer because it guarantees a payoff of 2.
+- Without communication or assurance that the other player will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,296,
+d5117561,2026-06-28T04:08:29.956478,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,0,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"If I hunt Stag, my payoff depends entirely on the other hunter also choosing Stag:
+
+- If they choose Stag too: I get +4.
+- If they choose Hare: I get 0.
+
+If I hunt Hare, I get +2 no matter what the other hunter does.
+
+So the key question is: how likely is the other hunter to choose Stag?
+
+Expected payoff from Stag = 4 × probability(other hunts Stag).  
+Expected payoff from Hare = 2.
+
+Stag is better only if I believe the other hunter will choose Stag with probability greater than 50%.
+
+Because the decision is simultaneous and there is no stated communication, commitment, or trust mechanism, the safer rational choice is Hare: it guarantees +2 and avoids the risk of getting 0.
+
+DECISION: B",B,TRUE,TRUE,757,
+740d5b26,2026-06-28T04:08:32.006693,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,0,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"If I hunt Stag, my payoff depends entirely on the other hunter also choosing Stag:
+
+- If they choose Stag too: I get +4.
+- If they choose Hare: I get 0.
+
+If I hunt Hare, I get +2 no matter what the other hunter does.
+
+So the key question is: how likely is the other hunter to choose Stag?
+
+Expected payoff from Stag = 4 × probability(other hunts Stag).  
+Expected payoff from Hare = 2.
+
+Stag is better only if I believe the other hunter will choose Stag with probability greater than 50%.
+
+Because the decision is simultaneous and there is no stated communication, commitment, or trust mechanism, the safer rational choice is Hare: it guarantees +2 and avoids the risk of getting 0.
+
+DECISION: B",B,TRUE,TRUE,342,
+01bcf0d7,2026-06-28T04:08:33.915393,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,2,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"There are two stable outcomes:
+
+1. **Both hunt Stag**: each gets 4 — best collective outcome.
+2. **Both hunt Hare**: each gets 2 — safer but lower payoff.
+
+If I choose **Stag**, my payoff depends entirely on the other player also choosing Stag:
+- Other chooses Stag → I get 4.
+- Other chooses Hare → I get 0.
+
+If I choose **Hare**, I get 2 regardless of what the other player does:
+- Other chooses Stag → I get 2.
+- Other chooses Hare → I get 2.
+
+So the expected payoff from Stag is \(4p\), where \(p\) is the probability the other player chooses Stag. Hare gives a guaranteed 2. Stag is better only if \(p > 0.5\).
+
+With no assurance that the other player will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,360,
+cf44cb28,2026-06-28T04:08:46.983591,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,1,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"If I choose **Stag**, my payoff depends entirely on the other hunter also choosing Stag:
+
+- Other chooses Stag → I get 4
+- Other chooses Hare → I get 0
+
+If I choose **Hare**, I get 2 no matter what the other hunter does:
+
+- Other chooses Stag → I get 2
+- Other chooses Hare → I get 2
+
+So Stag has the higher potential reward, but it requires trust/coordination. Hare is the safe option with a guaranteed payoff.
+
+The expected payoff for Stag is \(4p\), where \(p\) is the probability the other hunter chooses Stag. Hare always gives 2. So Stag is better only if \(4p > 2\), meaning \(p > 0.5\).
+
+Since there is no information guaranteeing the other hunter will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,876,
+bc27c9e6,2026-06-28T04:08:48.990055,protected.gpt-5.5,stag_hunt,Stag Hunt,reasoning,2,"A,B",multiple,Two pure NE: Stag (payoff-dominant) vs Hare (risk-dominant),"There are two stable outcomes:
+
+1. **Both hunt Stag**: each gets 4 — best collective outcome.
+2. **Both hunt Hare**: each gets 2 — safer but lower payoff.
+
+If I choose **Stag**, my payoff depends entirely on the other player also choosing Stag:
+- Other chooses Stag → I get 4.
+- Other chooses Hare → I get 0.
+
+If I choose **Hare**, I get 2 regardless of what the other player does:
+- Other chooses Stag → I get 2.
+- Other chooses Hare → I get 2.
+
+So the expected payoff from Stag is \(4p\), where \(p\) is the probability the other player chooses Stag. Hare gives a guaranteed 2. Stag is better only if \(p > 0.5\).
+
+With no assurance that the other player will cooperate, the safer rational choice is Hare.
+
+DECISION: B",B,TRUE,TRUE,360,
+b1423ba3,2026-06-28T04:09:02.184583,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,0,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","The payoff structure is:
+
+- If I choose **Hawk** and the other chooses **Hawk**, I get **-1**.
+- If I choose **Hawk** and the other chooses **Dove**, I get **+4**.
+- If I choose **Dove** and the other chooses **Hawk**, I get **0**.
+- If I choose **Dove** and the other chooses **Dove**, I get **+2**.
+
+There is no strictly dominant strategy:
+
+- Against a Dove, Hawk is better: **4 > 2**.
+- Against a Hawk, Dove is better: **0 > -1**.
+
+So the best choice depends on what I expect the other player to do. Since mutual Hawk is costly and worse than mutual Dove, and since Dove avoids the negative payoff when facing Hawk, Dove is the safer choice. It has a better worst-case outcome and supports the mutually beneficial peaceful split if the other player also avoids aggression.
+
+DECISION: B",B,TRUE,TRUE,792,
+7c64afd5,2026-06-28T04:09:04.232077,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,0,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","The payoff structure is:
+
+- If I choose **Hawk** and the other chooses **Hawk**, I get **-1**.
+- If I choose **Hawk** and the other chooses **Dove**, I get **+4**.
+- If I choose **Dove** and the other chooses **Hawk**, I get **0**.
+- If I choose **Dove** and the other chooses **Dove**, I get **+2**.
+
+There is no strictly dominant strategy:
+
+- Against a Dove, Hawk is better: **4 > 2**.
+- Against a Hawk, Dove is better: **0 > -1**.
+
+So the best choice depends on what I expect the other player to do. Since mutual Hawk is costly and worse than mutual Dove, and since Dove avoids the negative payoff when facing Hawk, Dove is the safer choice. It has a better worst-case outcome and supports the mutually beneficial peaceful split if the other player also avoids aggression.
+
+DECISION: B",B,TRUE,TRUE,387,
+b7fab69b,2026-06-28T04:09:25.612813,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,3,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Let \(q\) be the probability the other player chooses Hawk.
+
+- If I choose **Hawk**:
+  - Opponent Hawk: payoff \(-1\)
+  - Opponent Dove: payoff \(4\)
+  - Expected payoff: \(-1q + 4(1-q) = 4 - 5q\)
+
+- If I choose **Dove**:
+  - Opponent Hawk: payoff \(0\)
+  - Opponent Dove: payoff \(2\)
+  - Expected payoff: \(0q + 2(1-q) = 2 - 2q\)
+
+Compare them:
+
+\[
+4 - 5q > 2 - 2q
+\]
+
+\[
+2 > 3q
+\]
+
+\[
+q < \frac{2}{3}
+\]
+
+So Hawk is better unless I believe the opponent is more than \(2/3\) likely to choose Hawk. With no special reason to think the opponent is that likely to be aggressive, the higher expected payoff comes from choosing Hawk.
+
+DECISION: A",A,TRUE,TRUE,1217,
+57acbf5a,2026-06-28T04:09:41.294796,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,4,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","The payoffs create a Hawk–Dove / Chicken-style game:
+
+1. **If the other chooses Hawk**, my best response is **Dove**:  
+   - Hawk gives me **-1**
+   - Dove gives me **0**
+
+2. **If the other chooses Dove**, my best response is **Hawk**:  
+   - Hawk gives me **+4**
+   - Dove gives me **+2**
+
+So there is **no dominant strategy**. Hawk is better only if I expect the other player to back down; Dove is better if I expect the other player may be aggressive.
+
+The risky outcome is mutual Hawk, where both get **-1**. The safer outcome is mutual Dove, where both get **+2**. Since I do not have information that the other will choose Dove, choosing Hawk risks the worst mutual outcome. Dove has the better worst-case payoff: **0 instead of -1**.
+
+So the prudent strategic choice is **Dove**.
+
+DECISION: B",B,TRUE,TRUE,888,
+e650dcc2,2026-06-28T04:09:59.264954,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,1,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Payoffs:
+
+- If I play Hawk and the other is Hawk: I get -1.
+- If I play Hawk and the other is Dove: I get 4.
+- If I play Dove and the other is Hawk: I get 0.
+- If I play Dove and the other is Dove: I get 2.
+
+There is no strictly dominant pure strategy:
+
+- Against Hawk, Dove is better: 0 > -1.
+- Against Dove, Hawk is better: 4 > 2.
+
+So this is a Hawk-Dove game. The rational mixed equilibrium makes the opponent indifferent:
+
+- Expected payoff from Hawk = \(4 - 5p\), where \(p\) is the probability the opponent plays Hawk.
+- Expected payoff from Dove = \(2 - 2p\).
+
+Set equal:
+
+\[
+4 - 5p = 2 - 2p
+\]
+
+\[
+2 = 3p
+\]
+
+\[
+p = \frac{2}{3}
+\]
+
+So in equilibrium, Hawk is played with probability \(2/3\), Dove with probability \(1/3\). Since I must choose one option, the equilibrium-weighted choice is Hawk.
+
+DECISION: A",A,TRUE,TRUE,938,
+c8fb2551,2026-06-28T04:10:01.399568,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,3,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Let \(q\) be the probability the other player chooses Hawk.
+
+- If I choose **Hawk**:
+  - Opponent Hawk: payoff \(-1\)
+  - Opponent Dove: payoff \(4\)
+  - Expected payoff: \(-1q + 4(1-q) = 4 - 5q\)
+
+- If I choose **Dove**:
+  - Opponent Hawk: payoff \(0\)
+  - Opponent Dove: payoff \(2\)
+  - Expected payoff: \(0q + 2(1-q) = 2 - 2q\)
+
+Compare them:
+
+\[
+4 - 5q > 2 - 2q
+\]
+
+\[
+2 > 3q
+\]
+
+\[
+q < \frac{2}{3}
+\]
+
+So Hawk is better unless I believe the opponent is more than \(2/3\) likely to choose Hawk. With no special reason to think the opponent is that likely to be aggressive, the higher expected payoff comes from choosing Hawk.
+
+DECISION: A",A,TRUE,TRUE,391,
+3c8f75df,2026-06-28T04:10:03.397891,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,3,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Let \(q\) be the probability the other player chooses Hawk.
+
+- If I choose **Hawk**:
+  - Opponent Hawk: payoff \(-1\)
+  - Opponent Dove: payoff \(4\)
+  - Expected payoff: \(-1q + 4(1-q) = 4 - 5q\)
+
+- If I choose **Dove**:
+  - Opponent Hawk: payoff \(0\)
+  - Opponent Dove: payoff \(2\)
+  - Expected payoff: \(0q + 2(1-q) = 2 - 2q\)
+
+Compare them:
+
+\[
+4 - 5q > 2 - 2q
+\]
+
+\[
+2 > 3q
+\]
+
+\[
+q < \frac{2}{3}
+\]
+
+So Hawk is better unless I believe the opponent is more than \(2/3\) likely to choose Hawk. With no special reason to think the opponent is that likely to be aggressive, the higher expected payoff comes from choosing Hawk.
+
+DECISION: A",A,TRUE,TRUE,391,
+add4bee1,2026-06-28T04:10:05.362334,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,1,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","Payoffs:
+
+- If I play Hawk and the other is Hawk: I get -1.
+- If I play Hawk and the other is Dove: I get 4.
+- If I play Dove and the other is Hawk: I get 0.
+- If I play Dove and the other is Dove: I get 2.
+
+There is no strictly dominant pure strategy:
+
+- Against Hawk, Dove is better: 0 > -1.
+- Against Dove, Hawk is better: 4 > 2.
+
+So this is a Hawk-Dove game. The rational mixed equilibrium makes the opponent indifferent:
+
+- Expected payoff from Hawk = \(4 - 5p\), where \(p\) is the probability the opponent plays Hawk.
+- Expected payoff from Dove = \(2 - 2p\).
+
+Set equal:
+
+\[
+4 - 5p = 2 - 2p
+\]
+
+\[
+2 = 3p
+\]
+
+\[
+p = \frac{2}{3}
+\]
+
+So in equilibrium, Hawk is played with probability \(2/3\), Dove with probability \(1/3\). Since I must choose one option, the equilibrium-weighted choice is Hawk.
+
+DECISION: A",A,TRUE,TRUE,418,
+3d94d359,2026-06-28T04:10:07.395662,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,0,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","The payoff structure is:
+
+- If I choose **Hawk** and the other chooses **Hawk**, I get **-1**.
+- If I choose **Hawk** and the other chooses **Dove**, I get **+4**.
+- If I choose **Dove** and the other chooses **Hawk**, I get **0**.
+- If I choose **Dove** and the other chooses **Dove**, I get **+2**.
+
+There is no strictly dominant strategy:
+
+- Against a Dove, Hawk is better: **4 > 2**.
+- Against a Hawk, Dove is better: **0 > -1**.
+
+So the best choice depends on what I expect the other player to do. Since mutual Hawk is costly and worse than mutual Dove, and since Dove avoids the negative payoff when facing Hawk, Dove is the safer choice. It has a better worst-case outcome and supports the mutually beneficial peaceful split if the other player also avoids aggression.
+
+DECISION: B",B,TRUE,TRUE,387,
+178b3478,2026-06-28T04:10:09.393118,protected.gpt-5.5,hawk_dove,Hawk-Dove,reasoning,4,"A,B",multiple,"Two pure NE: (Hawk,Dove) and (Dove,Hawk). Mixed NE: p(Hawk)=V/C","The payoffs create a Hawk–Dove / Chicken-style game:
+
+1. **If the other chooses Hawk**, my best response is **Dove**:  
+   - Hawk gives me **-1**
+   - Dove gives me **0**
+
+2. **If the other chooses Dove**, my best response is **Hawk**:  
+   - Hawk gives me **+4**
+   - Dove gives me **+2**
+
+So there is **no dominant strategy**. Hawk is better only if I expect the other player to back down; Dove is better if I expect the other player may be aggressive.
+
+The risky outcome is mutual Hawk, where both get **-1**. The safer outcome is mutual Dove, where both get **+2**. Since I do not have information that the other will choose Dove, choosing Hawk risks the worst mutual outcome. Dove has the better worst-case payoff: **0 instead of -1**.
+
+So the prudent strategic choice is **Dove**.
+
+DECISION: B",B,TRUE,TRUE,365,
+5a2efeb6,2026-06-28T04:10:24.091589,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,0,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"This is a zero-sum simultaneous game, so I should consider how the column player can minimize my payoff.
+
+Payoffs:
+
+- If I choose Row 1:
+  - Col 1 gives me +3
+  - Col 2 gives me -1
+  - Worst case: -1
+
+- If I choose Row 2:
+  - Col 1 gives me -2
+  - Col 2 gives me +4
+  - Worst case: -2
+
+Using a maximin approach, I compare the worst-case outcomes:
+
+- Row 1 guarantees at least -1
+- Row 2 guarantees at least -2
+
+So Row 1 is safer if I must choose a pure strategy.
+
+In the full mixed-strategy version, the optimal play would be to randomize: Row 1 with probability 60% and Row 2 with probability 40%. But since the available options require choosing one row, Row 1 is the better pure choice.
+
+DECISION: A",A,TRUE,TRUE,812,
+9f1b7f65,2026-06-28T04:10:55.571772,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,4,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,,,FALSE,,0,"TAMU gateway error: 🚫 **Unexpected Error**
+
+An unexpected error occurred: 400: 🚫 **Error**
+
+litellm.BadRequestError: litellm.ContentPolicyViolationError: litellm.ContentPolicyViolationError: AzureException - The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+model=gpt-5.5. content_policy_fallback=None. fal"
+9b3f2ff1,2026-06-28T04:10:57.616474,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,0,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"This is a zero-sum simultaneous game, so I should consider how the column player can minimize my payoff.
+
+Payoffs:
+
+- If I choose Row 1:
+  - Col 1 gives me +3
+  - Col 2 gives me -1
+  - Worst case: -1
+
+- If I choose Row 2:
+  - Col 1 gives me -2
+  - Col 2 gives me +4
+  - Worst case: -2
+
+Using a maximin approach, I compare the worst-case outcomes:
+
+- Row 1 guarantees at least -1
+- Row 2 guarantees at least -2
+
+So Row 1 is safer if I must choose a pure strategy.
+
+In the full mixed-strategy version, the optimal play would be to randomize: Row 1 with probability 60% and Row 2 with probability 40%. But since the available options require choosing one row, Row 1 is the better pure choice.
+
+DECISION: A",A,TRUE,TRUE,369,
+cd4dc9f1,2026-06-28T04:11:08.228295,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,1,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"This is a strictly competitive zero-sum game, so I should assume the opponent will try to minimize my payoff.
+
+Compare the worst-case payoff for each row:
+
+- If I choose Row 1:
+  - vs Col 1: gain 3
+  - vs Col 2: lose 1
+  - Worst case: -1
+
+- If I choose Row 2:
+  - vs Col 1: lose 2
+  - vs Col 2: gain 4
+  - Worst case: -2
+
+Using the minimax criterion, I should choose the row with the better worst-case outcome. Row 1 guarantees at least -1, while Row 2 guarantees only -2.
+
+If mixed strategies were allowed, the optimal strategy would involve randomizing, but among the two pure options given, Row 1 is the safer rational choice.
+
+DECISION: A",A,TRUE,TRUE,652,
+77952f3d,2026-06-28T04:11:35.484551,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,4,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,,,FALSE,,0,"TAMU gateway error: 🚫 **Unexpected Error**
+
+An unexpected error occurred: 400: 🚫 **Error**
+
+litellm.BadRequestError: litellm.ContentPolicyViolationError: litellm.ContentPolicyViolationError: AzureException - The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+model=gpt-5.5. content_policy_fallback=None. fal"
+1490afa0,2026-06-28T04:11:37.630959,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,0,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"This is a zero-sum simultaneous game, so I should consider how the column player can minimize my payoff.
+
+Payoffs:
+
+- If I choose Row 1:
+  - Col 1 gives me +3
+  - Col 2 gives me -1
+  - Worst case: -1
+
+- If I choose Row 2:
+  - Col 1 gives me -2
+  - Col 2 gives me +4
+  - Worst case: -2
+
+Using a maximin approach, I compare the worst-case outcomes:
+
+- Row 1 guarantees at least -1
+- Row 2 guarantees at least -2
+
+So Row 1 is safer if I must choose a pure strategy.
+
+In the full mixed-strategy version, the optimal play would be to randomize: Row 1 with probability 60% and Row 2 with probability 40%. But since the available options require choosing one row, Row 1 is the better pure choice.
+
+DECISION: A",A,TRUE,TRUE,369,
+2305241b,2026-06-28T04:11:51.603098,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,3,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"This is a zero-sum game, so the opponent wants to minimize my payoff.
+
+Payoff matrix:
+
+|        | C1 | C2 |
+|--------|----|----|
+| Row 1  | +3 | -1 |
+| Row 2  | -2 | +4 |
+
+If I choose a pure row:
+
+- Row 1 worst case: opponent chooses C2 → payoff = -1
+- Row 2 worst case: opponent chooses C1 → payoff = -2
+
+So by the maximin criterion, Row 1 is safer because its worst-case payoff is better.
+
+In the mixed-strategy equilibrium, I would choose Row 1 with probability 0.6 and Row 2 with probability 0.4, which also favors Row 1. Since I must choose a single option, Row 1 is the better choice.
+
+DECISION: A",A,TRUE,TRUE,865,
+9873c3ca,2026-06-28T04:12:26.858404,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,4,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,,,FALSE,,0,"TAMU gateway error: 🚫 **Unexpected Error**
+
+An unexpected error occurred: 400: 🚫 **Error**
+
+litellm.BadRequestError: litellm.ContentPolicyViolationError: litellm.ContentPolicyViolationError: AzureException - The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+model=gpt-5.5. content_policy_fallback=None. fal"
+2d767ede,2026-06-28T04:12:28.787800,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,1,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"This is a strictly competitive zero-sum game, so I should assume the opponent will try to minimize my payoff.
+
+Compare the worst-case payoff for each row:
+
+- If I choose Row 1:
+  - vs Col 1: gain 3
+  - vs Col 2: lose 1
+  - Worst case: -1
+
+- If I choose Row 2:
+  - vs Col 1: lose 2
+  - vs Col 2: gain 4
+  - Worst case: -2
+
+Using the minimax criterion, I should choose the row with the better worst-case outcome. Row 1 guarantees at least -1, while Row 2 guarantees only -2.
+
+If mixed strategies were allowed, the optimal strategy would involve randomizing, but among the two pure options given, Row 1 is the safer rational choice.
+
+DECISION: A",A,TRUE,TRUE,359,
+e981a567,2026-06-28T04:12:38.755092,protected.gpt-5.5,zero_sum_matching,Zero-Sum Matching,reasoning,2,"A,B",mixed,Mixed NE via minimax theorem. Optimal mix depends on payoff matrix.,"There is no strictly dominant pure strategy:
+
+- If the opponent chooses A:
+  - You A gives 3
+  - You B gives -2
+  - So A is better.
+
+- If the opponent chooses B:
+  - You A gives -1
+  - You B gives 4
+  - So B is better.
+
+Because the opponent is described as an adversary, I should consider the worst-case payoff for each strategy:
+
+- Choosing A: worst case is -1
+- Choosing B: worst case is -2
+
+The safer maximin choice is therefore Strategy A, because its worst-case outcome is better.
+
+DECISION: A",A,TRUE,TRUE,566,
+d0b015aa,2026-06-28T04:20:24.589284,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,0,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"If both passengers claim the same amount, they both receive that amount.
+
+But any high equal claim is unstable: if I thought the other passenger would claim 99, I could claim 98 instead. Then 98 is the lower claim, so both are paid 98, and I receive the +2 bonus, giving me 100 instead of 99.
+
+That same reasoning applies downward:
+
+- If 99 seems likely, claim 98.
+- If 98 seems likely, claim 97.
+- If 97 seems likely, claim 96.
+- And so on.
+
+This “undercutting” continues until the lowest possible claim, 2. At 2, there is no lower claim to undercut with. If both claim 2, neither can improve by claiming higher, because claiming higher would make them the higher claimant and they would get 2 − 2 = 0.
+
+So the game-theoretic equilibrium choice is to claim 2.
+
+DECISION: A",A,TRUE,TRUE,2298,
+50f9481e,2026-06-28T04:20:59.953916,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,3,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"If both players can only choose among {2, 25, 50, 75, 99}, the usual “undercut by 1” logic does not apply, because those intermediate amounts are not available.
+
+Payoffs:
+
+- If I match the other player’s amount, I get that amount.
+- If I name less, I get my amount +2.
+- If I name more, I get the other player’s amount -2.
+
+Key comparisons:
+
+- If the other player names 99:
+  - Naming 99 gives me 99.
+  - Naming 75 gives me 77.
+  - So undercutting is much worse than matching.
+
+- If the other player names 75:
+  - Naming 75 gives me 75.
+  - Naming 99 gives me 73.
+  - So being too high only costs me 2 relative to matching.
+
+This pattern means naming 99 has very low downside if the other chooses lower, but very high upside if the other also chooses 99. In fact, against any lower choice, naming 99 loses only 2 compared with matching that lower choice, while choosing a lower number can lose a lot if the other chooses 99.
+
+So among the restricted options, 99 is the payoff-dominant and strategically robust choice.
+
+DECISION: E",E,TRUE,FALSE,2210,
+bf93964c,2026-06-28T04:21:29.147518,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,2,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"The payoff structure rewards being just below the other person: if they write some number \(n > 2\), then writing \(n-1\) gives you \((n-1)+2 = n+1\), which is better than matching them at \(n\).
+
+So any number above 2 is vulnerable to being undercut. This logic keeps unraveling downward: 99 is beaten by 98, 98 by 97, and so on. The only number that cannot be undercut is 2.
+
+If the other person writes 2, writing 2 gives me 2. Writing anything higher gives me the smaller number, 2, minus the penalty, for a payoff of 0. So 2 is the stable rational choice.
+
+DECISION: A",A,TRUE,TRUE,1885,
+b8c790b0,2026-06-28T04:21:31.348288,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,3,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"If both players can only choose among {2, 25, 50, 75, 99}, the usual “undercut by 1” logic does not apply, because those intermediate amounts are not available.
+
+Payoffs:
+
+- If I match the other player’s amount, I get that amount.
+- If I name less, I get my amount +2.
+- If I name more, I get the other player’s amount -2.
+
+Key comparisons:
+
+- If the other player names 99:
+  - Naming 99 gives me 99.
+  - Naming 75 gives me 77.
+  - So undercutting is much worse than matching.
+
+- If the other player names 75:
+  - Naming 75 gives me 75.
+  - Naming 99 gives me 73.
+  - So being too high only costs me 2 relative to matching.
+
+This pattern means naming 99 has very low downside if the other chooses lower, but very high upside if the other also chooses 99. In fact, against any lower choice, naming 99 loses only 2 compared with matching that lower choice, while choosing a lower number can lose a lot if the other chooses 99.
+
+So among the restricted options, 99 is the payoff-dominant and strategically robust choice.
+
+DECISION: E",E,TRUE,FALSE,438,
+450d310f,2026-06-28T04:22:08.335763,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,4,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"If both choose the same number, there is no bonus or penalty, so each receives that number.
+
+But if the other person chooses any number above 2, I can do better by choosing just below them: I would receive the lower number plus the +2 bonus. For example, if they choose 99, choosing 98 would give me 100, better than tying at 99.
+
+That creates a chain of undercutting: 99 is vulnerable to 98, 98 to 97, and so on. The only number that cannot be undercut is 2. If the other person chooses 2, choosing higher makes me the higher picker, so I get 2 - 2 = 0, while tying at 2 gives me 2.
+
+So the game-theoretic equilibrium choice is 2.
+
+DECISION: A",A,TRUE,TRUE,1916,
+e0b9dc02,2026-06-28T04:22:10.993075,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,0,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"If both passengers claim the same amount, they both receive that amount.
+
+But any high equal claim is unstable: if I thought the other passenger would claim 99, I could claim 98 instead. Then 98 is the lower claim, so both are paid 98, and I receive the +2 bonus, giving me 100 instead of 99.
+
+That same reasoning applies downward:
+
+- If 99 seems likely, claim 98.
+- If 98 seems likely, claim 97.
+- If 97 seems likely, claim 96.
+- And so on.
+
+This “undercutting” continues until the lowest possible claim, 2. At 2, there is no lower claim to undercut with. If both claim 2, neither can improve by claiming higher, because claiming higher would make them the higher claimant and they would get 2 − 2 = 0.
+
+So the game-theoretic equilibrium choice is to claim 2.
+
+DECISION: A",A,TRUE,TRUE,395,
+0c052bc7,2026-06-28T04:23:11.349552,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,1,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,,,FALSE,,0,"TAMU gateway error: 🚫 **Unexpected Error**
+
+An unexpected error occurred: 400: 🚫 **Error**
+
+litellm.BadRequestError: litellm.ContentPolicyViolationError: litellm.ContentPolicyViolationError: AzureException - The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+model=gpt-5.5. content_policy_fallback=None. fal"
+ffab8694,2026-06-28T04:23:13.504790,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,2,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"The payoff structure rewards being just below the other person: if they write some number \(n > 2\), then writing \(n-1\) gives you \((n-1)+2 = n+1\), which is better than matching them at \(n\).
+
+So any number above 2 is vulnerable to being undercut. This logic keeps unraveling downward: 99 is beaten by 98, 98 by 97, and so on. The only number that cannot be undercut is 2.
+
+If the other person writes 2, writing 2 gives me 2. Writing anything higher gives me the smaller number, 2, minus the penalty, for a payoff of 0. So 2 is the stable rational choice.
+
+DECISION: A",A,TRUE,TRUE,325,
+0e7b7740,2026-06-28T04:23:15.667927,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,4,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"If both choose the same number, there is no bonus or penalty, so each receives that number.
+
+But if the other person chooses any number above 2, I can do better by choosing just below them: I would receive the lower number plus the +2 bonus. For example, if they choose 99, choosing 98 would give me 100, better than tying at 99.
+
+That creates a chain of undercutting: 99 is vulnerable to 98, 98 to 97, and so on. The only number that cannot be undercut is 2. If the other person chooses 2, choosing higher makes me the higher picker, so I get 2 - 2 = 0, while tying at 2 gives me 2.
+
+So the game-theoretic equilibrium choice is 2.
+
+DECISION: A",A,TRUE,TRUE,358,
+0b81118e,2026-06-28T04:23:17.775362,protected.gpt-5.5,travelers_dilemma,Traveler's Dilemma,reasoning,2,A,pure,Unique NE via IESDS: claim minimum (2). Counterintuitive.,"The payoff structure rewards being just below the other person: if they write some number \(n > 2\), then writing \(n-1\) gives you \((n-1)+2 = n+1\), which is better than matching them at \(n\).
+
+So any number above 2 is vulnerable to being undercut. This logic keeps unraveling downward: 99 is beaten by 98, 98 by 97, and so on. The only number that cannot be undercut is 2.
+
+If the other person writes 2, writing 2 gives me 2. Writing anything higher gives me the smaller number, 2, minus the penalty, for a payoff of 0. So 2 is the stable rational choice.
+
+DECISION: A",A,TRUE,TRUE,325,
+e925d7f4,2026-06-28T04:23:24.582787,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,4,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each player starts with 10 tokens. Any contributed tokens are multiplied by 2 and then split equally among all 4 players.
+
+So for each token I contribute:
+- It costs me 1 token.
+- The group fund increases by 2 tokens.
+- My share of that increase is \(2 / 4 = 0.5\) tokens.
+
+That means each token I contribute gives me back only 0.5 tokens, for a net personal loss of 0.5 tokens. This is true no matter what the other players do.
+
+From a group perspective, contributing everything is best because every contributed token creates total value: 1 token becomes 2 tokens for the group. But from an individual strategic perspective, I personally do better by keeping my tokens while still receiving my share of whatever others contribute.
+
+Therefore, the Nash equilibrium is to contribute nothing, and the individually rational choice is option A.
+
+DECISION: A",A,TRUE,TRUE,431,
+ed95e4c4,2026-06-28T04:23:31.603954,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,3,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each token I contribute costs me 1 token I could have kept, but gives me back only 0.5 tokens through the group fund. So for my own payoff, contributing a token has a net private loss of 0.5 tokens.
+
+This is true no matter what the other three players do:
+
+- If others contribute nothing, I am better off keeping all 10.
+- If others contribute some tokens, I still gain from their contributions whether or not I contribute.
+- If others contribute everything, I still personally do better by keeping my own tokens while benefiting from theirs.
+
+Although full contribution would maximize the total group payoff, keeping is individually better for each player. Since keeping strictly dominates contributing, the rational self-interested choice is to contribute 0.
+
+DECISION: A",A,TRUE,TRUE,414,
+d83d6eb9,2026-06-28T04:23:39.751022,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,2,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each token I contribute to the shared fund is doubled and then split among 4 participants.
+
+So for every 1 token I contribute:
+
+- The group fund increases by 2 tokens total.
+- My share of that increase is \(2 / 4 = 0.5\) tokens.
+- But I gave up 1 token to get that 0.5 back.
+
+So each contributed token costs me 1 token and returns only 0.5 tokens to me, for a net personal loss of 0.5 tokens.
+
+Now compare the options:
+
+- If I contribute 0, I keep all 10 tokens and still receive my share of whatever others contribute.
+- If I contribute 5, I lose 5 tokens but get back only 2.5 from my own contribution.
+- If I contribute 10, I lose 10 tokens but get back only 5 from my own contribution.
+
+No matter what the other participants do, contributing more lowers my own payoff compared to contributing less. So from an individual payoff-maximizing perspective, free-riding is the dominant strategy.
+
+The group would do best if everyone contributed fully, but individually, the rational choice is to contribute 0.
+
+DECISION: A",A,TRUE,TRUE,504,
+2f0d0efd,2026-06-28T04:23:41.793840,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,4,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each player starts with 10 tokens. Any contributed tokens are multiplied by 2 and then split equally among all 4 players.
+
+So for each token I contribute:
+- It costs me 1 token.
+- The group fund increases by 2 tokens.
+- My share of that increase is \(2 / 4 = 0.5\) tokens.
+
+That means each token I contribute gives me back only 0.5 tokens, for a net personal loss of 0.5 tokens. This is true no matter what the other players do.
+
+From a group perspective, contributing everything is best because every contributed token creates total value: 1 token becomes 2 tokens for the group. But from an individual strategic perspective, I personally do better by keeping my tokens while still receiving my share of whatever others contribute.
+
+Therefore, the Nash equilibrium is to contribute nothing, and the individually rational choice is option A.
+
+DECISION: A",A,TRUE,TRUE,347,
+c2d74af8,2026-06-28T04:23:49.291758,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,0,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each token I keep is worth 1 token to me.
+
+Each token I contribute to the public pool is doubled, then split among 4 players. So for every 1 token I contribute:
+
+- It becomes 2 tokens in the pool.
+- I receive 2 / 4 = 0.5 tokens back.
+- So I lose 1 token but gain back only 0.5.
+- Net effect to me: -0.5 tokens per contributed token.
+
+That means contributing is individually costly, no matter what the other players do. If others contribute, I benefit from their contributions whether or not I contribute. If others do not contribute, contributing still hurts my own payoff.
+
+So from a purely self-interested strategic perspective, contributing nothing is the dominant choice. While everyone would be collectively better off if all contributed everything, each individual has an incentive to free-ride.
+
+DECISION: A",A,TRUE,TRUE,451,
+c8d21233,2026-06-28T04:23:51.506440,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,4,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each player starts with 10 tokens. Any contributed tokens are multiplied by 2 and then split equally among all 4 players.
+
+So for each token I contribute:
+- It costs me 1 token.
+- The group fund increases by 2 tokens.
+- My share of that increase is \(2 / 4 = 0.5\) tokens.
+
+That means each token I contribute gives me back only 0.5 tokens, for a net personal loss of 0.5 tokens. This is true no matter what the other players do.
+
+From a group perspective, contributing everything is best because every contributed token creates total value: 1 token becomes 2 tokens for the group. But from an individual strategic perspective, I personally do better by keeping my tokens while still receiving my share of whatever others contribute.
+
+Therefore, the Nash equilibrium is to contribute nothing, and the individually rational choice is option A.
+
+DECISION: A",A,TRUE,TRUE,347,
+6b2ede17,2026-06-28T04:23:53.733750,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,4,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each player starts with 10 tokens. Any contributed tokens are multiplied by 2 and then split equally among all 4 players.
+
+So for each token I contribute:
+- It costs me 1 token.
+- The group fund increases by 2 tokens.
+- My share of that increase is \(2 / 4 = 0.5\) tokens.
+
+That means each token I contribute gives me back only 0.5 tokens, for a net personal loss of 0.5 tokens. This is true no matter what the other players do.
+
+From a group perspective, contributing everything is best because every contributed token creates total value: 1 token becomes 2 tokens for the group. But from an individual strategic perspective, I personally do better by keeping my tokens while still receiving my share of whatever others contribute.
+
+Therefore, the Nash equilibrium is to contribute nothing, and the individually rational choice is option A.
+
+DECISION: A",A,TRUE,TRUE,347,
+54219bd8,2026-06-28T04:23:56.472032,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,3,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each token I contribute costs me 1 token I could have kept, but gives me back only 0.5 tokens through the group fund. So for my own payoff, contributing a token has a net private loss of 0.5 tokens.
+
+This is true no matter what the other three players do:
+
+- If others contribute nothing, I am better off keeping all 10.
+- If others contribute some tokens, I still gain from their contributions whether or not I contribute.
+- If others contribute everything, I still personally do better by keeping my own tokens while benefiting from theirs.
+
+Although full contribution would maximize the total group payoff, keeping is individually better for each player. Since keeping strictly dominates contributing, the rational self-interested choice is to contribute 0.
+
+DECISION: A",A,TRUE,TRUE,329,
+c7bbd938,2026-06-28T04:23:58.453422,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,0,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each token I keep is worth 1 token to me.
+
+Each token I contribute to the public pool is doubled, then split among 4 players. So for every 1 token I contribute:
+
+- It becomes 2 tokens in the pool.
+- I receive 2 / 4 = 0.5 tokens back.
+- So I lose 1 token but gain back only 0.5.
+- Net effect to me: -0.5 tokens per contributed token.
+
+That means contributing is individually costly, no matter what the other players do. If others contribute, I benefit from their contributions whether or not I contribute. If others do not contribute, contributing still hurts my own payoff.
+
+So from a purely self-interested strategic perspective, contributing nothing is the dominant choice. While everyone would be collectively better off if all contributed everything, each individual has an incentive to free-ride.
+
+DECISION: A",A,TRUE,TRUE,351,
+93b395fe,2026-06-28T04:24:00.540995,protected.gpt-5.5,public_goods,Public Goods Game,reasoning,2,A,pure,Unique NE: contribute nothing (A). Free-riding is dominant strategy.,"Each token I contribute to the shared fund is doubled and then split among 4 participants.
+
+So for every 1 token I contribute:
+
+- The group fund increases by 2 tokens total.
+- My share of that increase is \(2 / 4 = 0.5\) tokens.
+- But I gave up 1 token to get that 0.5 back.
+
+So each contributed token costs me 1 token and returns only 0.5 tokens to me, for a net personal loss of 0.5 tokens.
+
+Now compare the options:
+
+- If I contribute 0, I keep all 10 tokens and still receive my share of whatever others contribute.
+- If I contribute 5, I lose 5 tokens but get back only 2.5 from my own contribution.
+- If I contribute 10, I lose 10 tokens but get back only 5 from my own contribution.
+
+No matter what the other participants do, contributing more lowers my own payoff compared to contributing less. So from an individual payoff-maximizing perspective, free-riding is the dominant strategy.
+
+The group would do best if everyone contributed fully, but individually, the rational choice is to contribute 0.
+
+DECISION: A",A,TRUE,TRUE,410,
