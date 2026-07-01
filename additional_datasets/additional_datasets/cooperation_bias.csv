@@ -1,0 +1,73 @@
+model,game,game_name,motivation,thinking,family,emp_coop_rate,nash_coop_rate,cooperation_bias
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,neutral,True,Claude,0.5,0.0,0.5
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,real,True,Claude,0.0,0.0,0.0
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,Claude,0.2333,0.0,0.2333
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,self,True,Claude,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,neutral,True,Claude,0.5333,0.0,0.5333
+Claude Sonnet 4.5,public_goods,Public Goods Game,real,True,Claude,0.6,0.0,0.6
+Claude Sonnet 4.5,public_goods,Public Goods Game,sabotage,True,Claude,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,self,True,Claude,0.0,0.0,0.0
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,neutral,True,Claude,0.2333,0.5,-0.2667
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,real,True,Claude,0.5333,0.5,0.0333
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,sabotage,True,Claude,0.0,0.5,-0.5
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,self,True,Claude,0.0,0.5,-0.5
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,neutral,False,Claude,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,real,False,Claude,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,Claude,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,self,False,Claude,0.0,0.0,0.0
+Claude-Haiku-5.2,public_goods,Public Goods Game,neutral,False,Claude,0.2,0.0,0.2
+Claude-Haiku-5.2,public_goods,Public Goods Game,real,False,Claude,0.3,0.0,0.3
+Claude-Haiku-5.2,public_goods,Public Goods Game,sabotage,False,Claude,0.1,0.0,0.1
+Claude-Haiku-5.2,public_goods,Public Goods Game,self,False,Claude,0.0,0.0,0.0
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,neutral,False,Claude,0.0,0.5,-0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,real,False,Claude,0.0,0.5,-0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,sabotage,False,Claude,0.0,0.5,-0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,self,False,Claude,0.0,0.5,-0.5
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,neutral,True,Google,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,real,True,Google,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,Google,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,self,True,Google,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,neutral,True,Google,0.1667,0.0,0.1667
+gemini-2.5-flash,public_goods,Public Goods Game,real,True,Google,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,sabotage,True,Google,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,self,True,Google,0.0,0.0,0.0
+gemini-2.5-flash,stag_hunt,Stag Hunt,neutral,True,Google,0.4,0.5,-0.1
+gemini-2.5-flash,stag_hunt,Stag Hunt,real,True,Google,0.4,0.5,-0.1
+gemini-2.5-flash,stag_hunt,Stag Hunt,sabotage,True,Google,0.0,0.5,-0.5
+gemini-2.5-flash,stag_hunt,Stag Hunt,self,True,Google,0.3333,0.5,-0.1667
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,neutral,False,Google,0.3333,0.0,0.3333
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,real,False,Google,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,Google,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,self,False,Google,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,neutral,False,Google,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,real,False,Google,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,sabotage,False,Google,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,self,False,Google,0.1333,0.0,0.1333
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,neutral,False,Google,0.4333,0.5,-0.0667
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,real,False,Google,0.5333,0.5,0.0333
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,sabotage,False,Google,0.0,0.5,-0.5
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,self,False,Google,0.2333,0.5,-0.2667
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,neutral,False,OpenAI,0.2667,0.0,0.2667
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,real,False,OpenAI,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,OpenAI,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,self,False,OpenAI,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,neutral,False,OpenAI,0.1333,0.0,0.1333
+gpt-5.5,public_goods,Public Goods Game,real,False,OpenAI,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,sabotage,False,OpenAI,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,self,False,OpenAI,0.0,0.0,0.0
+gpt-5.5,stag_hunt,Stag Hunt,neutral,False,OpenAI,0.8,0.5,0.3
+gpt-5.5,stag_hunt,Stag Hunt,real,False,OpenAI,0.0,0.5,-0.5
+gpt-5.5,stag_hunt,Stag Hunt,sabotage,False,OpenAI,0.0,0.5,-0.5
+gpt-5.5,stag_hunt,Stag Hunt,self,False,OpenAI,0.0,0.5,-0.5
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,neutral,True,OpenAI,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,real,True,OpenAI,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,OpenAI,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,self,True,OpenAI,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,neutral,True,OpenAI,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,real,True,OpenAI,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,sabotage,True,OpenAI,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,self,True,OpenAI,0.0,0.0,0.0
+o4-mini,stag_hunt,Stag Hunt,neutral,True,OpenAI,0.6667,0.5,0.1667
+o4-mini,stag_hunt,Stag Hunt,real,True,OpenAI,0.0,0.5,-0.5
+o4-mini,stag_hunt,Stag Hunt,sabotage,True,OpenAI,0.0,0.5,-0.5
+o4-mini,stag_hunt,Stag Hunt,self,True,OpenAI,0.0,0.5,-0.5

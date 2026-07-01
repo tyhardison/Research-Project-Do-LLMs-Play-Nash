@@ -1,0 +1,121 @@
+model,thinking,family,game_category,motivation,n_trials,games_tested,nash_rate,eu_loss,l1_distance,exploitability,maxmin_gap,cooperation_bias,iesds_depth,eq_concentration,risk_dom_rate,payoff_dom_rate
+Claude Sonnet 4.5,True,Claude,mixed,neutral,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8444,0.8,-1.1333,,,,,
+Claude Sonnet 4.5,True,Claude,mixed,real,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,0.0,0.6,0.1555,-0.4889,,,,,
+Claude Sonnet 4.5,True,Claude,mixed,sabotage,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.0222,0.4667,0.0889,-0.4222,,,,,
+Claude Sonnet 4.5,True,Claude,mixed,self,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,0.0222,0.6667,0.289,-0.6223,,,,,
+Claude-Haiku-5.2,False,Claude,mixed,neutral,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8222,0.8111,-1.1444,,,,,
+Claude-Haiku-5.2,False,Claude,mixed,real,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,0.0333,0.6889,0.4222,-0.7556,,,,,
+Claude-Haiku-5.2,False,Claude,mixed,sabotage,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.0778,0.7778,0.5666,-0.9,,,,,
+Claude-Haiku-5.2,False,Claude,mixed,self,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,0.0556,0.8445,0.5667,-0.9,,,,,
+gemini-2.5-flash,True,Google,mixed,neutral,83,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8705,0.8261,-1.1594,,,,,
+gemini-2.5-flash,True,Google,mixed,real,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8444,0.8667,-1.2,,,,,
+gemini-2.5-flash,True,Google,mixed,sabotage,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8222,0.8333,-1.1667,,,,,
+gemini-2.5-flash,True,Google,mixed,self,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8445,0.8556,-1.1889,,,,,
+gemini-2.5-flash-lite,False,Google,mixed,neutral,88,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.0333,0.4873,0.2381,-0.5714,,,,,
+gemini-2.5-flash-lite,False,Google,mixed,real,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.0444,0.7111,0.4,-0.7333,,,,,
+gemini-2.5-flash-lite,False,Google,mixed,sabotage,86,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,0.0,0.4188,0.0641,-0.3974,,,,,
+gemini-2.5-flash-lite,False,Google,mixed,self,84,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,0.0667,0.6889,0.5556,-0.8889,,,,,
+gpt-5.5,False,OpenAI,mixed,neutral,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8222,0.8667,-1.2,,,,,
+gpt-5.5,False,OpenAI,mixed,real,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.9333,0.8889,-1.2222,,,,,
+gpt-5.5,False,OpenAI,mixed,sabotage,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,1.0444,1.0,-1.3333,,,,,
+gpt-5.5,False,OpenAI,mixed,self,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,1.0444,1.0,-1.3333,,,,,
+o4-mini,True,OpenAI,mixed,neutral,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,1.0444,1.0,-1.3333,,,,,
+o4-mini,True,OpenAI,mixed,real,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8889,0.8445,-1.1778,,,,,
+o4-mini,True,OpenAI,mixed,sabotage,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.7778,0.8333,-1.1667,,,,,
+o4-mini,True,OpenAI,mixed,self,90,"Matching Pennies, Rock Paper Scissors, Zero-Sum Matching",1.0,-0.1333,0.8222,0.8,-1.1333,,,,,
+Claude Sonnet 4.5,True,Claude,multiple,neutral,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0333,,,,-0.2667,,0.8417,0.7667,0.2333
+Claude Sonnet 4.5,True,Claude,multiple,real,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,0.0333,,0.825,0.4667,0.5333
+Claude Sonnet 4.5,True,Claude,multiple,sabotage,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.95,1.0,0.0
+Claude Sonnet 4.5,True,Claude,multiple,self,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,1.0,1.0,0.0
+Claude-Haiku-5.2,False,Claude,multiple,neutral,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.9333,1.0,0.0
+Claude-Haiku-5.2,False,Claude,multiple,real,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.9,1.0,0.0
+Claude-Haiku-5.2,False,Claude,multiple,sabotage,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.9167,1.0,0.0
+Claude-Haiku-5.2,False,Claude,multiple,self,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.9083,1.0,0.0
+gemini-2.5-flash,True,Google,multiple,neutral,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0083,,,,-0.1,,0.7167,0.6,0.4
+gemini-2.5-flash,True,Google,multiple,real,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.1,,0.8333,0.6,0.4
+gemini-2.5-flash,True,Google,multiple,sabotage,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.925,1.0,0.0
+gemini-2.5-flash,True,Google,multiple,self,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.1667,,0.9167,0.6667,0.3333
+gemini-2.5-flash-lite,False,Google,multiple,neutral,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.0667,,0.825,0.5667,0.4333
+gemini-2.5-flash-lite,False,Google,multiple,real,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,0.0333,,0.8833,0.4667,0.5333
+gemini-2.5-flash-lite,False,Google,multiple,sabotage,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0167,,,,-0.5,,0.9333,1.0,0.0
+gemini-2.5-flash-lite,False,Google,multiple,self,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.2667,,0.9417,0.7667,0.2333
+gpt-5.5,False,OpenAI,multiple,neutral,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,0.3,,0.8583,0.2,0.8
+gpt-5.5,False,OpenAI,multiple,real,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.9,1.0,0.0
+gpt-5.5,False,OpenAI,multiple,sabotage,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.975,1.0,0.0
+gpt-5.5,False,OpenAI,multiple,self,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.925,1.0,0.0
+o4-mini,True,OpenAI,multiple,neutral,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.05,,,,0.1667,,0.8083,0.3333,0.6667
+o4-mini,True,OpenAI,multiple,real,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,0.0167,,,,-0.5,,0.775,1.0,0.0
+o4-mini,True,OpenAI,multiple,sabotage,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,-0.0833,,,,-0.5,,0.9083,1.0,0.0
+o4-mini,True,OpenAI,multiple,self,120,"Coordination Game, Battle of the Sexes, Stag Hunt, Hawk-Dove",1.0,0.0417,,,,-0.5,,0.8333,1.0,0.0
+Claude Sonnet 4.5,True,Claude,n_player,neutral,30,Public Goods Game,0.4667,,,,,0.5333,,,,
+Claude Sonnet 4.5,True,Claude,n_player,real,30,Public Goods Game,0.4,,,,,0.6,,,,
+Claude Sonnet 4.5,True,Claude,n_player,sabotage,30,Public Goods Game,1.0,,,,,0.0,,,,
+Claude Sonnet 4.5,True,Claude,n_player,self,30,Public Goods Game,1.0,,,,,0.0,,,,
+Claude-Haiku-5.2,False,Claude,n_player,neutral,30,Public Goods Game,0.8,,,,,0.2,,,,
+Claude-Haiku-5.2,False,Claude,n_player,real,30,Public Goods Game,0.7,,,,,0.3,,,,
+Claude-Haiku-5.2,False,Claude,n_player,sabotage,30,Public Goods Game,0.9,,,,,0.1,,,,
+Claude-Haiku-5.2,False,Claude,n_player,self,30,Public Goods Game,1.0,,,,,0.0,,,,
+gemini-2.5-flash,True,Google,n_player,neutral,30,Public Goods Game,0.8333,,,,,0.1667,,,,
+gemini-2.5-flash,True,Google,n_player,real,30,Public Goods Game,1.0,,,,,0.0,,,,
+gemini-2.5-flash,True,Google,n_player,sabotage,30,Public Goods Game,1.0,,,,,0.0,,,,
+gemini-2.5-flash,True,Google,n_player,self,30,Public Goods Game,1.0,,,,,0.0,,,,
+gemini-2.5-flash-lite,False,Google,n_player,neutral,30,Public Goods Game,1.0,,,,,0.0,,,,
+gemini-2.5-flash-lite,False,Google,n_player,real,30,Public Goods Game,1.0,,,,,0.0,,,,
+gemini-2.5-flash-lite,False,Google,n_player,sabotage,30,Public Goods Game,1.0,,,,,0.0,,,,
+gemini-2.5-flash-lite,False,Google,n_player,self,30,Public Goods Game,0.8667,,,,,0.1333,,,,
+gpt-5.5,False,OpenAI,n_player,neutral,30,Public Goods Game,0.8667,,,,,0.1333,,,,
+gpt-5.5,False,OpenAI,n_player,real,30,Public Goods Game,1.0,,,,,0.0,,,,
+gpt-5.5,False,OpenAI,n_player,sabotage,30,Public Goods Game,1.0,,,,,0.0,,,,
+gpt-5.5,False,OpenAI,n_player,self,30,Public Goods Game,1.0,,,,,0.0,,,,
+o4-mini,True,OpenAI,n_player,neutral,30,Public Goods Game,1.0,,,,,0.0,,,,
+o4-mini,True,OpenAI,n_player,real,30,Public Goods Game,1.0,,,,,0.0,,,,
+o4-mini,True,OpenAI,n_player,sabotage,30,Public Goods Game,1.0,,,,,0.0,,,,
+o4-mini,True,OpenAI,n_player,self,30,Public Goods Game,1.0,,,,,0.0,,,,
+Claude Sonnet 4.5,True,Claude,pure_dominant,neutral,30,Prisoner's Dilemma,0.5,0.5,,,,0.5,,,,
+Claude Sonnet 4.5,True,Claude,pure_dominant,real,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+Claude Sonnet 4.5,True,Claude,pure_dominant,sabotage,30,Prisoner's Dilemma,0.7667,0.2333,,,,0.2333,,,,
+Claude Sonnet 4.5,True,Claude,pure_dominant,self,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+Claude-Haiku-5.2,False,Claude,pure_dominant,neutral,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+Claude-Haiku-5.2,False,Claude,pure_dominant,real,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+Claude-Haiku-5.2,False,Claude,pure_dominant,sabotage,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+Claude-Haiku-5.2,False,Claude,pure_dominant,self,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gemini-2.5-flash,True,Google,pure_dominant,neutral,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gemini-2.5-flash,True,Google,pure_dominant,real,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gemini-2.5-flash,True,Google,pure_dominant,sabotage,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gemini-2.5-flash,True,Google,pure_dominant,self,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gemini-2.5-flash-lite,False,Google,pure_dominant,neutral,30,Prisoner's Dilemma,0.6667,0.3333,,,,0.3333,,,,
+gemini-2.5-flash-lite,False,Google,pure_dominant,real,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gemini-2.5-flash-lite,False,Google,pure_dominant,sabotage,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gemini-2.5-flash-lite,False,Google,pure_dominant,self,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gpt-5.5,False,OpenAI,pure_dominant,neutral,30,Prisoner's Dilemma,0.7333,0.2667,,,,0.2667,,,,
+gpt-5.5,False,OpenAI,pure_dominant,real,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gpt-5.5,False,OpenAI,pure_dominant,sabotage,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+gpt-5.5,False,OpenAI,pure_dominant,self,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+o4-mini,True,OpenAI,pure_dominant,neutral,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+o4-mini,True,OpenAI,pure_dominant,real,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+o4-mini,True,OpenAI,pure_dominant,sabotage,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+o4-mini,True,OpenAI,pure_dominant,self,30,Prisoner's Dilemma,1.0,0.0,,,,0.0,,,,
+Claude Sonnet 4.5,True,Claude,pure_iesds,neutral,30,Traveler's Dilemma,0.6667,,,,,,3.333,,,
+Claude Sonnet 4.5,True,Claude,pure_iesds,real,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+Claude Sonnet 4.5,True,Claude,pure_iesds,sabotage,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+Claude Sonnet 4.5,True,Claude,pure_iesds,self,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+Claude-Haiku-5.2,False,Claude,pure_iesds,neutral,30,Traveler's Dilemma,0.7667,,,,,,3.767,,,
+Claude-Haiku-5.2,False,Claude,pure_iesds,real,30,Traveler's Dilemma,0.1667,,,,,,3.167,,,
+Claude-Haiku-5.2,False,Claude,pure_iesds,sabotage,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+Claude-Haiku-5.2,False,Claude,pure_iesds,self,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+gemini-2.5-flash,True,Google,pure_iesds,neutral,30,Traveler's Dilemma,0.3333,,,,,,2.067,,,
+gemini-2.5-flash,True,Google,pure_iesds,real,30,Traveler's Dilemma,0.5667,,,,,,2.267,,,
+gemini-2.5-flash,True,Google,pure_iesds,sabotage,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+gemini-2.5-flash,True,Google,pure_iesds,self,30,Traveler's Dilemma,0.8,,,,,,3.2,,,
+gemini-2.5-flash-lite,False,Google,pure_iesds,neutral,30,Traveler's Dilemma,0.5333,,,,,,2.533,,,
+gemini-2.5-flash-lite,False,Google,pure_iesds,real,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+gemini-2.5-flash-lite,False,Google,pure_iesds,sabotage,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+gemini-2.5-flash-lite,False,Google,pure_iesds,self,30,Traveler's Dilemma,0.9,,,,,,3.6,,,
+gpt-5.5,False,OpenAI,pure_iesds,neutral,30,Traveler's Dilemma,0.3,,,,,,1.2,,,
+gpt-5.5,False,OpenAI,pure_iesds,real,30,Traveler's Dilemma,0.2333,,,,,,0.933,,,
+gpt-5.5,False,OpenAI,pure_iesds,sabotage,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+gpt-5.5,False,OpenAI,pure_iesds,self,30,Traveler's Dilemma,0.4,,,,,,1.6,,,
+o4-mini,True,OpenAI,pure_iesds,neutral,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+o4-mini,True,OpenAI,pure_iesds,real,30,Traveler's Dilemma,0.7,,,,,,2.8,,,
+o4-mini,True,OpenAI,pure_iesds,sabotage,30,Traveler's Dilemma,1.0,,,,,,4.0,,,
+o4-mini,True,OpenAI,pure_iesds,self,30,Traveler's Dilemma,0.5,,,,,,2.0,,,

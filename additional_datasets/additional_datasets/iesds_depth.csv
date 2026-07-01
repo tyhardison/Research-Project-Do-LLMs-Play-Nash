@@ -1,0 +1,25 @@
+model,motivation,thinking,family,mean_depth,mean_claim,nash_rate,n_trials
+Claude Sonnet 4.5,neutral,True,Claude,3.333,18.0,0.6666666666666666,30
+Claude Sonnet 4.5,real,True,Claude,4.0,2.0,1.0,30
+Claude Sonnet 4.5,sabotage,True,Claude,4.0,2.0,1.0,30
+Claude Sonnet 4.5,self,True,Claude,4.0,2.0,1.0,30
+Claude-Haiku-5.2,neutral,False,Claude,3.767,7.4,0.7666666666666667,30
+Claude-Haiku-5.2,real,False,Claude,3.167,21.2,0.16666666666666666,30
+Claude-Haiku-5.2,sabotage,False,Claude,4.0,2.0,1.0,30
+Claude-Haiku-5.2,self,False,Claude,4.0,2.0,1.0,30
+gemini-2.5-flash,neutral,True,Google,2.067,48.7,0.3333333333333333,30
+gemini-2.5-flash,real,True,Google,2.267,44.0,0.5666666666666667,30
+gemini-2.5-flash,sabotage,True,Google,4.0,2.0,1.0,30
+gemini-2.5-flash,self,True,Google,3.2,21.4,0.8,30
+gemini-2.5-flash-lite,neutral,False,Google,2.533,37.5,0.5333333333333333,30
+gemini-2.5-flash-lite,real,False,Google,4.0,2.0,1.0,30
+gemini-2.5-flash-lite,sabotage,False,Google,4.0,2.0,1.0,30
+gemini-2.5-flash-lite,self,False,Google,3.6,11.7,0.9,30
+gpt-5.5,neutral,False,OpenAI,1.2,69.9,0.3,30
+gpt-5.5,real,False,OpenAI,0.933,76.4,0.23333333333333334,30
+gpt-5.5,sabotage,False,OpenAI,4.0,2.0,1.0,30
+gpt-5.5,self,False,OpenAI,1.6,60.2,0.4,30
+o4-mini,neutral,True,OpenAI,4.0,2.0,1.0,30
+o4-mini,real,True,OpenAI,2.8,31.1,0.7,30
+o4-mini,sabotage,True,OpenAI,4.0,2.0,1.0,30
+o4-mini,self,True,OpenAI,2.0,50.5,0.5,30

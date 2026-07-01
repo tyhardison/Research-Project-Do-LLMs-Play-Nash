@@ -1,0 +1,241 @@
+model,game,motivation,thinking,family,game_category,nash_rate,n_valid,n_invalid,l1_distance,eu_empirical,eu_nash,eu_loss,exploitability,emp_coop_rate,cooperation_bias,epsilon_nash
+Claude Sonnet 4.5,battle_of_sexes,neutral,True,Claude,multiple,1.0,30,False,0.2666,1.1333,1.0,-0.1333,,,,0.28
+Claude-Haiku-5.2,battle_of_sexes,neutral,False,Claude,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gemini-2.5-flash,battle_of_sexes,neutral,True,Google,multiple,1.0,30,False,0.0666,1.0333,1.0,-0.0333,,,,0.33
+gemini-2.5-flash-lite,battle_of_sexes,neutral,False,Google,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gpt-5.5,battle_of_sexes,neutral,False,OpenAI,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+o4-mini,battle_of_sexes,neutral,True,OpenAI,multiple,1.0,30,False,0.4,1.2,1.0,-0.2,,,,0.2133
+Claude Sonnet 4.5,battle_of_sexes,real,True,Claude,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+Claude-Haiku-5.2,battle_of_sexes,real,False,Claude,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gemini-2.5-flash,battle_of_sexes,real,True,Google,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gemini-2.5-flash-lite,battle_of_sexes,real,False,Google,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gpt-5.5,battle_of_sexes,real,False,OpenAI,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+o4-mini,battle_of_sexes,real,True,OpenAI,multiple,1.0,30,False,0.1334,0.9333,1.0,0.0667,,,,0.32
+Claude Sonnet 4.5,battle_of_sexes,sabotage,True,Claude,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+Claude-Haiku-5.2,battle_of_sexes,sabotage,False,Claude,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gemini-2.5-flash,battle_of_sexes,sabotage,True,Google,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gemini-2.5-flash-lite,battle_of_sexes,sabotage,False,Google,multiple,1.0,30,False,0.1334,1.0666,1.0,-0.0666,,,,0.32
+gpt-5.5,battle_of_sexes,sabotage,False,OpenAI,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+o4-mini,battle_of_sexes,sabotage,True,OpenAI,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+Claude Sonnet 4.5,battle_of_sexes,self,True,Claude,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+Claude-Haiku-5.2,battle_of_sexes,self,False,Claude,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gemini-2.5-flash,battle_of_sexes,self,True,Google,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gemini-2.5-flash-lite,battle_of_sexes,self,False,Google,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+gpt-5.5,battle_of_sexes,self,False,OpenAI,multiple,1.0,30,False,0.6666,1.3333,1.0,-0.3333,,,,0.0
+o4-mini,battle_of_sexes,self,True,OpenAI,multiple,1.0,30,False,0.3334,0.8333,1.0,0.1667,,,,0.25
+Claude Sonnet 4.5,coordination_game,neutral,True,Claude,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+Claude-Haiku-5.2,coordination_game,neutral,False,Claude,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gemini-2.5-flash,coordination_game,neutral,True,Google,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gemini-2.5-flash-lite,coordination_game,neutral,False,Google,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gpt-5.5,coordination_game,neutral,False,OpenAI,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+o4-mini,coordination_game,neutral,True,OpenAI,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+Claude Sonnet 4.5,coordination_game,real,True,Claude,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+Claude-Haiku-5.2,coordination_game,real,False,Claude,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gemini-2.5-flash,coordination_game,real,True,Google,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gemini-2.5-flash-lite,coordination_game,real,False,Google,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gpt-5.5,coordination_game,real,False,OpenAI,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+o4-mini,coordination_game,real,True,OpenAI,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+Claude Sonnet 4.5,coordination_game,sabotage,True,Claude,multiple,1.0,30,False,0.6,1.0,1.0,0.0,,,,0.24
+Claude-Haiku-5.2,coordination_game,sabotage,False,Claude,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gemini-2.5-flash,coordination_game,sabotage,True,Google,multiple,1.0,30,False,0.4,1.0,1.0,0.0,,,,0.24
+gemini-2.5-flash-lite,coordination_game,sabotage,False,Google,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gpt-5.5,coordination_game,sabotage,False,OpenAI,multiple,1.0,30,False,0.8,1.0,1.0,0.0,,,,0.16
+o4-mini,coordination_game,sabotage,True,OpenAI,multiple,1.0,30,False,0.2666,1.0,1.0,0.0,,,,0.1955
+Claude Sonnet 4.5,coordination_game,self,True,Claude,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+Claude-Haiku-5.2,coordination_game,self,False,Claude,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gemini-2.5-flash,coordination_game,self,True,Google,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gemini-2.5-flash-lite,coordination_game,self,False,Google,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+gpt-5.5,coordination_game,self,False,OpenAI,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+o4-mini,coordination_game,self,True,OpenAI,multiple,1.0,30,False,1.0,1.0,1.0,0.0,,,,0.0
+Claude Sonnet 4.5,hawk_dove,neutral,True,Claude,multiple,1.0,30,False,0.9334,0.6667,0.6667,0.0,,,,1.12
+Claude-Haiku-5.2,hawk_dove,neutral,False,Claude,multiple,1.0,30,False,0.8,0.6667,0.6667,0.0,,,,0.8799
+gemini-2.5-flash,hawk_dove,neutral,True,Google,multiple,1.0,30,False,0.2,0.6667,0.6667,0.0,,,,0.1299
+gemini-2.5-flash-lite,hawk_dove,neutral,False,Google,multiple,1.0,30,False,0.1334,0.6667,0.6667,0.0,,,,0.1466
+gpt-5.5,hawk_dove,neutral,False,OpenAI,multiple,1.0,30,False,0.6,0.6667,0.6667,0.0,,,,0.5699
+o4-mini,hawk_dove,neutral,True,OpenAI,multiple,1.0,30,False,0.0666,0.6667,0.6667,0.0,,,,0.07
+Claude Sonnet 4.5,hawk_dove,real,True,Claude,multiple,1.0,30,False,0.2,0.6667,0.6667,0.0,,,,0.2301
+Claude-Haiku-5.2,hawk_dove,real,False,Claude,multiple,1.0,30,False,0.5334,0.6667,0.6667,0.0,,,,0.48
+gemini-2.5-flash,hawk_dove,real,True,Google,multiple,1.0,30,False,0.8,0.6667,0.6667,0.0,,,,0.8799
+gemini-2.5-flash-lite,hawk_dove,real,False,Google,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+gpt-5.5,hawk_dove,real,False,OpenAI,multiple,1.0,30,False,0.5334,0.6667,0.6667,0.0,,,,0.48
+o4-mini,hawk_dove,real,True,OpenAI,multiple,1.0,30,False,0.3334,0.6667,0.6667,0.0,,,,0.25
+Claude Sonnet 4.5,hawk_dove,sabotage,True,Claude,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+Claude-Haiku-5.2,hawk_dove,sabotage,False,Claude,multiple,1.0,30,False,0.0,0.6667,0.6667,0.0,,,,0.0001
+gemini-2.5-flash,hawk_dove,sabotage,True,Google,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+gemini-2.5-flash-lite,hawk_dove,sabotage,False,Google,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+gpt-5.5,hawk_dove,sabotage,False,OpenAI,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+o4-mini,hawk_dove,sabotage,True,OpenAI,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+Claude Sonnet 4.5,hawk_dove,self,True,Claude,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+Claude-Haiku-5.2,hawk_dove,self,False,Claude,multiple,1.0,30,False,0.0666,0.6667,0.6667,0.0,,,,0.0367
+gemini-2.5-flash,hawk_dove,self,True,Google,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+gemini-2.5-flash-lite,hawk_dove,self,False,Google,multiple,1.0,30,False,0.6666,0.6667,0.6667,0.0,,,,1.0
+gpt-5.5,hawk_dove,self,False,OpenAI,multiple,1.0,30,False,0.0666,0.6667,0.6667,0.0,,,,0.07
+o4-mini,hawk_dove,self,True,OpenAI,multiple,1.0,30,False,0.3334,0.6667,0.6667,0.0,,,,0.4166
+Claude Sonnet 4.5,matching_pennies,neutral,True,Claude,mixed,1.0,30,False,0.4,0.0,0.0,0.0,0.4,,,0.24
+Claude-Haiku-5.2,matching_pennies,neutral,False,Claude,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gemini-2.5-flash,matching_pennies,neutral,True,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gemini-2.5-flash-lite,matching_pennies,neutral,False,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gpt-5.5,matching_pennies,neutral,False,OpenAI,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+o4-mini,matching_pennies,neutral,True,OpenAI,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+Claude Sonnet 4.5,matching_pennies,real,True,Claude,mixed,1.0,30,False,0.4666,0.0,0.0,0.0,0.4666,,,0.2489
+Claude-Haiku-5.2,matching_pennies,real,False,Claude,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gemini-2.5-flash,matching_pennies,real,True,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gemini-2.5-flash-lite,matching_pennies,real,False,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gpt-5.5,matching_pennies,real,False,OpenAI,mixed,1.0,30,False,0.6666,0.0,0.0,0.0,0.6666,,,0.2222
+o4-mini,matching_pennies,real,True,OpenAI,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+Claude Sonnet 4.5,matching_pennies,sabotage,True,Claude,mixed,1.0,30,False,0.0666,0.0,0.0,0.0,0.0666,,,0.0622
+Claude-Haiku-5.2,matching_pennies,sabotage,False,Claude,mixed,1.0,30,False,0.5334,0.0,0.0,0.0,0.5334,,,0.2489
+gemini-2.5-flash,matching_pennies,sabotage,True,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gemini-2.5-flash-lite,matching_pennies,sabotage,False,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gpt-5.5,matching_pennies,sabotage,False,OpenAI,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+o4-mini,matching_pennies,sabotage,True,OpenAI,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+Claude Sonnet 4.5,matching_pennies,self,True,Claude,mixed,1.0,30,False,0.5334,0.0,0.0,0.0,0.5334,,,0.2489
+Claude-Haiku-5.2,matching_pennies,self,False,Claude,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gemini-2.5-flash,matching_pennies,self,True,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gemini-2.5-flash-lite,matching_pennies,self,False,Google,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+gpt-5.5,matching_pennies,self,False,OpenAI,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+o4-mini,matching_pennies,self,True,OpenAI,mixed,1.0,30,False,1.0,0.0,0.0,0.0,1.0,,,0.0
+Claude Sonnet 4.5,prisoners_dilemma,neutral,True,Claude,pure_dominant,0.5,30,False,1.0,-3.5,-3.0,0.5,,0.5,0.5,0.5
+Claude-Haiku-5.2,prisoners_dilemma,neutral,False,Claude,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,neutral,True,Google,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,neutral,False,Google,pure_dominant,0.6667,30,False,0.6666,-3.3333,-3.0,0.3333,,0.3333,0.3333,0.3333
+gpt-5.5,prisoners_dilemma,neutral,False,OpenAI,pure_dominant,0.7333,30,False,0.5334,-3.2667,-3.0,0.2667,,0.2667,0.2667,0.2667
+o4-mini,prisoners_dilemma,neutral,True,OpenAI,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+Claude Sonnet 4.5,prisoners_dilemma,real,True,Claude,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,real,False,Claude,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,real,True,Google,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,real,False,Google,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,real,False,OpenAI,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,real,True,OpenAI,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+Claude Sonnet 4.5,prisoners_dilemma,sabotage,True,Claude,pure_dominant,0.7667,30,False,0.4666,-3.2333,-3.0,0.2333,,0.2333,0.2333,0.2333
+Claude-Haiku-5.2,prisoners_dilemma,sabotage,False,Claude,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,sabotage,True,Google,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,sabotage,False,Google,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,sabotage,False,OpenAI,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,sabotage,True,OpenAI,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+Claude Sonnet 4.5,prisoners_dilemma,self,True,Claude,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,self,False,Claude,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,self,True,Google,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,self,False,Google,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,self,False,OpenAI,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,self,True,OpenAI,pure_dominant,1.0,30,False,0.0,-3.0,-3.0,0.0,,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,neutral,True,Claude,n_player,0.4667,30,False,1.0666,,,,,0.5333,0.5333,
+Claude-Haiku-5.2,public_goods,neutral,False,Claude,n_player,0.8,30,False,0.4,,,,,0.2,0.2,
+gemini-2.5-flash,public_goods,neutral,True,Google,n_player,0.8333,30,False,0.3334,,,,,0.1667,0.1667,
+gemini-2.5-flash-lite,public_goods,neutral,False,Google,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+gpt-5.5,public_goods,neutral,False,OpenAI,n_player,0.8667,30,False,0.2666,,,,,0.1333,0.1333,
+o4-mini,public_goods,neutral,True,OpenAI,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+Claude Sonnet 4.5,public_goods,real,True,Claude,n_player,0.4,30,False,1.2,,,,,0.6,0.6,
+Claude-Haiku-5.2,public_goods,real,False,Claude,n_player,0.7,30,False,0.6,,,,,0.3,0.3,
+gemini-2.5-flash,public_goods,real,True,Google,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+gemini-2.5-flash-lite,public_goods,real,False,Google,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+gpt-5.5,public_goods,real,False,OpenAI,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+o4-mini,public_goods,real,True,OpenAI,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+Claude Sonnet 4.5,public_goods,sabotage,True,Claude,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+Claude-Haiku-5.2,public_goods,sabotage,False,Claude,n_player,0.9,30,False,0.2,,,,,0.1,0.1,
+gemini-2.5-flash,public_goods,sabotage,True,Google,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+gemini-2.5-flash-lite,public_goods,sabotage,False,Google,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+gpt-5.5,public_goods,sabotage,False,OpenAI,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+o4-mini,public_goods,sabotage,True,OpenAI,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+Claude Sonnet 4.5,public_goods,self,True,Claude,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+Claude-Haiku-5.2,public_goods,self,False,Claude,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+gemini-2.5-flash,public_goods,self,True,Google,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+gemini-2.5-flash-lite,public_goods,self,False,Google,n_player,0.8667,30,False,0.2666,,,,,0.1333,0.1333,
+gpt-5.5,public_goods,self,False,OpenAI,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+o4-mini,public_goods,self,True,OpenAI,n_player,1.0,30,False,0.0,,,,,0.0,0.0,
+Claude Sonnet 4.5,rock_paper_scissors,neutral,True,Claude,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+Claude-Haiku-5.2,rock_paper_scissors,neutral,False,Claude,mixed,1.0,30,False,0.6666,0.0,0.0,0.0,0.4333,,,0.4333
+gemini-2.5-flash,rock_paper_scissors,neutral,True,Google,mixed,1.0,23,False,0.8116,0.0,0.0,0.0,0.4782,,,0.4782
+gemini-2.5-flash-lite,rock_paper_scissors,neutral,False,Google,mixed,1.0,28,False,0.2619,0.0,0.0,0.0,0.2143,,,0.2143
+gpt-5.5,rock_paper_scissors,neutral,False,OpenAI,mixed,1.0,30,False,0.6667,0.0,0.0,0.0,0.6,,,0.6
+o4-mini,rock_paper_scissors,neutral,True,OpenAI,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+Claude Sonnet 4.5,rock_paper_scissors,real,True,Claude,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+Claude-Haiku-5.2,rock_paper_scissors,real,False,Claude,mixed,1.0,30,False,0.8666,0.0,0.0,0.0,0.7667,,,0.7667
+gemini-2.5-flash,rock_paper_scissors,real,True,Google,mixed,1.0,30,False,0.7333,0.0,0.0,0.0,0.6,,,0.6
+gemini-2.5-flash-lite,rock_paper_scissors,real,False,Google,mixed,1.0,30,False,0.8666,0.0,0.0,0.0,0.5334,,,0.5334
+gpt-5.5,rock_paper_scissors,real,False,OpenAI,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+o4-mini,rock_paper_scissors,real,True,OpenAI,mixed,1.0,30,False,0.8666,0.0,0.0,0.0,0.5334,,,0.5334
+Claude Sonnet 4.5,rock_paper_scissors,sabotage,True,Claude,mixed,1.0,30,False,1.2,0.0,0.0,0.0,0.8666,,,0.8666
+Claude-Haiku-5.2,rock_paper_scissors,sabotage,False,Claude,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+gemini-2.5-flash,rock_paper_scissors,sabotage,True,Google,mixed,1.0,30,False,0.6667,0.0,0.0,0.0,0.5,,,0.5
+gemini-2.5-flash-lite,rock_paper_scissors,sabotage,False,Google,mixed,1.0,26,False,0.2564,0.0,0.0,0.0,0.1923,,,0.1923
+gpt-5.5,rock_paper_scissors,sabotage,False,OpenAI,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+o4-mini,rock_paper_scissors,sabotage,True,OpenAI,mixed,1.0,30,False,0.5333,0.0,0.0,0.0,0.5,,,0.5
+Claude Sonnet 4.5,rock_paper_scissors,self,True,Claude,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+Claude-Haiku-5.2,rock_paper_scissors,self,False,Claude,mixed,1.0,30,False,1.2,0.0,0.0,0.0,0.8666,,,0.8666
+gemini-2.5-flash,rock_paper_scissors,self,True,Google,mixed,1.0,30,False,0.7334,0.0,0.0,0.0,0.5667,,,0.5667
+gemini-2.5-flash-lite,rock_paper_scissors,self,False,Google,mixed,1.0,24,False,0.6666,0.0,0.0,0.0,0.6667,,,0.6667
+gpt-5.5,rock_paper_scissors,self,False,OpenAI,mixed,1.0,30,False,1.3333,0.0,0.0,0.0,1.0,,,1.0
+o4-mini,rock_paper_scissors,self,True,OpenAI,mixed,1.0,30,False,0.6667,0.0,0.0,0.0,0.4,,,0.4
+Claude Sonnet 4.5,stag_hunt,neutral,True,Claude,multiple,1.0,30,False,0.5334,2.0,2.0,0.0,,0.2333,-0.2667,0.2489
+Claude-Haiku-5.2,stag_hunt,neutral,False,Claude,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+gemini-2.5-flash,stag_hunt,neutral,True,Google,multiple,1.0,30,False,0.2,2.0,2.0,0.0,,0.4,-0.1,0.16
+gemini-2.5-flash-lite,stag_hunt,neutral,False,Google,multiple,1.0,30,False,0.1334,2.0,2.0,0.0,,0.4333,-0.0667,0.1156
+gpt-5.5,stag_hunt,neutral,False,OpenAI,multiple,1.0,30,False,0.6,2.0,2.0,0.0,,0.8,0.3,0.24
+o4-mini,stag_hunt,neutral,True,OpenAI,multiple,1.0,30,False,0.3334,2.0,2.0,0.0,,0.6667,0.1667,0.2222
+Claude Sonnet 4.5,stag_hunt,real,True,Claude,multiple,1.0,30,False,0.0666,2.0,2.0,0.0,,0.5333,0.0333,0.0622
+Claude-Haiku-5.2,stag_hunt,real,False,Claude,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+gemini-2.5-flash,stag_hunt,real,True,Google,multiple,1.0,30,False,0.2,2.0,2.0,0.0,,0.4,-0.1,0.16
+gemini-2.5-flash-lite,stag_hunt,real,False,Google,multiple,1.0,30,False,0.0666,2.0,2.0,0.0,,0.5333,0.0333,0.0622
+gpt-5.5,stag_hunt,real,False,OpenAI,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+o4-mini,stag_hunt,real,True,OpenAI,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+Claude Sonnet 4.5,stag_hunt,sabotage,True,Claude,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+Claude-Haiku-5.2,stag_hunt,sabotage,False,Claude,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+gemini-2.5-flash,stag_hunt,sabotage,True,Google,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+gemini-2.5-flash-lite,stag_hunt,sabotage,False,Google,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+gpt-5.5,stag_hunt,sabotage,False,OpenAI,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+o4-mini,stag_hunt,sabotage,True,OpenAI,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+Claude Sonnet 4.5,stag_hunt,self,True,Claude,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+Claude-Haiku-5.2,stag_hunt,self,False,Claude,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+gemini-2.5-flash,stag_hunt,self,True,Google,multiple,1.0,30,False,0.3334,2.0,2.0,0.0,,0.3333,-0.1667,0.2222
+gemini-2.5-flash-lite,stag_hunt,self,False,Google,multiple,1.0,30,False,0.5334,2.0,2.0,0.0,,0.2333,-0.2667,0.2489
+gpt-5.5,stag_hunt,self,False,OpenAI,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+o4-mini,stag_hunt,self,True,OpenAI,multiple,1.0,30,False,1.0,2.0,2.0,0.0,,0.0,-0.5,0.0
+Claude Sonnet 4.5,travelers_dilemma,neutral,True,Claude,pure_iesds,0.6667,30,False,0.6666,,,,,,,
+Claude-Haiku-5.2,travelers_dilemma,neutral,False,Claude,pure_iesds,0.7667,30,False,0.4666,,,,,,,
+gemini-2.5-flash,travelers_dilemma,neutral,True,Google,pure_iesds,0.3333,30,False,1.3334,,,,,,,
+gemini-2.5-flash-lite,travelers_dilemma,neutral,False,Google,pure_iesds,0.5333,30,False,0.9334,,,,,,,
+gpt-5.5,travelers_dilemma,neutral,False,OpenAI,pure_iesds,0.3,30,False,1.4,,,,,,,
+o4-mini,travelers_dilemma,neutral,True,OpenAI,pure_iesds,1.0,30,False,0.0,,,,,,,
+Claude Sonnet 4.5,travelers_dilemma,real,True,Claude,pure_iesds,1.0,30,False,0.0,,,,,,,
+Claude-Haiku-5.2,travelers_dilemma,real,False,Claude,pure_iesds,0.1667,30,False,1.6666,,,,,,,
+gemini-2.5-flash,travelers_dilemma,real,True,Google,pure_iesds,0.5667,30,False,0.8666,,,,,,,
+gemini-2.5-flash-lite,travelers_dilemma,real,False,Google,pure_iesds,1.0,30,False,0.0,,,,,,,
+gpt-5.5,travelers_dilemma,real,False,OpenAI,pure_iesds,0.2333,30,False,1.5334,,,,,,,
+o4-mini,travelers_dilemma,real,True,OpenAI,pure_iesds,0.7,30,False,0.6,,,,,,,
+Claude Sonnet 4.5,travelers_dilemma,sabotage,True,Claude,pure_iesds,1.0,30,False,0.0,,,,,,,
+Claude-Haiku-5.2,travelers_dilemma,sabotage,False,Claude,pure_iesds,1.0,30,False,0.0,,,,,,,
+gemini-2.5-flash,travelers_dilemma,sabotage,True,Google,pure_iesds,1.0,30,False,0.0,,,,,,,
+gemini-2.5-flash-lite,travelers_dilemma,sabotage,False,Google,pure_iesds,1.0,30,False,0.0,,,,,,,
+gpt-5.5,travelers_dilemma,sabotage,False,OpenAI,pure_iesds,1.0,30,False,0.0,,,,,,,
+o4-mini,travelers_dilemma,sabotage,True,OpenAI,pure_iesds,1.0,30,False,0.0,,,,,,,
+Claude Sonnet 4.5,travelers_dilemma,self,True,Claude,pure_iesds,1.0,30,False,0.0,,,,,,,
+Claude-Haiku-5.2,travelers_dilemma,self,False,Claude,pure_iesds,1.0,30,False,0.0,,,,,,,
+gemini-2.5-flash,travelers_dilemma,self,True,Google,pure_iesds,0.8,30,False,0.4,,,,,,,
+gemini-2.5-flash-lite,travelers_dilemma,self,False,Google,pure_iesds,0.9,30,False,0.2,,,,,,,
+gpt-5.5,travelers_dilemma,self,False,OpenAI,pure_iesds,0.4,30,False,1.2,,,,,,,
+o4-mini,travelers_dilemma,self,True,OpenAI,pure_iesds,0.5,30,False,1.0,,,,,,,
+Claude Sonnet 4.5,zero_sum_matching,neutral,True,Claude,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+Claude-Haiku-5.2,zero_sum_matching,neutral,False,Claude,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+gemini-2.5-flash,zero_sum_matching,neutral,True,Google,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+gemini-2.5-flash-lite,zero_sum_matching,neutral,False,Google,mixed,1.0,30,False,0.2,1.1,1.0,-0.1,-0.5,,,0.6
+gpt-5.5,zero_sum_matching,neutral,False,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+o4-mini,zero_sum_matching,neutral,True,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+Claude Sonnet 4.5,zero_sum_matching,real,True,Claude,mixed,1.0,30,False,0.0,1.0,1.0,0.0,-1.0,,,0.4
+Claude-Haiku-5.2,zero_sum_matching,real,False,Claude,mixed,1.0,30,False,0.2,0.9,1.0,0.1,-0.5,,,0.0
+gemini-2.5-flash,zero_sum_matching,real,True,Google,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+gemini-2.5-flash-lite,zero_sum_matching,real,False,Google,mixed,1.0,30,False,0.2666,1.1333,1.0,-0.1333,-0.3335,,,0.6222
+gpt-5.5,zero_sum_matching,real,False,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+o4-mini,zero_sum_matching,real,True,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+Claude Sonnet 4.5,zero_sum_matching,sabotage,True,Claude,mixed,1.0,30,False,0.1334,1.0667,1.0,-0.0667,-0.6665,,,0.5556
+Claude-Haiku-5.2,zero_sum_matching,sabotage,False,Claude,mixed,1.0,30,False,0.4666,1.2333,1.0,-0.2333,0.1665,,,0.5556
+gemini-2.5-flash,zero_sum_matching,sabotage,True,Google,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+gemini-2.5-flash-lite,zero_sum_matching,sabotage,False,Google,mixed,1.0,30,False,0.0,1.0,1.0,0.0,-1.0,,,0.4
+gpt-5.5,zero_sum_matching,sabotage,False,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+o4-mini,zero_sum_matching,sabotage,True,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+Claude Sonnet 4.5,zero_sum_matching,self,True,Claude,mixed,1.0,30,False,0.1334,0.9333,1.0,0.0667,-0.6665,,,0.1554
+Claude-Haiku-5.2,zero_sum_matching,self,False,Claude,mixed,1.0,30,False,0.3334,0.8333,1.0,0.1667,-0.1665,,,0.289
+gemini-2.5-flash,zero_sum_matching,self,True,Google,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+gemini-2.5-flash-lite,zero_sum_matching,self,False,Google,mixed,1.0,30,False,0.4,0.8,1.0,0.2,-0.0,,,0.4
+gpt-5.5,zero_sum_matching,self,False,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0
+o4-mini,zero_sum_matching,self,True,OpenAI,mixed,1.0,30,False,0.8,1.4,1.0,-0.4,1.0,,,0.0

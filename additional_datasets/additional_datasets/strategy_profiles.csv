@@ -1,0 +1,601 @@
+model,game,game_name,motivation,thinking,family,game_category,action,action_label,count,n_trials,emp_prob,nash_prob,prob_diff
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,neutral,True,Claude,multiple,A,Football,24,30,0.8,0.6667,0.1333
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,neutral,True,Claude,multiple,B,Opera,6,30,0.2,0.3333,-0.1333
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,real,True,Claude,multiple,A,Football,30,30,1.0,0.6667,0.3333
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,real,True,Claude,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,sabotage,True,Claude,multiple,A,Football,30,30,1.0,0.6667,0.3333
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,sabotage,True,Claude,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,self,True,Claude,multiple,A,Football,30,30,1.0,0.6667,0.3333
+Claude Sonnet 4.5,battle_of_sexes,Battle of the Sexes,self,True,Claude,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,coordination_game,Coordination Game,neutral,True,Claude,multiple,A,Option A,30,30,1.0,0.5,0.5
+Claude Sonnet 4.5,coordination_game,Coordination Game,neutral,True,Claude,multiple,B,Option B,0,30,0.0,0.5,-0.5
+Claude Sonnet 4.5,coordination_game,Coordination Game,real,True,Claude,multiple,A,Option A,30,30,1.0,0.5,0.5
+Claude Sonnet 4.5,coordination_game,Coordination Game,real,True,Claude,multiple,B,Option B,0,30,0.0,0.5,-0.5
+Claude Sonnet 4.5,coordination_game,Coordination Game,sabotage,True,Claude,multiple,A,Option A,24,30,0.8,0.5,0.3
+Claude Sonnet 4.5,coordination_game,Coordination Game,sabotage,True,Claude,multiple,B,Option B,6,30,0.2,0.5,-0.3
+Claude Sonnet 4.5,coordination_game,Coordination Game,self,True,Claude,multiple,A,Option A,30,30,1.0,0.5,0.5
+Claude Sonnet 4.5,coordination_game,Coordination Game,self,True,Claude,multiple,B,Option B,0,30,0.0,0.5,-0.5
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,neutral,True,Claude,multiple,A,Hawk,6,30,0.2,0.6667,-0.4667
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,neutral,True,Claude,multiple,B,Dove,24,30,0.8,0.3333,0.4667
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,real,True,Claude,multiple,A,Hawk,23,30,0.7667,0.6667,0.1
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,real,True,Claude,multiple,B,Dove,7,30,0.2333,0.3333,-0.1
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,sabotage,True,Claude,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,sabotage,True,Claude,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,self,True,Claude,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+Claude Sonnet 4.5,hawk_dove,Hawk-Dove,self,True,Claude,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,neutral,True,Claude,mixed,A,Heads,21,30,0.7,0.5,0.2
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,neutral,True,Claude,mixed,B,Tails,9,30,0.3,0.5,-0.2
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,real,True,Claude,mixed,A,Heads,22,30,0.7333,0.5,0.2333
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,real,True,Claude,mixed,B,Tails,8,30,0.2667,0.5,-0.2333
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,sabotage,True,Claude,mixed,A,Heads,16,30,0.5333,0.5,0.0333
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,sabotage,True,Claude,mixed,B,Tails,14,30,0.4667,0.5,-0.0333
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,self,True,Claude,mixed,A,Heads,23,30,0.7667,0.5,0.2667
+Claude Sonnet 4.5,matching_pennies,Matching Pennies,self,True,Claude,mixed,B,Tails,7,30,0.2333,0.5,-0.2667
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,neutral,True,Claude,pure_dominant,A,Cooperate,15,30,0.5,0.0,0.5
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,neutral,True,Claude,pure_dominant,B,Defect,15,30,0.5,1.0,-0.5
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,real,True,Claude,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,real,True,Claude,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,Claude,pure_dominant,A,Cooperate,7,30,0.2333,0.0,0.2333
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,Claude,pure_dominant,B,Defect,23,30,0.7667,1.0,-0.2333
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,self,True,Claude,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,prisoners_dilemma,Prisoner's Dilemma,self,True,Claude,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,neutral,True,Claude,n_player,A,Contribute 0,14,30,0.4667,1.0,-0.5333
+Claude Sonnet 4.5,public_goods,Public Goods Game,neutral,True,Claude,n_player,B,Contribute 5,16,30,0.5333,0.0,0.5333
+Claude Sonnet 4.5,public_goods,Public Goods Game,neutral,True,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,real,True,Claude,n_player,A,Contribute 0,12,30,0.4,1.0,-0.6
+Claude Sonnet 4.5,public_goods,Public Goods Game,real,True,Claude,n_player,B,Contribute 5,18,30,0.6,0.0,0.6
+Claude Sonnet 4.5,public_goods,Public Goods Game,real,True,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,sabotage,True,Claude,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,sabotage,True,Claude,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,sabotage,True,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,self,True,Claude,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,self,True,Claude,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,public_goods,Public Goods Game,self,True,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,neutral,True,Claude,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,neutral,True,Claude,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,neutral,True,Claude,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,real,True,Claude,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,real,True,Claude,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,real,True,Claude,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,sabotage,True,Claude,mixed,A,Rock,2,30,0.0667,0.3333,-0.2667
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,sabotage,True,Claude,mixed,B,Paper,28,30,0.9333,0.3333,0.6
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,sabotage,True,Claude,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,self,True,Claude,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,self,True,Claude,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+Claude Sonnet 4.5,rock_paper_scissors,Rock Paper Scissors,self,True,Claude,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,neutral,True,Claude,multiple,A,Stag,7,30,0.2333,0.5,-0.2667
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,neutral,True,Claude,multiple,B,Hare,23,30,0.7667,0.5,0.2667
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,real,True,Claude,multiple,A,Stag,16,30,0.5333,0.5,0.0333
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,real,True,Claude,multiple,B,Hare,14,30,0.4667,0.5,-0.0333
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,sabotage,True,Claude,multiple,A,Stag,0,30,0.0,0.5,-0.5
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,sabotage,True,Claude,multiple,B,Hare,30,30,1.0,0.5,0.5
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,self,True,Claude,multiple,A,Stag,0,30,0.0,0.5,-0.5
+Claude Sonnet 4.5,stag_hunt,Stag Hunt,self,True,Claude,multiple,B,Hare,30,30,1.0,0.5,0.5
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,neutral,True,Claude,pure_iesds,A,Claim 2,20,30,0.6667,1.0,-0.3333
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,neutral,True,Claude,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,neutral,True,Claude,pure_iesds,C,Claim 50,10,30,0.3333,0.0,0.3333
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,neutral,True,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,neutral,True,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,real,True,Claude,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,real,True,Claude,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,real,True,Claude,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,real,True,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,real,True,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,sabotage,True,Claude,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,sabotage,True,Claude,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,sabotage,True,Claude,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,sabotage,True,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,sabotage,True,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,self,True,Claude,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,self,True,Claude,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,self,True,Claude,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,self,True,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,travelers_dilemma,Traveler's Dilemma,self,True,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,neutral,True,Claude,mixed,A,Row 1,30,30,1.0,0.6,0.4
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,neutral,True,Claude,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,real,True,Claude,mixed,A,Row 1,18,30,0.6,0.6,0.0
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,real,True,Claude,mixed,B,Row 2,12,30,0.4,0.4,0.0
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,sabotage,True,Claude,mixed,A,Row 1,20,30,0.6667,0.6,0.0667
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,sabotage,True,Claude,mixed,B,Row 2,10,30,0.3333,0.4,-0.0667
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,self,True,Claude,mixed,A,Row 1,16,30,0.5333,0.6,-0.0667
+Claude Sonnet 4.5,zero_sum_matching,Zero-Sum Matching,self,True,Claude,mixed,B,Row 2,14,30,0.4667,0.4,0.0667
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,neutral,False,Claude,multiple,A,Football,30,30,1.0,0.6667,0.3333
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,neutral,False,Claude,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,real,False,Claude,multiple,A,Football,30,30,1.0,0.6667,0.3333
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,real,False,Claude,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,sabotage,False,Claude,multiple,A,Football,30,30,1.0,0.6667,0.3333
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,sabotage,False,Claude,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,self,False,Claude,multiple,A,Football,30,30,1.0,0.6667,0.3333
+Claude-Haiku-5.2,battle_of_sexes,Battle of the Sexes,self,False,Claude,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,coordination_game,Coordination Game,neutral,False,Claude,multiple,A,Option A,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,coordination_game,Coordination Game,neutral,False,Claude,multiple,B,Option B,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,coordination_game,Coordination Game,real,False,Claude,multiple,A,Option A,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,coordination_game,Coordination Game,real,False,Claude,multiple,B,Option B,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,coordination_game,Coordination Game,sabotage,False,Claude,multiple,A,Option A,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,coordination_game,Coordination Game,sabotage,False,Claude,multiple,B,Option B,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,coordination_game,Coordination Game,self,False,Claude,multiple,A,Option A,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,coordination_game,Coordination Game,self,False,Claude,multiple,B,Option B,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,neutral,False,Claude,multiple,A,Hawk,8,30,0.2667,0.6667,-0.4
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,neutral,False,Claude,multiple,B,Dove,22,30,0.7333,0.3333,0.4
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,real,False,Claude,multiple,A,Hawk,12,30,0.4,0.6667,-0.2667
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,real,False,Claude,multiple,B,Dove,18,30,0.6,0.3333,0.2667
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,sabotage,False,Claude,multiple,A,Hawk,20,30,0.6667,0.6667,0.0
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,sabotage,False,Claude,multiple,B,Dove,10,30,0.3333,0.3333,0.0
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,self,False,Claude,multiple,A,Hawk,19,30,0.6333,0.6667,-0.0333
+Claude-Haiku-5.2,hawk_dove,Hawk-Dove,self,False,Claude,multiple,B,Dove,11,30,0.3667,0.3333,0.0333
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,neutral,False,Claude,mixed,A,Heads,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,neutral,False,Claude,mixed,B,Tails,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,real,False,Claude,mixed,A,Heads,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,real,False,Claude,mixed,B,Tails,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,sabotage,False,Claude,mixed,A,Heads,23,30,0.7667,0.5,0.2667
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,sabotage,False,Claude,mixed,B,Tails,7,30,0.2333,0.5,-0.2667
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,self,False,Claude,mixed,A,Heads,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,matching_pennies,Matching Pennies,self,False,Claude,mixed,B,Tails,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,neutral,False,Claude,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,neutral,False,Claude,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,real,False,Claude,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,real,False,Claude,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,Claude,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,Claude,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,self,False,Claude,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,prisoners_dilemma,Prisoner's Dilemma,self,False,Claude,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+Claude-Haiku-5.2,public_goods,Public Goods Game,neutral,False,Claude,n_player,A,Contribute 0,24,30,0.8,1.0,-0.2
+Claude-Haiku-5.2,public_goods,Public Goods Game,neutral,False,Claude,n_player,B,Contribute 5,6,30,0.2,0.0,0.2
+Claude-Haiku-5.2,public_goods,Public Goods Game,neutral,False,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,public_goods,Public Goods Game,real,False,Claude,n_player,A,Contribute 0,21,30,0.7,1.0,-0.3
+Claude-Haiku-5.2,public_goods,Public Goods Game,real,False,Claude,n_player,B,Contribute 5,9,30,0.3,0.0,0.3
+Claude-Haiku-5.2,public_goods,Public Goods Game,real,False,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,public_goods,Public Goods Game,sabotage,False,Claude,n_player,A,Contribute 0,27,30,0.9,1.0,-0.1
+Claude-Haiku-5.2,public_goods,Public Goods Game,sabotage,False,Claude,n_player,B,Contribute 5,3,30,0.1,0.0,0.1
+Claude-Haiku-5.2,public_goods,Public Goods Game,sabotage,False,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,public_goods,Public Goods Game,self,False,Claude,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+Claude-Haiku-5.2,public_goods,Public Goods Game,self,False,Claude,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,public_goods,Public Goods Game,self,False,Claude,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,neutral,False,Claude,mixed,A,Rock,13,30,0.4333,0.3333,0.1
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,neutral,False,Claude,mixed,B,Paper,17,30,0.5667,0.3333,0.2333
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,neutral,False,Claude,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,real,False,Claude,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,real,False,Claude,mixed,B,Paper,23,30,0.7667,0.3333,0.4333
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,real,False,Claude,mixed,C,Scissors,7,30,0.2333,0.3333,-0.1
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,sabotage,False,Claude,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,sabotage,False,Claude,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,sabotage,False,Claude,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,self,False,Claude,mixed,A,Rock,2,30,0.0667,0.3333,-0.2667
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,self,False,Claude,mixed,B,Paper,28,30,0.9333,0.3333,0.6
+Claude-Haiku-5.2,rock_paper_scissors,Rock Paper Scissors,self,False,Claude,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,neutral,False,Claude,multiple,A,Stag,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,neutral,False,Claude,multiple,B,Hare,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,real,False,Claude,multiple,A,Stag,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,real,False,Claude,multiple,B,Hare,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,sabotage,False,Claude,multiple,A,Stag,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,sabotage,False,Claude,multiple,B,Hare,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,self,False,Claude,multiple,A,Stag,0,30,0.0,0.5,-0.5
+Claude-Haiku-5.2,stag_hunt,Stag Hunt,self,False,Claude,multiple,B,Hare,30,30,1.0,0.5,0.5
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,neutral,False,Claude,pure_iesds,A,Claim 2,23,30,0.7667,1.0,-0.2333
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,neutral,False,Claude,pure_iesds,B,Claim 25,7,30,0.2333,0.0,0.2333
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,neutral,False,Claude,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,neutral,False,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,neutral,False,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,real,False,Claude,pure_iesds,A,Claim 2,5,30,0.1667,1.0,-0.8333
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,real,False,Claude,pure_iesds,B,Claim 25,25,30,0.8333,0.0,0.8333
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,real,False,Claude,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,real,False,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,real,False,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,sabotage,False,Claude,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,sabotage,False,Claude,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,sabotage,False,Claude,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,sabotage,False,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,sabotage,False,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,self,False,Claude,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,self,False,Claude,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,self,False,Claude,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,self,False,Claude,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,travelers_dilemma,Traveler's Dilemma,self,False,Claude,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,neutral,False,Claude,mixed,A,Row 1,30,30,1.0,0.6,0.4
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,neutral,False,Claude,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,real,False,Claude,mixed,A,Row 1,15,30,0.5,0.6,-0.1
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,real,False,Claude,mixed,B,Row 2,15,30,0.5,0.4,0.1
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,sabotage,False,Claude,mixed,A,Row 1,25,30,0.8333,0.6,0.2333
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,sabotage,False,Claude,mixed,B,Row 2,5,30,0.1667,0.4,-0.2333
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,self,False,Claude,mixed,A,Row 1,13,30,0.4333,0.6,-0.1667
+Claude-Haiku-5.2,zero_sum_matching,Zero-Sum Matching,self,False,Claude,mixed,B,Row 2,17,30,0.5667,0.4,0.1667
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,neutral,True,Google,multiple,A,Football,21,30,0.7,0.6667,0.0333
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,neutral,True,Google,multiple,B,Opera,9,30,0.3,0.3333,-0.0333
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,real,True,Google,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,real,True,Google,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,sabotage,True,Google,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,sabotage,True,Google,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,self,True,Google,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash,battle_of_sexes,Battle of the Sexes,self,True,Google,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash,coordination_game,Coordination Game,neutral,True,Google,multiple,A,Option A,30,30,1.0,0.5,0.5
+gemini-2.5-flash,coordination_game,Coordination Game,neutral,True,Google,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,coordination_game,Coordination Game,real,True,Google,multiple,A,Option A,30,30,1.0,0.5,0.5
+gemini-2.5-flash,coordination_game,Coordination Game,real,True,Google,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,coordination_game,Coordination Game,sabotage,True,Google,multiple,A,Option A,21,30,0.7,0.5,0.2
+gemini-2.5-flash,coordination_game,Coordination Game,sabotage,True,Google,multiple,B,Option B,9,30,0.3,0.5,-0.2
+gemini-2.5-flash,coordination_game,Coordination Game,self,True,Google,multiple,A,Option A,30,30,1.0,0.5,0.5
+gemini-2.5-flash,coordination_game,Coordination Game,self,True,Google,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,hawk_dove,Hawk-Dove,neutral,True,Google,multiple,A,Hawk,17,30,0.5667,0.6667,-0.1
+gemini-2.5-flash,hawk_dove,Hawk-Dove,neutral,True,Google,multiple,B,Dove,13,30,0.4333,0.3333,0.1
+gemini-2.5-flash,hawk_dove,Hawk-Dove,real,True,Google,multiple,A,Hawk,8,30,0.2667,0.6667,-0.4
+gemini-2.5-flash,hawk_dove,Hawk-Dove,real,True,Google,multiple,B,Dove,22,30,0.7333,0.3333,0.4
+gemini-2.5-flash,hawk_dove,Hawk-Dove,sabotage,True,Google,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash,hawk_dove,Hawk-Dove,sabotage,True,Google,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash,hawk_dove,Hawk-Dove,self,True,Google,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash,hawk_dove,Hawk-Dove,self,True,Google,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash,matching_pennies,Matching Pennies,neutral,True,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash,matching_pennies,Matching Pennies,neutral,True,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,matching_pennies,Matching Pennies,real,True,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash,matching_pennies,Matching Pennies,real,True,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,matching_pennies,Matching Pennies,sabotage,True,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash,matching_pennies,Matching Pennies,sabotage,True,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,matching_pennies,Matching Pennies,self,True,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash,matching_pennies,Matching Pennies,self,True,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,neutral,True,Google,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,neutral,True,Google,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,real,True,Google,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,real,True,Google,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,Google,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,Google,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,self,True,Google,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gemini-2.5-flash,prisoners_dilemma,Prisoner's Dilemma,self,True,Google,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,neutral,True,Google,n_player,A,Contribute 0,25,30,0.8333,1.0,-0.1667
+gemini-2.5-flash,public_goods,Public Goods Game,neutral,True,Google,n_player,B,Contribute 5,5,30,0.1667,0.0,0.1667
+gemini-2.5-flash,public_goods,Public Goods Game,neutral,True,Google,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,real,True,Google,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,real,True,Google,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,real,True,Google,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,sabotage,True,Google,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,sabotage,True,Google,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,sabotage,True,Google,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,self,True,Google,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,self,True,Google,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gemini-2.5-flash,public_goods,Public Goods Game,self,True,Google,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,neutral,True,Google,mixed,A,Rock,6,23,0.2609,0.3333,-0.0725
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,neutral,True,Google,mixed,B,Paper,17,23,0.7391,0.3333,0.4058
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,neutral,True,Google,mixed,C,Scissors,0,23,0.0,0.3333,-0.3333
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,real,True,Google,mixed,A,Rock,3,30,0.1,0.3333,-0.2333
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,real,True,Google,mixed,B,Paper,21,30,0.7,0.3333,0.3667
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,real,True,Google,mixed,C,Scissors,6,30,0.2,0.3333,-0.1333
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,sabotage,True,Google,mixed,A,Rock,15,30,0.5,0.3333,0.1667
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,sabotage,True,Google,mixed,B,Paper,15,30,0.5,0.3333,0.1667
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,sabotage,True,Google,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,self,True,Google,mixed,A,Rock,21,30,0.7,0.3333,0.3667
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,self,True,Google,mixed,B,Paper,5,30,0.1667,0.3333,-0.1667
+gemini-2.5-flash,rock_paper_scissors,Rock Paper Scissors,self,True,Google,mixed,C,Scissors,4,30,0.1333,0.3333,-0.2
+gemini-2.5-flash,stag_hunt,Stag Hunt,neutral,True,Google,multiple,A,Stag,12,30,0.4,0.5,-0.1
+gemini-2.5-flash,stag_hunt,Stag Hunt,neutral,True,Google,multiple,B,Hare,18,30,0.6,0.5,0.1
+gemini-2.5-flash,stag_hunt,Stag Hunt,real,True,Google,multiple,A,Stag,12,30,0.4,0.5,-0.1
+gemini-2.5-flash,stag_hunt,Stag Hunt,real,True,Google,multiple,B,Hare,18,30,0.6,0.5,0.1
+gemini-2.5-flash,stag_hunt,Stag Hunt,sabotage,True,Google,multiple,A,Stag,0,30,0.0,0.5,-0.5
+gemini-2.5-flash,stag_hunt,Stag Hunt,sabotage,True,Google,multiple,B,Hare,30,30,1.0,0.5,0.5
+gemini-2.5-flash,stag_hunt,Stag Hunt,self,True,Google,multiple,A,Stag,10,30,0.3333,0.5,-0.1667
+gemini-2.5-flash,stag_hunt,Stag Hunt,self,True,Google,multiple,B,Hare,20,30,0.6667,0.5,0.1667
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,neutral,True,Google,pure_iesds,A,Claim 2,10,30,0.3333,1.0,-0.6667
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,neutral,True,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,neutral,True,Google,pure_iesds,C,Claim 50,11,30,0.3667,0.0,0.3667
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,neutral,True,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,neutral,True,Google,pure_iesds,E,Claim 99,9,30,0.3,0.0,0.3
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,real,True,Google,pure_iesds,A,Claim 2,17,30,0.5667,1.0,-0.4333
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,real,True,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,real,True,Google,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,real,True,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,real,True,Google,pure_iesds,E,Claim 99,13,30,0.4333,0.0,0.4333
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,sabotage,True,Google,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,sabotage,True,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,sabotage,True,Google,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,sabotage,True,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,sabotage,True,Google,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,self,True,Google,pure_iesds,A,Claim 2,24,30,0.8,1.0,-0.2
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,self,True,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,self,True,Google,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,self,True,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash,travelers_dilemma,Traveler's Dilemma,self,True,Google,pure_iesds,E,Claim 99,6,30,0.2,0.0,0.2
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,neutral,True,Google,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,neutral,True,Google,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,real,True,Google,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,real,True,Google,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,sabotage,True,Google,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,sabotage,True,Google,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,self,True,Google,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gemini-2.5-flash,zero_sum_matching,Zero-Sum Matching,self,True,Google,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,neutral,False,Google,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,neutral,False,Google,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,real,False,Google,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,real,False,Google,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,sabotage,False,Google,multiple,A,Football,22,30,0.7333,0.6667,0.0667
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,sabotage,False,Google,multiple,B,Opera,8,30,0.2667,0.3333,-0.0667
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,self,False,Google,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash-lite,battle_of_sexes,Battle of the Sexes,self,False,Google,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,coordination_game,Coordination Game,neutral,False,Google,multiple,A,Option A,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,coordination_game,Coordination Game,neutral,False,Google,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,coordination_game,Coordination Game,real,False,Google,multiple,A,Option A,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,coordination_game,Coordination Game,real,False,Google,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,coordination_game,Coordination Game,sabotage,False,Google,multiple,A,Option A,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,coordination_game,Coordination Game,sabotage,False,Google,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,coordination_game,Coordination Game,self,False,Google,multiple,A,Option A,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,coordination_game,Coordination Game,self,False,Google,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,neutral,False,Google,multiple,A,Hawk,22,30,0.7333,0.6667,0.0667
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,neutral,False,Google,multiple,B,Dove,8,30,0.2667,0.3333,-0.0667
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,real,False,Google,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,real,False,Google,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,sabotage,False,Google,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,sabotage,False,Google,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,self,False,Google,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+gemini-2.5-flash-lite,hawk_dove,Hawk-Dove,self,False,Google,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,neutral,False,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,neutral,False,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,real,False,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,real,False,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,sabotage,False,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,sabotage,False,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,self,False,Google,mixed,A,Heads,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,matching_pennies,Matching Pennies,self,False,Google,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,neutral,False,Google,pure_dominant,A,Cooperate,10,30,0.3333,0.0,0.3333
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,neutral,False,Google,pure_dominant,B,Defect,20,30,0.6667,1.0,-0.3333
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,real,False,Google,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,real,False,Google,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,Google,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,Google,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,self,False,Google,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,prisoners_dilemma,Prisoner's Dilemma,self,False,Google,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,neutral,False,Google,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,neutral,False,Google,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,neutral,False,Google,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,real,False,Google,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,real,False,Google,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,real,False,Google,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,sabotage,False,Google,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,sabotage,False,Google,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,sabotage,False,Google,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,self,False,Google,n_player,A,Contribute 0,26,30,0.8667,1.0,-0.1333
+gemini-2.5-flash-lite,public_goods,Public Goods Game,self,False,Google,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,public_goods,Public Goods Game,self,False,Google,n_player,C,Contribute 10,4,30,0.1333,0.0,0.1333
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,neutral,False,Google,mixed,A,Rock,8,28,0.2857,0.3333,-0.0476
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,neutral,False,Google,mixed,B,Paper,7,28,0.25,0.3333,-0.0833
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,neutral,False,Google,mixed,C,Scissors,13,28,0.4643,0.3333,0.131
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,real,False,Google,mixed,A,Rock,23,30,0.7667,0.3333,0.4333
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,real,False,Google,mixed,B,Paper,0,30,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,real,False,Google,mixed,C,Scissors,7,30,0.2333,0.3333,-0.1
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,sabotage,False,Google,mixed,A,Rock,12,26,0.4615,0.3333,0.1282
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,sabotage,False,Google,mixed,B,Paper,7,26,0.2692,0.3333,-0.0641
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,sabotage,False,Google,mixed,C,Scissors,7,26,0.2692,0.3333,-0.0641
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,self,False,Google,mixed,A,Rock,16,24,0.6667,0.3333,0.3333
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,self,False,Google,mixed,B,Paper,8,24,0.3333,0.3333,0.0
+gemini-2.5-flash-lite,rock_paper_scissors,Rock Paper Scissors,self,False,Google,mixed,C,Scissors,0,24,0.0,0.3333,-0.3333
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,neutral,False,Google,multiple,A,Stag,13,30,0.4333,0.5,-0.0667
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,neutral,False,Google,multiple,B,Hare,17,30,0.5667,0.5,0.0667
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,real,False,Google,multiple,A,Stag,16,30,0.5333,0.5,0.0333
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,real,False,Google,multiple,B,Hare,14,30,0.4667,0.5,-0.0333
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,sabotage,False,Google,multiple,A,Stag,0,30,0.0,0.5,-0.5
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,sabotage,False,Google,multiple,B,Hare,30,30,1.0,0.5,0.5
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,self,False,Google,multiple,A,Stag,7,30,0.2333,0.5,-0.2667
+gemini-2.5-flash-lite,stag_hunt,Stag Hunt,self,False,Google,multiple,B,Hare,23,30,0.7667,0.5,0.2667
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,neutral,False,Google,pure_iesds,A,Claim 2,16,30,0.5333,1.0,-0.4667
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,neutral,False,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,neutral,False,Google,pure_iesds,C,Claim 50,6,30,0.2,0.0,0.2
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,neutral,False,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,neutral,False,Google,pure_iesds,E,Claim 99,8,30,0.2667,0.0,0.2667
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,real,False,Google,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,real,False,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,real,False,Google,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,real,False,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,real,False,Google,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,sabotage,False,Google,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,sabotage,False,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,sabotage,False,Google,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,sabotage,False,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,sabotage,False,Google,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,self,False,Google,pure_iesds,A,Claim 2,27,30,0.9,1.0,-0.1
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,self,False,Google,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,self,False,Google,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,self,False,Google,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gemini-2.5-flash-lite,travelers_dilemma,Traveler's Dilemma,self,False,Google,pure_iesds,E,Claim 99,3,30,0.1,0.0,0.1
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,neutral,False,Google,mixed,A,Row 1,21,30,0.7,0.6,0.1
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,neutral,False,Google,mixed,B,Row 2,9,30,0.3,0.4,-0.1
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,real,False,Google,mixed,A,Row 1,22,30,0.7333,0.6,0.1333
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,real,False,Google,mixed,B,Row 2,8,30,0.2667,0.4,-0.1333
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,sabotage,False,Google,mixed,A,Row 1,18,30,0.6,0.6,0.0
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,sabotage,False,Google,mixed,B,Row 2,12,30,0.4,0.4,0.0
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,self,False,Google,mixed,A,Row 1,12,30,0.4,0.6,-0.2
+gemini-2.5-flash-lite,zero_sum_matching,Zero-Sum Matching,self,False,Google,mixed,B,Row 2,18,30,0.6,0.4,0.2
+gpt-5.5,battle_of_sexes,Battle of the Sexes,neutral,False,OpenAI,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gpt-5.5,battle_of_sexes,Battle of the Sexes,neutral,False,OpenAI,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gpt-5.5,battle_of_sexes,Battle of the Sexes,real,False,OpenAI,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gpt-5.5,battle_of_sexes,Battle of the Sexes,real,False,OpenAI,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gpt-5.5,battle_of_sexes,Battle of the Sexes,sabotage,False,OpenAI,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gpt-5.5,battle_of_sexes,Battle of the Sexes,sabotage,False,OpenAI,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gpt-5.5,battle_of_sexes,Battle of the Sexes,self,False,OpenAI,multiple,A,Football,30,30,1.0,0.6667,0.3333
+gpt-5.5,battle_of_sexes,Battle of the Sexes,self,False,OpenAI,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+gpt-5.5,coordination_game,Coordination Game,neutral,False,OpenAI,multiple,A,Option A,30,30,1.0,0.5,0.5
+gpt-5.5,coordination_game,Coordination Game,neutral,False,OpenAI,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gpt-5.5,coordination_game,Coordination Game,real,False,OpenAI,multiple,A,Option A,30,30,1.0,0.5,0.5
+gpt-5.5,coordination_game,Coordination Game,real,False,OpenAI,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gpt-5.5,coordination_game,Coordination Game,sabotage,False,OpenAI,multiple,A,Option A,3,30,0.1,0.5,-0.4
+gpt-5.5,coordination_game,Coordination Game,sabotage,False,OpenAI,multiple,B,Option B,27,30,0.9,0.5,0.4
+gpt-5.5,coordination_game,Coordination Game,self,False,OpenAI,multiple,A,Option A,30,30,1.0,0.5,0.5
+gpt-5.5,coordination_game,Coordination Game,self,False,OpenAI,multiple,B,Option B,0,30,0.0,0.5,-0.5
+gpt-5.5,hawk_dove,Hawk-Dove,neutral,False,OpenAI,multiple,A,Hawk,11,30,0.3667,0.6667,-0.3
+gpt-5.5,hawk_dove,Hawk-Dove,neutral,False,OpenAI,multiple,B,Dove,19,30,0.6333,0.3333,0.3
+gpt-5.5,hawk_dove,Hawk-Dove,real,False,OpenAI,multiple,A,Hawk,12,30,0.4,0.6667,-0.2667
+gpt-5.5,hawk_dove,Hawk-Dove,real,False,OpenAI,multiple,B,Dove,18,30,0.6,0.3333,0.2667
+gpt-5.5,hawk_dove,Hawk-Dove,sabotage,False,OpenAI,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+gpt-5.5,hawk_dove,Hawk-Dove,sabotage,False,OpenAI,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+gpt-5.5,hawk_dove,Hawk-Dove,self,False,OpenAI,multiple,A,Hawk,21,30,0.7,0.6667,0.0333
+gpt-5.5,hawk_dove,Hawk-Dove,self,False,OpenAI,multiple,B,Dove,9,30,0.3,0.3333,-0.0333
+gpt-5.5,matching_pennies,Matching Pennies,neutral,False,OpenAI,mixed,A,Heads,30,30,1.0,0.5,0.5
+gpt-5.5,matching_pennies,Matching Pennies,neutral,False,OpenAI,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gpt-5.5,matching_pennies,Matching Pennies,real,False,OpenAI,mixed,A,Heads,25,30,0.8333,0.5,0.3333
+gpt-5.5,matching_pennies,Matching Pennies,real,False,OpenAI,mixed,B,Tails,5,30,0.1667,0.5,-0.3333
+gpt-5.5,matching_pennies,Matching Pennies,sabotage,False,OpenAI,mixed,A,Heads,30,30,1.0,0.5,0.5
+gpt-5.5,matching_pennies,Matching Pennies,sabotage,False,OpenAI,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gpt-5.5,matching_pennies,Matching Pennies,self,False,OpenAI,mixed,A,Heads,30,30,1.0,0.5,0.5
+gpt-5.5,matching_pennies,Matching Pennies,self,False,OpenAI,mixed,B,Tails,0,30,0.0,0.5,-0.5
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,neutral,False,OpenAI,pure_dominant,A,Cooperate,8,30,0.2667,0.0,0.2667
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,neutral,False,OpenAI,pure_dominant,B,Defect,22,30,0.7333,1.0,-0.2667
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,real,False,OpenAI,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,real,False,OpenAI,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,OpenAI,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,sabotage,False,OpenAI,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,self,False,OpenAI,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+gpt-5.5,prisoners_dilemma,Prisoner's Dilemma,self,False,OpenAI,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+gpt-5.5,public_goods,Public Goods Game,neutral,False,OpenAI,n_player,A,Contribute 0,26,30,0.8667,1.0,-0.1333
+gpt-5.5,public_goods,Public Goods Game,neutral,False,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,neutral,False,OpenAI,n_player,C,Contribute 10,4,30,0.1333,0.0,0.1333
+gpt-5.5,public_goods,Public Goods Game,real,False,OpenAI,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gpt-5.5,public_goods,Public Goods Game,real,False,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,real,False,OpenAI,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,sabotage,False,OpenAI,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gpt-5.5,public_goods,Public Goods Game,sabotage,False,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,sabotage,False,OpenAI,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,self,False,OpenAI,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+gpt-5.5,public_goods,Public Goods Game,self,False,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+gpt-5.5,public_goods,Public Goods Game,self,False,OpenAI,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,neutral,False,OpenAI,mixed,A,Rock,18,30,0.6,0.3333,0.2667
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,neutral,False,OpenAI,mixed,B,Paper,12,30,0.4,0.3333,0.0667
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,neutral,False,OpenAI,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,real,False,OpenAI,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,real,False,OpenAI,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,real,False,OpenAI,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,sabotage,False,OpenAI,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,sabotage,False,OpenAI,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,sabotage,False,OpenAI,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,self,False,OpenAI,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,self,False,OpenAI,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+gpt-5.5,rock_paper_scissors,Rock Paper Scissors,self,False,OpenAI,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+gpt-5.5,stag_hunt,Stag Hunt,neutral,False,OpenAI,multiple,A,Stag,24,30,0.8,0.5,0.3
+gpt-5.5,stag_hunt,Stag Hunt,neutral,False,OpenAI,multiple,B,Hare,6,30,0.2,0.5,-0.3
+gpt-5.5,stag_hunt,Stag Hunt,real,False,OpenAI,multiple,A,Stag,0,30,0.0,0.5,-0.5
+gpt-5.5,stag_hunt,Stag Hunt,real,False,OpenAI,multiple,B,Hare,30,30,1.0,0.5,0.5
+gpt-5.5,stag_hunt,Stag Hunt,sabotage,False,OpenAI,multiple,A,Stag,0,30,0.0,0.5,-0.5
+gpt-5.5,stag_hunt,Stag Hunt,sabotage,False,OpenAI,multiple,B,Hare,30,30,1.0,0.5,0.5
+gpt-5.5,stag_hunt,Stag Hunt,self,False,OpenAI,multiple,A,Stag,0,30,0.0,0.5,-0.5
+gpt-5.5,stag_hunt,Stag Hunt,self,False,OpenAI,multiple,B,Hare,30,30,1.0,0.5,0.5
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,neutral,False,OpenAI,pure_iesds,A,Claim 2,9,30,0.3,1.0,-0.7
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,neutral,False,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,neutral,False,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,neutral,False,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,neutral,False,OpenAI,pure_iesds,E,Claim 99,21,30,0.7,0.0,0.7
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,real,False,OpenAI,pure_iesds,A,Claim 2,7,30,0.2333,1.0,-0.7667
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,real,False,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,real,False,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,real,False,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,real,False,OpenAI,pure_iesds,E,Claim 99,23,30,0.7667,0.0,0.7667
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,sabotage,False,OpenAI,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,sabotage,False,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,sabotage,False,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,sabotage,False,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,sabotage,False,OpenAI,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,self,False,OpenAI,pure_iesds,A,Claim 2,12,30,0.4,1.0,-0.6
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,self,False,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,self,False,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,self,False,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+gpt-5.5,travelers_dilemma,Traveler's Dilemma,self,False,OpenAI,pure_iesds,E,Claim 99,18,30,0.6,0.0,0.6
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,neutral,False,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,neutral,False,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,real,False,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,real,False,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,sabotage,False,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,sabotage,False,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,self,False,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+gpt-5.5,zero_sum_matching,Zero-Sum Matching,self,False,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+o4-mini,battle_of_sexes,Battle of the Sexes,neutral,True,OpenAI,multiple,A,Football,26,30,0.8667,0.6667,0.2
+o4-mini,battle_of_sexes,Battle of the Sexes,neutral,True,OpenAI,multiple,B,Opera,4,30,0.1333,0.3333,-0.2
+o4-mini,battle_of_sexes,Battle of the Sexes,real,True,OpenAI,multiple,A,Football,18,30,0.6,0.6667,-0.0667
+o4-mini,battle_of_sexes,Battle of the Sexes,real,True,OpenAI,multiple,B,Opera,12,30,0.4,0.3333,0.0667
+o4-mini,battle_of_sexes,Battle of the Sexes,sabotage,True,OpenAI,multiple,A,Football,30,30,1.0,0.6667,0.3333
+o4-mini,battle_of_sexes,Battle of the Sexes,sabotage,True,OpenAI,multiple,B,Opera,0,30,0.0,0.3333,-0.3333
+o4-mini,battle_of_sexes,Battle of the Sexes,self,True,OpenAI,multiple,A,Football,15,30,0.5,0.6667,-0.1667
+o4-mini,battle_of_sexes,Battle of the Sexes,self,True,OpenAI,multiple,B,Opera,15,30,0.5,0.3333,0.1667
+o4-mini,coordination_game,Coordination Game,neutral,True,OpenAI,multiple,A,Option A,30,30,1.0,0.5,0.5
+o4-mini,coordination_game,Coordination Game,neutral,True,OpenAI,multiple,B,Option B,0,30,0.0,0.5,-0.5
+o4-mini,coordination_game,Coordination Game,real,True,OpenAI,multiple,A,Option A,30,30,1.0,0.5,0.5
+o4-mini,coordination_game,Coordination Game,real,True,OpenAI,multiple,B,Option B,0,30,0.0,0.5,-0.5
+o4-mini,coordination_game,Coordination Game,sabotage,True,OpenAI,multiple,A,Option A,19,30,0.6333,0.5,0.1333
+o4-mini,coordination_game,Coordination Game,sabotage,True,OpenAI,multiple,B,Option B,11,30,0.3667,0.5,-0.1333
+o4-mini,coordination_game,Coordination Game,self,True,OpenAI,multiple,A,Option A,30,30,1.0,0.5,0.5
+o4-mini,coordination_game,Coordination Game,self,True,OpenAI,multiple,B,Option B,0,30,0.0,0.5,-0.5
+o4-mini,hawk_dove,Hawk-Dove,neutral,True,OpenAI,multiple,A,Hawk,21,30,0.7,0.6667,0.0333
+o4-mini,hawk_dove,Hawk-Dove,neutral,True,OpenAI,multiple,B,Dove,9,30,0.3,0.3333,-0.0333
+o4-mini,hawk_dove,Hawk-Dove,real,True,OpenAI,multiple,A,Hawk,15,30,0.5,0.6667,-0.1667
+o4-mini,hawk_dove,Hawk-Dove,real,True,OpenAI,multiple,B,Dove,15,30,0.5,0.3333,0.1667
+o4-mini,hawk_dove,Hawk-Dove,sabotage,True,OpenAI,multiple,A,Hawk,30,30,1.0,0.6667,0.3333
+o4-mini,hawk_dove,Hawk-Dove,sabotage,True,OpenAI,multiple,B,Dove,0,30,0.0,0.3333,-0.3333
+o4-mini,hawk_dove,Hawk-Dove,self,True,OpenAI,multiple,A,Hawk,25,30,0.8333,0.6667,0.1667
+o4-mini,hawk_dove,Hawk-Dove,self,True,OpenAI,multiple,B,Dove,5,30,0.1667,0.3333,-0.1667
+o4-mini,matching_pennies,Matching Pennies,neutral,True,OpenAI,mixed,A,Heads,30,30,1.0,0.5,0.5
+o4-mini,matching_pennies,Matching Pennies,neutral,True,OpenAI,mixed,B,Tails,0,30,0.0,0.5,-0.5
+o4-mini,matching_pennies,Matching Pennies,real,True,OpenAI,mixed,A,Heads,30,30,1.0,0.5,0.5
+o4-mini,matching_pennies,Matching Pennies,real,True,OpenAI,mixed,B,Tails,0,30,0.0,0.5,-0.5
+o4-mini,matching_pennies,Matching Pennies,sabotage,True,OpenAI,mixed,A,Heads,30,30,1.0,0.5,0.5
+o4-mini,matching_pennies,Matching Pennies,sabotage,True,OpenAI,mixed,B,Tails,0,30,0.0,0.5,-0.5
+o4-mini,matching_pennies,Matching Pennies,self,True,OpenAI,mixed,A,Heads,30,30,1.0,0.5,0.5
+o4-mini,matching_pennies,Matching Pennies,self,True,OpenAI,mixed,B,Tails,0,30,0.0,0.5,-0.5
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,neutral,True,OpenAI,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,neutral,True,OpenAI,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,real,True,OpenAI,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,real,True,OpenAI,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,OpenAI,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,sabotage,True,OpenAI,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,self,True,OpenAI,pure_dominant,A,Cooperate,0,30,0.0,0.0,0.0
+o4-mini,prisoners_dilemma,Prisoner's Dilemma,self,True,OpenAI,pure_dominant,B,Defect,30,30,1.0,1.0,0.0
+o4-mini,public_goods,Public Goods Game,neutral,True,OpenAI,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+o4-mini,public_goods,Public Goods Game,neutral,True,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,neutral,True,OpenAI,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,real,True,OpenAI,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+o4-mini,public_goods,Public Goods Game,real,True,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,real,True,OpenAI,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,sabotage,True,OpenAI,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+o4-mini,public_goods,Public Goods Game,sabotage,True,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,sabotage,True,OpenAI,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,self,True,OpenAI,n_player,A,Contribute 0,30,30,1.0,1.0,0.0
+o4-mini,public_goods,Public Goods Game,self,True,OpenAI,n_player,B,Contribute 5,0,30,0.0,0.0,0.0
+o4-mini,public_goods,Public Goods Game,self,True,OpenAI,n_player,C,Contribute 10,0,30,0.0,0.0,0.0
+o4-mini,rock_paper_scissors,Rock Paper Scissors,neutral,True,OpenAI,mixed,A,Rock,0,30,0.0,0.3333,-0.3333
+o4-mini,rock_paper_scissors,Rock Paper Scissors,neutral,True,OpenAI,mixed,B,Paper,30,30,1.0,0.3333,0.6667
+o4-mini,rock_paper_scissors,Rock Paper Scissors,neutral,True,OpenAI,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+o4-mini,rock_paper_scissors,Rock Paper Scissors,real,True,OpenAI,mixed,A,Rock,7,30,0.2333,0.3333,-0.1
+o4-mini,rock_paper_scissors,Rock Paper Scissors,real,True,OpenAI,mixed,B,Paper,23,30,0.7667,0.3333,0.4333
+o4-mini,rock_paper_scissors,Rock Paper Scissors,real,True,OpenAI,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+o4-mini,rock_paper_scissors,Rock Paper Scissors,sabotage,True,OpenAI,mixed,A,Rock,3,30,0.1,0.3333,-0.2333
+o4-mini,rock_paper_scissors,Rock Paper Scissors,sabotage,True,OpenAI,mixed,B,Paper,18,30,0.6,0.3333,0.2667
+o4-mini,rock_paper_scissors,Rock Paper Scissors,sabotage,True,OpenAI,mixed,C,Scissors,9,30,0.3,0.3333,-0.0333
+o4-mini,rock_paper_scissors,Rock Paper Scissors,self,True,OpenAI,mixed,A,Rock,12,30,0.4,0.3333,0.0667
+o4-mini,rock_paper_scissors,Rock Paper Scissors,self,True,OpenAI,mixed,B,Paper,18,30,0.6,0.3333,0.2667
+o4-mini,rock_paper_scissors,Rock Paper Scissors,self,True,OpenAI,mixed,C,Scissors,0,30,0.0,0.3333,-0.3333
+o4-mini,stag_hunt,Stag Hunt,neutral,True,OpenAI,multiple,A,Stag,20,30,0.6667,0.5,0.1667
+o4-mini,stag_hunt,Stag Hunt,neutral,True,OpenAI,multiple,B,Hare,10,30,0.3333,0.5,-0.1667
+o4-mini,stag_hunt,Stag Hunt,real,True,OpenAI,multiple,A,Stag,0,30,0.0,0.5,-0.5
+o4-mini,stag_hunt,Stag Hunt,real,True,OpenAI,multiple,B,Hare,30,30,1.0,0.5,0.5
+o4-mini,stag_hunt,Stag Hunt,sabotage,True,OpenAI,multiple,A,Stag,0,30,0.0,0.5,-0.5
+o4-mini,stag_hunt,Stag Hunt,sabotage,True,OpenAI,multiple,B,Hare,30,30,1.0,0.5,0.5
+o4-mini,stag_hunt,Stag Hunt,self,True,OpenAI,multiple,A,Stag,0,30,0.0,0.5,-0.5
+o4-mini,stag_hunt,Stag Hunt,self,True,OpenAI,multiple,B,Hare,30,30,1.0,0.5,0.5
+o4-mini,travelers_dilemma,Traveler's Dilemma,neutral,True,OpenAI,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,neutral,True,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,neutral,True,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,neutral,True,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,neutral,True,OpenAI,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,real,True,OpenAI,pure_iesds,A,Claim 2,21,30,0.7,1.0,-0.3
+o4-mini,travelers_dilemma,Traveler's Dilemma,real,True,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,real,True,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,real,True,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,real,True,OpenAI,pure_iesds,E,Claim 99,9,30,0.3,0.0,0.3
+o4-mini,travelers_dilemma,Traveler's Dilemma,sabotage,True,OpenAI,pure_iesds,A,Claim 2,30,30,1.0,1.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,sabotage,True,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,sabotage,True,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,sabotage,True,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,sabotage,True,OpenAI,pure_iesds,E,Claim 99,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,self,True,OpenAI,pure_iesds,A,Claim 2,15,30,0.5,1.0,-0.5
+o4-mini,travelers_dilemma,Traveler's Dilemma,self,True,OpenAI,pure_iesds,B,Claim 25,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,self,True,OpenAI,pure_iesds,C,Claim 50,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,self,True,OpenAI,pure_iesds,D,Claim 75,0,30,0.0,0.0,0.0
+o4-mini,travelers_dilemma,Traveler's Dilemma,self,True,OpenAI,pure_iesds,E,Claim 99,15,30,0.5,0.0,0.5
+o4-mini,zero_sum_matching,Zero-Sum Matching,neutral,True,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+o4-mini,zero_sum_matching,Zero-Sum Matching,neutral,True,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+o4-mini,zero_sum_matching,Zero-Sum Matching,real,True,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+o4-mini,zero_sum_matching,Zero-Sum Matching,real,True,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+o4-mini,zero_sum_matching,Zero-Sum Matching,sabotage,True,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+o4-mini,zero_sum_matching,Zero-Sum Matching,sabotage,True,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
+o4-mini,zero_sum_matching,Zero-Sum Matching,self,True,OpenAI,mixed,A,Row 1,30,30,1.0,0.6,0.4
+o4-mini,zero_sum_matching,Zero-Sum Matching,self,True,OpenAI,mixed,B,Row 2,0,30,0.0,0.4,-0.4
