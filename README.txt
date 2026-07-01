@@ -6,7 +6,7 @@ By: Tyler Hardison
 ---------------------------------
 ---------------------------------
 
-Howdy! In this folder you will find several subfolders.
+Howdy! In this directory you will find several subfolders.
 
 The main deliverable is:
 Tyler_Hardison_Report.pdf
